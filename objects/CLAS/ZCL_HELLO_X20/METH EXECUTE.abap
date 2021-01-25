@@ -1,4 +1,4 @@
    method execute.
    data-key = 'Hello'.
-   data-value = 'SAP'.
+   data-value = 'Customer'.
    endmethod.
