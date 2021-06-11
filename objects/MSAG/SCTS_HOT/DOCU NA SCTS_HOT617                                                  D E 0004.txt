@@ -1,0 +1,5 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Die Objektaktivierung wird mit diesem Versuch abgebrochen, da die       
+   maximale Anzahl an Versuchen zur Aktivierung erreicht wurde.            
+AS Alle Objekte, die bisher noch nicht erfolgreich aktiviert werden        
+   konnten, und deren Aufträge werden als <LS>fehlerhaft</> protokolliert. 

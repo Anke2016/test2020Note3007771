@@ -1,0 +1,134 @@
+U2 Pakete/Objekte synchronisieren                                          
+AS Die Tabelle zeigt alle zu den eingegebenen Suchkriterien gefundenen     
+   Pakete und die Objekte dieser Pakete an. In der Tabelle werden sowohl   
+   diejenigen Pakete und Objekte dargestellt, die aktuell im SAP HANA      
+   Repository vorhanden sind, als auch Pakete und Objekte, die im HTA      
+   Repository (ABAP) vorhanden sind. Ist ein Paket oder Objekt in einem der
+   beiden Repositories nicht vorhanden, werden die entsprechenden          
+   Eigenschaften als <unbekannt> dargestellt.                              
+U2 &WHAT_TO_DO&                                                            
+N1 Wenn nötig, überprüfen Sie die Daten in der Tabelle. Mit einem          
+   Doppelklick auf ein Paket oder Objekt können Sie die Details zu dem     
+   Paket/Objekt anzeigen. Die Detailansicht zeigt alle Eigenschaften an, zu
+   denen Daten in einem der Repositories (SAP HANA oder ABAP) existieren.  
+   Es werden auch Informationen angezeigt, die in der Tabelle ausgeblendet 
+   sind.                                                                   
+/  Ein Symbol am Anfang jeder Zeile zeigt den Synchronisierungsstatus an.  
+   Dieser gibt an, ob das Paket/Objekt in SAP HANA und ABAP gleich ist oder
+   ob es Unterschiede gibt und das Paket/Objekt somit synchronisiert werden
+   sollte (von SAP HANA nach ABAP). Unterschiedliche Eigenschaften sind    
+   blau hinterlegt.                                                        
+/  Eine Beschreibung der Symbole finden Sie unter                          
+=   <DS:TX.CTS_HTA_SYNC_UI_LEGEND> Legende: SAP HANA Transport for ABAP -  
+   Synchronisierung</>.                                                    
+N1 Bei Bedarf können Sie die Tabelle nach einem oder mehreren              
+   Synchronisierungsstatus filtern.                                        
+/  Standardmäßig ist der Filter deaktiviert. Ist der Filter aktiviert,     
+   weist die Überschriftenzeile darauf hin. Bei erneuter Paketauswahl wird 
+   der Filter wieder deaktiviert.                                          
+/  Hinweis: Objekte können nicht ohne das zugehörige Paket angezeigt       
+   werden. Daher kann es sein, dass ein Paket angezeigt wird, welches      
+   aufgrund seines Status und des gewählten Filters eigentlich nicht       
+   angezeigt werden sollte.                                                
+N1 Alle Pakete/Objekte, die unterschiedlich sind und synchronisiert werden 
+   sollten, sind vom System vorselektiert.                                 
+/  Überprüfen Sie die Selektion der Pakete und Objekte, und passen Sie sie 
+   bei Bedarf an. Wählen Sie diejenigen Pakete und Objekte aus, die Sie    
+   synchronisieren möchten. Sie können auch Pakete und Objekte             
+   synchronisieren, die bereits synchron sind.                             
+/  Über die Drucktasten haben Sie folgende Optionen für die Selektion:     
+B2 Alle synchronisierbaren Pakete/Objekte markieren/entmarkieren           
+/  Synchronisierbar sind diejenigen Pakete und Objekte, deren Status grün  
+   oder gelb ist.                                                          
+B2 Alles im aktuellen Block markieren/entmarkieren                         
+/  Es werden die Pakete und Objekte desjenigen Blocks markiert oder        
+   entmarkiert, in dem der Cursor steht.                                   
+B2 Zu synchronisierende Pakete/Objekte markieren                           
+/  Alle Pakete und Objekte, deren Status gelb ist, sollten synchronisiert  
+   werden.                                                                 
+N1 Um die Synchronisierung zu starten, wählen Sie <LS>Ausführen (F8)</>.   
+N1 Wählen Sie einen Transportauftrag aus, dem die Objekte hinzugefügt      
+   werden sollen, oder legen Sie einen neuen an.                           
+N1 Wenn ein Paket zum ersten Mal synchronisiert wird, fordert das System   
+   Sie auf, es einem ABAP-Paket (Entwicklungsklasse) zuzuordnen. Geben Sie 
+   ein ABAP-Paket an.                                                      
+/  Hinweis: Wir empfehlen, alle zusammengehörigen SAP-HANA-Pakete demselben
+   ABAP-Paket zuzuordnen. Ordnen Sie sie demjenigen ABAP-Paket zu, dessen  
+   Objekte gemeinsam mit den SAP-HANA-Objekten transportiert werden.       
+U2 &RESULT&                                                                
+AS Die aktuellen aktiven Versionen der markierten Pakete/Objekte werden aus
+   dem SAP HANA Repository gelesen und in das HTA Repository übertragen.   
+   Das System gibt das Ergebnis der Synchronisierung in einer Meldung aus. 
+/  Abhängig davon, ob einzelne Objekte oder Pakete synchronisiert wurden,  
+   werden entweder Teilobjekte des Pakets (LIMU HOTO) oder die Metadaten   
+   des Pakets (LIMU HOTP) im Transportauftrag aufgenommen. Wird ein Paket  
+   mit all seinen Objekten synchronisiert, wird es als Gesamtobjekt (R3TR  
+   HOTA) zum Transportauftrag hinzugefügt.                                 
+/  Für noch nie synchronisierte Pakete gilt: Wenn nur ein Teil der Objekte 
+   des Pakets zur Synchronisierung ausgewählt wurde und nicht das Paket    
+   selbst, werden die Objekte als LIMU HOTO und das Paket als LIMU HOTP dem
+   Transportauftrag hinzugefügt. Wurden alle Objekte des Pakets ausgewählt 
+   und nicht das Paket selbst, wird das Paket als Gesamtobjekt R3TR HOTA   
+   zum Transportauftrag hinzugefügt.                                       
+/  Sie können den Transportauftrag im Transport Organizer (Transaktionscode
+   SE09) freigeben und im Zielsystem importieren.                          
+*                                                                          
+U2 Beispiele:                                                              
+B1 Sie sind im Entwicklungssystem angemeldet. Sie haben im SAP HANA        
+   Repository ein neues Objekt angegelegt und wollen dieses nun zum ersten 
+   Mal in einen Auftrag aufnehmen. Für dieses Objekt sind alle             
+   Eigenschaften, die das HTA Repository betreffen, auf <unbekannt>        
+   gesetzt.                                                                
+B1 Sie sind im Entwicklungssystem angemeldet. Sie haben im SAP HANA        
+   Repository ein Objekt gelöscht und wollen diese Löschung transportieren.
+    Wenn dieses gelöschte Objekt im HTA Repository bekannt ist (da es      
+   bereits einmal synchronisiert wurde), sind die Eigenschaften, die das   
+   SAP HANA Repository betreffen, auf <unbekannt> gesetzt.                 
+B1 Sie sind in einem System angemeldet, in dem HTA-Objekte importiert      
+   werden (sollen). Da der Import in zwei Schritten abläuft, Hauptimport   
+   und SAP HANA Repository Deployment, kann es sein, dass die SAP HANA     
+   Eigenschaften auf <unbekannt> gesetzt sind, wenn zwar der Hauptimport   
+   bereits durchgeführt wurde, aber noch nicht das Deployment.             
+U2 Weitere Funktionen                                                      
+B1 Über den Menüpunkt <ZK>Hilfsmittel -> Deploymodus festlegen</> können   
+   Sie für jedes markierte Paket festlegen, ob das Paket und die darin     
+   enthaltenen Objekte beim Import in ein nachfolgendes System sofort ins  
+   SAP HANA Repository deployt werden sollen. Markieren Sie hierfür        
+   zunächst die betreffenden Pakete.                                       
+/  Standardmäßig werden die Pakete und die darin enthaltenen Objekte beim  
+   Import sofort ins SAP HANA Repository deployt.                          
+B1 Über den Menüpunkt <ZK>Hilfsmittel -> Übersetzungsrelevanz festlegen</> 
+   können Sie für jedes markierte Paket festlegen, ob die Texte der im     
+   Paket enthaltenen Objekte übersetzungsrelevant sind. Markieren Sie      
+   hierfür zunächst die betreffenden Pakete.                               
+/  Standardmäßig ist die Übersetzungsrelevanz eingeschaltet. In diesem Fall
+   synchronisiert HTA die Texte der im SAP-HANA-Paket enthaltenen Objekte  
+   in der Originalsprache des SAP-HANA-Paketes. Diese können anschließend  
+   mit dem Standard-ABAP-Übersetzungswerkzeug (Transaktion SE63) übersetzt 
+   werden. Beachten Sie, dass im HTA und in der Übersetzung nur diejenigen 
+   Sprachen unterstützt werden, die im ABAP-System aktiviert sind. Wenn als
+   Originalsprache des SAP-HANA-Paketes eine lokalisierte Sprache verwendet
+   wurde, die im ABAP aktuell nicht aktiviert ist, wird die Sprache im ABAP
+   auf die Hauptsprache gesetzt (Beispiel: aus en_US in SAP HANA wird EN in
+   ABAP). Weitere Informationen zum Aktivieren von Sprachen finden Sie in  
+   SAP-Hinweis 42305.                                                      
+/  Achtung: Beim Ausschalten der Übersetzungsrelevanz werden alle eventuell
+   vorhandenen Übersetzungen gelöscht und können durch ein späteres        
+   Einschalten nicht wiederhergestellt werden.                             
+B1 Über den Menüpunkt <ZK>Hilfsmittel -> Versionsverwaltung</> wird Ihnen  
+   für einzelne Pakete oder Objekte die HTA-Versionsverwaltung angezeigt.  
+   Zur Anzeige der Versionsverwaltung müssen Sie den Cursor vorher in eine 
+   Paket- oder Objektzeile setzen.                                         
+B1 Über den Menüpunkt <LS>Springen -> Deployment</> gelangen Sie in die    
+   Transaktion SCTS_HTA_DEPLOY (<LS>SAP HANA Transport for ABAP -          
+   Deployment</>).                                                         
+*  <ZH>Siehe auch</>:                                                      
+/                                                                          
+=  <DS:RE.SCTS_HOTA_ORGANIZER>SAP HANA Transport for ABAP</>               
+/                                                                          
+=  <DS:TX.CTS_HTA_SYNC_UI_LEGEND> Legende: SAP HANA Transport for ABAP -   
+   Synchronisierung</>                                                     
+/                                                                          
+=  <DS:TX.CTS_HTA_TX_CHANGE_DEFAULTS> Ändern der Standardwerte für SAP HANA
+   Transport for ABAP</>                                                   
+*                                                                          

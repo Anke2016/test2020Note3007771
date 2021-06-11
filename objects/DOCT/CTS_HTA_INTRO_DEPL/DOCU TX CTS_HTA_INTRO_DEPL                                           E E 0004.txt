@@ -1,0 +1,13 @@
+/: INCLUDE CTS_HTA_INTRO_BASICS OBJECT DOKU ID TX                          
+*  Deployment of SAP HANA packages and objects generally takes place       
+   automatically after a transport request has beeen imported into the     
+   system. If this doesn't happen, you can activate the SAP HANA packages  
+   and objects in the target system subsequently. This can be necessary for
+   example if the settings in SAP HANA stipulate that a package cannot be  
+   deployed until the prework has been done (deploy mode P). It might be   
+   necessary to redeploy because of errors in other objects or missing     
+   settings in SAP HANA.                                                   
+/: INCLUDE CTS_HTA_INTRO_PROC OBJECT DOKU ID TX                            
+   On this screen, you can deploy SAP HANA objects in the target system.   
+/  For more information, see <DS:TX.CTS_HOTA_DEPL_UI_ALV_DOCU>Deploying    
+   Packages/Objects</>                                                     

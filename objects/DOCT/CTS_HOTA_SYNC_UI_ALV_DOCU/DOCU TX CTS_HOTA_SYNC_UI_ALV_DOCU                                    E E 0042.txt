@@ -1,0 +1,120 @@
+U2 Synchronizing Packages/Objects                                          
+AS This table displays all package found for the specified search criteria 
+   and the objects in these packages. The table displays the packages and  
+   objects that currently exist in the SAP HANA repository and the packages
+   and objects in the HTA repository. If a package or object does not exist
+   in one of the two repositories, the associated properties are displayed 
+   as <(><<)>unknown>.                                                     
+U2 &WHAT_TO_DO&                                                            
+N1 If necessary, check the data in the table. You can display the details  
+   for a package or object by double-clicking it. The detail view shows all
+   properties for which data exists in one of the repositories (SAP HANA or
+   ABAP). Information hidden in the table is also displayed.               
+/  A symbol at the start of each row indicates the synchronization status. 
+   This specifies whether the package/object is the same in SAP HANA and   
+   ABAP or whether there are differences, and the package/object needs to  
+   be synchronized (from SAP HANA to ABAP). Properties that do not match   
+   are highlighted in blue.                                                
+/  A description of the symbols can be found under                         
+   <DS:TX.CTS_HTA_SYNC_UI_LEGEND>Legend: SAP HANA Transport for ABAP -     
+   Synchronization</>.                                                     
+N1 If necessary, you can filter the table by one or more synchronization   
+   statuses.                                                               
+/  By default, the filter is deactivated. If the filter is activated, this 
+   is indicated in the header row. Next time a package is selected, the    
+   filter is deactivated again.                                            
+/  Note: Objects cannot be displayed without the associated package. As a  
+   result, a package might be displayed which because of its status and the
+   chosen filter actually should not be displayed.                         
+N1 Any packages/objects that have differences and need to be synchronized  
+   are preselected by the system.                                          
+/  Check the selection of packages and objects and modify it if needed.    
+   Select the packages that you want to synchronize. You can also          
+   synchronize packages and objects that are already synchronized.         
+/  You have the following selection options (using the pushbuttons):       
+B2 Select/unselect all synchronizable packages/objects                     
+/  Any packages and objects can be synchronized whose status is green or   
+   yellow.                                                                 
+B2 Select/unselect all in current block                                    
+/  Selects or unselects the packages and objects in the currently selected 
+   block.                                                                  
+B2 Select packages/objects to synchronize                                  
+/  Synchronize all packages and objects whose status is yellow.            
+N1 To start the synchronization, choose <LS>Execute (F8)</>.               
+N1 Select a transport request to which the objects are assigned or create a
+   new transport request.                                                  
+N1 If a package is being synchronized for the first time, you are prompted 
+   assign it to an ABAP package. Specify an ABAP package.                  
+/  Note: We recommend that you assign all associated SAP HANA packages to  
+   the same ABAP package. Assign them to the ABAP package whose objects are
+   transported together with the SAP HAND objects.                         
+U2 &RESULT&                                                                
+AS The current active versions of the selected packages/objects are read   
+   from the SAP HANA repository and passed to the HTA repository. The      
+   system produces the result of the synchronization in a message.         
+/  Either subobjects of the package (LIMU HOTO) or its meta data (LIMU     
+   HOTP) are added to the transport request depending on whether individual
+   objects or packages are being synchronized. If a package is synchronized
+   with all its objects, it is added to the transport request as a full    
+   object (R3TR HOTA).                                                     
+/  The following applies to packages that have never been synchronized: If 
+   only one part of the objects of the package was selected for            
+   synchronization, and not the package itself, the objects are added to   
+   the transport request as LIMU HOTO and the package is added as LIMU     
+   HOTP. If all objects of the packages were selected, and not the package 
+   itself, the packages is added to the transport request as a full object 
+   R3TR HOTA.                                                              
+/  You can release the transport request in Transport Organizer            
+   (transaction SE09) and import it in the target system.                  
+*                                                                          
+U2 Examples:                                                               
+B1 You are logged on to the development system. You have created a new     
+   object in the SAP HANA repository and you want to include this object in
+   a request for the first time. All properties that affect the HTA        
+   repository are set to <(><<)>unknown> for this object.                  
+B1 You are logged on to the development system. You have deleted an object 
+   in the SAP HANA repository and you want to transport this deletion.  If 
+   this deleted object is known in the HTA repository (since it was already
+   synchronized), the properties that affect the SAP HANA repository are   
+   set to <(><<)>unknown>.                                                 
+B1 You are logged on in a system in which HTA objects are being imported.  
+   The import is performed in two steps, the main import and the SAP HANA  
+   repository deployment, which means that the SAP HANA properties are set 
+   to <(><<)>unknown> if the main import was already performed but not the 
+   deployment.                                                             
+U2 Additional Functions                                                    
+B1 By choosing <ZK>Utilities -> Set Deploy Mode</>, you can specify whether
+   each selected package and its objects are deployed to the SAP HANA      
+   repository immediately when it is imported into a follow-on system.     
+   First select the packages in question.                                  
+/  When imported, the packages and their objects are deployed immediately  
+   to the SAP HANA repository by default.                                  
+B1 By choosing <ZK>Utilities -> Define Translation Relevance</>, you can   
+   specify whether the texts in the objects in each selected package are   
+   translation-relevant. First select the packages in question.            
+/  Translation-relevance is activated by default. In this case, HTA        
+   synchronizes the texts of the objects in the SAP HANA package in the    
+   original language of the SAP HANA package. These texts can then be      
+   translated using the regular ABAP translation tool (transaction SE63).  
+   Note that HTA and the translation tool only support those languages     
+   activated in the ABAP system. If a localized language not currently     
+   activated in ABAP is used as the original language of the SAP HANA      
+   package, the language is set to the main language in ABAP (for example, 
+   en_US in SAP HANA becomes EN in ABAP). For more information about       
+   activating language, see SAP Note 42305.                                
+/  Caution: If translation-relevance is deactivated, any existing          
+   translations are deleted and cannot be restored by activating transla   
+=  tion-relevance again later.                                             
+B1 By choosing <ZK>Utilities -> Version Management</>, you can display HTA 
+   version management for individual packages or objects. You must set the 
+   cursor on a package or object row before you can display version        
+   management.                                                             
+B1 By choosing <LS>Goto -> Deployment</>, you can call transaction         
+   SCTS_HTA_DEPLOY (<LS>SAP HANA Transport for ABAP - Deployment</>).      
+*  <ZH>See also</>:                                                        
+/  <DS:RE.SCTS_HOTA_ORGANIZER>SAP HANA Transport for ABAP</>               
+/  <DS:TX.CTS_HTA_SYNC_UI_LEGEND>Legend: SAP HANA Transport for ABAP -     
+   Synchronization</>                                                      
+/  <DS:TX.CTS_HTA_TX_CHANGE_DEFAULTS> Changing the Default Values for SAP  
+   HANA Transport for ABAP</>                                              
+*                                                                          

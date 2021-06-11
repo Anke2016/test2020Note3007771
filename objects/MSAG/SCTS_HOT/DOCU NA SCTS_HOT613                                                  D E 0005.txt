@@ -1,0 +1,7 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS In diesem Versuch werden nur die Objekte dem SAP HANA Repository zur    
+   Aktivierung übergeben, die im vorherigen Versuch erfolgreich gewesen    
+   wären.                                                                  
+AS Allgemeine Informationen zum Ablauf der Aktivierung finden Sie im       
+   <DS:NA.SCTS_HOT539>Langtext der Meldung zu den einzelnen                
+   Aktivierungsversuchen</>.                                               

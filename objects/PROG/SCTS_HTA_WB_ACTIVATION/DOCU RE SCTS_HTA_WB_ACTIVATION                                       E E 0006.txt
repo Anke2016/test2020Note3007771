@@ -1,0 +1,23 @@
+U1 &PURPOSE&                                                               
+AS When note corrections for objects in ABAP for SAP HANA applications are 
+   implemented, it may not be possible to activate the following object    
+   types:                                                                  
+B1 SAP HANA repository objects and packages                                
+B1 HDI objects                                                             
+AS If this is the case, these objects must be activated again once the     
+   cause of the error is removed.                                          
+AS You can use this program to do this.                                    
+U1 &PREREQUISITES&                                                         
+AS The program performs the workbench activation for non-activated objects 
+   of the user who is logged on to the system. Make sure that the user     
+   executing the program is the same user who is implementing the note.    
+U2 &OUTPUT&                                                                
+AS If it was possible to activate inactive objects, a success message      
+   appears.                                                                
+AS If the objects could not be activated, the system displays the error    
+   message <DS:NA.SCTS_HOT588>Error in the HTA WB activation; see the log  
+=  </>. View the log for troubleshooting.                                  
+AS Note: If inactive SAP HANA repository objects and packages could not be 
+   activated, it is best to delete the inactive object version in ABAP in  
+   some cases. More information can be found in SAP Note 2633397           
+   (https://launchpad.support.sap.com/#/notes/2633397).                    

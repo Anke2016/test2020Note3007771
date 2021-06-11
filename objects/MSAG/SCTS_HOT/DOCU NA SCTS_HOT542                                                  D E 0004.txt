@@ -1,0 +1,12 @@
+U1 &SYSTEM_RESPONSE&                                                       
+*  Zum angegebenen Aktivierungsversuch werden keine Details in diesem      
+   Protokoll ausgegeben.                                                   
+*  In folgenden Fällen werden keine Details ausgegeben:                    
+B1 Alle Objekte dieses Auftrages sind erneut Teil des nachfolgenden        
+   Aktivierungsversuches.                                                  
+B1 Alle Objekte dieses Auftrages wurden bereits in vorigen Versuchen       
+   erfolgreich aktiviert und sind somit nicht mehr Teil des genannten      
+   Aktivierungsversuches.                                                  
+B1 Alle Objekte dieses Auftrages waren bereits in vorigen Versuchen        
+   fehlerhaft und sind somit nicht mehr Teil des genannten                 
+   Aktivierungsversuches.                                                  

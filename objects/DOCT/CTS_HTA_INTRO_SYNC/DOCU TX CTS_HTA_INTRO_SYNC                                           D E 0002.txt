@@ -1,0 +1,10 @@
+/: INCLUDE CTS_HTA_INTRO_BASICS OBJECT DOKU ID TX                          
+*  Bei der Synchronisierung werden die in den SAP-HANA-Objekten enthaltenen
+   Texte standardmäßig in der Originalsprache des SAP-HANA-Paketes         
+   synchronisiert und können mit dem Standard-ABAP-Übersetzungswerkzeug    
+   (Transaktion SE63) übersetzt werden.                                    
+/: INCLUDE CTS_HTA_INTRO_PROC OBJECT DOKU ID TX                            
+   Auf diesem Bildschirm können Sie die Synchronisierung von SAP HANA nach 
+   ABAP durchführen.                                                       
+/  Weitere Informationen: <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU>Pakete/Objekte  
+   synchronisieren</>                                                      

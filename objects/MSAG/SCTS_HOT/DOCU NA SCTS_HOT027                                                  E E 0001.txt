@@ -1,0 +1,6 @@
+U1 &CAUSE&                                                                 
+AS The object &V1&&V2& already exists in a different case in the HTA       
+   repository and cannot be edited. Object name in the HTA repository: &V3&
+=  &V4&                                                                    
+U1 &WHAT_TO_DO&                                                            
+AS Specify the object in the correct case.                                 

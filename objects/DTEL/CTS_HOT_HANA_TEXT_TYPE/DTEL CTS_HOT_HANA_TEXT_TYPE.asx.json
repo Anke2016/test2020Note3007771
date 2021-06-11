@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_TEXT_TYPE",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"",
+    "HEADLEN":40,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":40,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"SAP",
+    "AS4DATE":"2015-05-18",
+    "AS4TIME":"14:36:39",
+    "DTELMASTER":"D",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"CHAR",
+    "LENG":32,
+    "DECIMALS":0,
+    "OUTPUTLEN":32,
+    "LOWERCASE":"",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_TEXT_TYPE",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"HANA Transport for ABAP: Texttyp im SAP HANA Repository",
+    "REPTEXT":"Texttyp im SAP HANA Repository",
+    "SCRTEXT_S":"Texttyp",
+    "SCRTEXT_M":"Texttyp",
+    "SCRTEXT_L":"Texttyp im SAP HANA Repository"
+   },
+   {
+    "ROLLNAME":"CTS_HOT_HANA_TEXT_TYPE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"HANA Transport for ABAP: Text Type in SAP HANA Repository",
+    "REPTEXT":"Text Type in SAP HANA Repository",
+    "SCRTEXT_S":"Text Type",
+    "SCRTEXT_M":"Text Type",
+    "SCRTEXT_L":"Text Type in SAP HANA Repository"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"CTS_HOT_HANA_TEXT_TYPE",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"CTS_HOT_HANA_TEXT_TYPE",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2015-04-20",
+    "CHECK_DATE":"2015-04-20",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

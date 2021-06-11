@@ -1,0 +1,9 @@
+U1 &CAUSE&                                                                 
+AS Beim Schreiben von Objekt &V1& ist ein Fehler aufgetreten. (Error &V3&: 
+   &V4&)                                                                   
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Importieren Sie den Transportauftrag erneut.                            
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

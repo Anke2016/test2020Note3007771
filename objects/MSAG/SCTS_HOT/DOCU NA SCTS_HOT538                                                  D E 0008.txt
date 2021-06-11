@@ -1,0 +1,7 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Beim Deployment ins SAP HANA Repository werden die Objekte aller        
+   importierten Aufträge in einem Aufruf an das SAP HANA Repository        
+   übergeben. Das aktuelle Objekt ist nicht Teil dieses Auftrages, es wird 
+    aber dennoch hier protokolliert, um die Abarbeitungsreihenfolge beim   
+   Aktivieren im SAP HANA Repository festzuhalten.                         
+AS Weitere Details finden Sie im Protokoll des angegebenen Auftrages.      

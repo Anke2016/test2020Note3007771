@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS When deployed to the SAP HANA repository, the objects of all imported   
+   requests are passed to SAP HANA repository in a single call. The current
+   object is not part of this request but is logged here to preserve the   
+   processing order when activated in the SAP HANA repository.             
+AS More details can be found in the log of the specified request.          

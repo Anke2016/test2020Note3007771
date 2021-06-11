@@ -1,0 +1,17 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System prüft, ob bereits vor dem Deployment von SAP-HANA-Objekten   
+   HDI-Objekte und/oder SAP-HANA-Repository-Pakete/-Objekte mit            
+   Deploymentfehlern im HTA Repository existierten, die aber nicht Teil des
+   Deployment waren. Wenn auch nach dem Deployment noch fehlerhafte        
+   HDI-Objekte und/oder SAP-HANA-Repository-Pakete/-Objekte im HTA         
+   Repository existieren, dann prüft das System, ob es den Job mit dem     
+   Namen REDEPLOY_FAILED_HANA_OBJECTS einplanen darf, um diese nun         
+   nachträglich zu deployen. Dies ist abhängig von der Konfiguration des   
+   Systems.                                                                
+AS Die nächste Protokollzeile enthält eine Meldung darüber, ob und für     
+   welchen HANA-Objekttyp (HDI oder SAP HANA Repository) ein Redeployment  
+   eingeplant wird oder nicht.                                             
+AS Allgemeine Informationen zum <ZK>Redeployment fehlerhafter              
+   SAP-HANA-Objekte</> und der Konfiguration des Redeployment-Jobs finden  
+   Sie im Langtext der Meldung <DS:NA.SCTS_HOT621> Redeployment            
+   fehlerhafter SAP-HANA-Objekte gestartet</>.                             

@@ -1,0 +1,8 @@
+U1 &CAUSE&                                                                 
+AS Error when reading object &V1&. (Error &V3&: &V4&)                      
+U1 &SYSTEM_RESPONSE&                                                       
+U1 &WHAT_TO_DO&                                                            
+AS Make sure you specified the object correctly (package name, object name,
+   and object suffix). The names are case sensitive.                       
+U1 &SYS_ADMIN&                                                             
+*                                                                          

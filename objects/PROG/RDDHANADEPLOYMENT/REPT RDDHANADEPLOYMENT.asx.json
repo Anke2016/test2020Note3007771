@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"HANA Deployer für HOTA, HOTO und HOTP Objekte",
+    "LENGTH":45
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"HANA Deployer for HOTA, HOTO, and HOTP Objects",
+    "LENGTH":70
+   }
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+U1 &CAUSE&                                                                 
+AS Die genannten Objekte existieren nicht mehr im HTA Repository, da sie   
+   zuvor während der Aktivierung gelöscht wurden. Aus diesem Grund ist kein
+   Textdeployment mehr notwendig.                                          
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der Objekte, für die kein Textdeployment duchgeführt wurde.     

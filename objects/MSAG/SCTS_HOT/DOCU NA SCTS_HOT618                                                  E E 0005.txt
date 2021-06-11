@@ -1,0 +1,8 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Object activation has been cancelled with this attempt because the      
+   amount of objects to be activated remains constant.                     
+AS All objects that could not yet be successfully activated previously and 
+   whose requests are logged as <LS>erroneous</>.                          
+AS For information about the process of object activation, see the         
+   <DS:NA.SCTS_HOT539>long text of the message for the individual          
+   activation attempts</>.                                                 

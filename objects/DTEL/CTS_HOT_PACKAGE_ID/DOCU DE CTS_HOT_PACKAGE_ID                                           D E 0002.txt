@@ -1,0 +1,2 @@
+AS Package ID wird im Feld TADIR-OBJNAME abgespeichert                     
+AS                                                                         

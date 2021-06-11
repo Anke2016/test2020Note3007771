@@ -1,0 +1,8 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Bei &V1& Objekten sind Fehler beim Deployment der Texte aufgetreten. Das
+   System gibt diese Objekte weiter unten im Protokoll aus. Zusätzlich     
+   werden der Fehlercode und die Fehlermeldung des SAP HANA Repository     
+   ausgegeben.                                                             
+U1 &WHAT_TO_DO&                                                            
+AS Prüfen Sie die Fehlermeldung weiter unten im Protokoll und beheben Sie  
+   die Fehler.                                                             

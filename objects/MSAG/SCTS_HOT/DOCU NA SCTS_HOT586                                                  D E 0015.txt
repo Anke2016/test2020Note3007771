@@ -1,0 +1,27 @@
+U1 &CAUSE&                                                                 
+AS Das System hat erkannt, dass notwendige Vorarbeiten in diesem System    
+   nicht durchgeführt wurden. Die betroffenen Objekte und ihre Texte wurden
+   nicht deployt.                                                          
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der Objekte, die nicht deployt wurden, da die Vorarbeiten für   
+   diese Objekte fehlen.                                                   
+U1 &WHAT_TO_DO&                                                            
+N1 Wenn Sie die Funktionen der nicht deployten Objekte nutzen wollen,      
+   führen Sie die notwendigen Vorarbeiten durch. Kontaktieren Sie den      
+   Software-Anbieter, um zu erfahren, welche Vorarbeiten notwendig sind.   
+N1 Nachdem Sie die Vorarbeiten erledigt haben, müssen Sie den Import       
+   wiederholen, sofern das Deployment der betroffenen Objekte nicht bereits
+   während der Vorarbeiten erfolgt ist. Um herauszufinden, ob die          
+   betroffenen Objekte durch die Vorarbeiten deployt wurden, rufen Sie die 
+   Transaktion SCTS_HTA auf, und zeigen Sie die Pakete der betroffenen     
+   Objekte an. Das sind die Pakete derjenigen Objekte, die im Protokoll den
+   Eintrag 'Vorarbeit fehlt' haben.                                        
+B2 Wenn der Status der Objekte grün ist (@5B@ - 'Paket/Objekt ist in       
+   sync'), dann wurden die Objekte bereits ins SAP HANA Repository deployt.
+    Sie brauchen den Import nicht zu wiederholen.                          
+B2 Wenn der Status grau ist (@BZ@ - 'Paket/Objekt kann nicht sync.         
+   werden'), dann wurden die Objekte noch nicht ins SAP HANA Repository    
+   deployt. In der Detailansicht eines solchen Objektes finden Sie als     
+   'Status in ABAP' die Information 'I (Inaktiv) - Noch nicht ins SAP HANA 
+   Repository deployt'. Importieren Sie den Transportauftrag mit den nicht 
+   deployten Objekten erneut.                                              

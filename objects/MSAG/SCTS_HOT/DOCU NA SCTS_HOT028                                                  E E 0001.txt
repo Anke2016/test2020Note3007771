@@ -1,0 +1,6 @@
+U1 &CAUSE&                                                                 
+AS The package &V1&&V2& already exists in a different case in the HTA      
+   repository and cannot be edited. Package name in the HTA repository:    
+   &V3&&V4&                                                                
+U1 &WHAT_TO_DO&                                                            
+AS Specify the package in the correct case.                                

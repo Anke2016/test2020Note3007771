@@ -1,0 +1,25 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Time that is required to lock all packages/objects to be deployed. If   
+   this value is high (for example, higher than 60 seconds), this indicates
+   that deployment had to wait until the deployment already running was    
+   finished.                                                               
+U1 &SYS_ADMIN&                                                             
+AS If the situation frequently occurs that it takes significantly longer   
+   than 60 seconds to lock HOTA objects, you should first check if import  
+   step <ZK>SAP HANA Repository Deployment</> or the                       
+   transport-request-independent step <ZK>Redeployment of SAP HANA         
+   Repository Objects with errors</> was executed at the time of the       
+   deployment. There are several ways to check this, for example           
+   transaction STMS in the import history.                                 
+B1 If the parallel deployment was the import step <ZK>SAP HANA Repository  
+   Deployment</>, then check the frequency of the imports and reduce or    
+   import multiple requests if required.                                   
+B1 If the parallel deployment was the transport-request-independent step   
+   <ZK>Redeployment of HANA Objects with errors</>, then you might have a  
+   lot of SAP HANA repository objects containing errors in this system,    
+   which need to be corrected. Alternatively you can prevent the execution 
+   of transport-independent step <ZK>Redeployment HANA Objects with errors 
+=  </> or reduce the maximum number of activation attempts for object      
+   activation. For more details on this topic, see <DS:NA.SCTS_HOT621>Long 
+   text of message for redeployment of SAP HANA Repository objects with    
+   errors</>.                                                              

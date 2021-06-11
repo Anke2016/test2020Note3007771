@@ -1,0 +1,12 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS One or more packages were not deployed since they were already deployed.
+   This can occur in the following cases:                                  
+B1 A package is to be deleted but does not exist in the SAP HANA           
+   repository. This can be the case when a package that has not yet been   
+   imported is imported as a deletion first. Another case is when a package
+   is added to request 1, deleted in request 2, and both requests are      
+   imported at the same time.                                              
+B1 The system is configured with REPEATONERROR=8, which means that only    
+   packages with errors are imported when an import is retried.            
+B1 The package in question is deployed manually between the main import and
+   the SAP HANA repository deployment.                                     

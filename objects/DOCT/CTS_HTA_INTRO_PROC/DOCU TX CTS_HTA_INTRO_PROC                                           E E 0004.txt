@@ -1,0 +1,17 @@
+U2 &WHAT_TO_DO&                                                            
+N1 Specify the name of an SAP HANA repository package as a selection       
+   criterion or select a package using the input help (F4).                
+/  Note how the entry should be spelled. The system is case sensitive.     
+   Specify the package name as it is written in the SAP HANA repository.   
+   You can use "*" as a wildcard character.                                
+/  Alternatively, you can specify the ABAP transport object name of a SAP  
+   HANA repository packages as a selection criterion. You can find this in 
+   the Transport Organizer (transaction SE09), in the object list of the   
+   transport request containing the package.                               
+N1 If you want to include the subpackages of the package in the search,    
+   select <LS>Subpackages too</>. Alternatively, you can use "*" as a      
+   wildcard after the full package name.                                   
+N1 Choose <LS>Execute</>.                                                  
+U2 &RESULT&                                                                
+AS The next screen displays all packages found in the SAP HANA repository  
+   and HTA repository with their objects.                                  

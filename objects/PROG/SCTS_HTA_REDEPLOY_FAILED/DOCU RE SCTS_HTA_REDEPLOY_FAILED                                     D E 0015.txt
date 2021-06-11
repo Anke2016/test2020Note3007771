@@ -1,0 +1,31 @@
+U1 &PURPOSE&                                                               
+AS Mit diesem Programm können Sie die folgenden fehlerhaften (nicht        
+   deployten) Objekte erneut deployen, nachdem die von diesen fehlerhaften 
+   Objekten verwendeten Objekte korrigiert wurden:                         
+B1 HDI-Objekte                                                             
+B1 SAP-HANA-Repository-Pakete/-Objekte                                     
+AS Wenn das System beim Deployment von HDI-Objekten oder                   
+   SAP-HANA-Repository-Paketen/-Objekten feststellt, dass bereits vor dem  
+   Deployment HDI-Objekte oder Pakete/Objekte mit Deploymentfehlern im HTA 
+   Repository existierten, die aber nicht Teil des SAP HANA Deployment     
+   waren, versucht das System, diese nachträglich zu deployen.             
+AS Dadurch müssen Sie nur die fehlerhaften Objekte selbst korrigieren und  
+   transportieren. Alle abhängigen fehlerhaften SAP-HANA-Objekte           
+   (HDI-Objekte/Pakete/Objekte) werden nach dem Import automatisch erneut  
+   deployt und sind bei erfolgreichem Deployment fehlerfrei.               
+U1 &INTEGRATION&                                                           
+AS Dieses Programm wird automatisch mit Hilfe des Jobs                     
+   REDEPLOY_FAILED_HANA_OBJECTS, der standardmäßig eingeplant ist,         
+    ausgeführt, wenn die oben beschriebene Situation zutrifft.             
+U1 &ACTIVITIES&                                                            
+AS Um das Programm manuell zu starten, wählen Sie aus, welchen Objekttyp   
+   Sie deployen möchten, und wählen Sie <LS>Ausführen</>.                  
+U1 &EXAMPLE&                                                               
+*  Objekt B verwendet Objekt A. Objekt A wird inkompatibel geändert und    
+   Objekt B wird in der alten Version transportiert. Nach dem Deployment   
+   ist Objekt B im Zielsystem fehlerhaft. Nun wird die Änderung an Objekt A
+   wieder rückgängig gemacht und diese Änderung transportiert. Da nur      
+   Objekt A transportiert wird, wird Objekt B beim Transport nicht deployt 
+   und bleibt fehlerhaft. Das Redeployment fehlerhafter Objekte würde      
+   Objekt B nun noch einmal deployen und damit den Fehler beheben.         
+AS                                                                         

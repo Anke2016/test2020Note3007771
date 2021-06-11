@@ -1,0 +1,4 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system deleted &V1& objects that previously only existed as inactive
+   objects in the SAP HANA repository. This means they are not passed for  
+   activation later. These objects are displayed in the following log.     

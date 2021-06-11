@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_CONTENT_CDATA",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"CTS_HOT_STRING",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"",
+    "HEADLEN":55,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":40,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"SAP",
+    "AS4DATE":"2018-05-28",
+    "AS4TIME":"11:13:05",
+    "DTELMASTER":"D",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"STRG",
+    "LENG":0,
+    "DECIMALS":0,
+    "OUTPUTLEN":0,
+    "LOWERCASE":"X",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"D",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_CONTENT_CDATA",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Character Data Content vom HANA Repository",
+    "REPTEXT":"Zeichenartige Daten",
+    "SCRTEXT_S":"Char.Daten",
+    "SCRTEXT_M":"Zeichenartige Daten",
+    "SCRTEXT_L":"Zeichenartige Daten"
+   },
+   {
+    "ROLLNAME":"CTS_HOT_HANA_CONTENT_CDATA",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Character Data Content from HANA Repository",
+    "REPTEXT":"Character-Like Data",
+    "SCRTEXT_S":"Char. Data",
+    "SCRTEXT_M":"Character-Like Data",
+    "SCRTEXT_L":"Character-Like Data"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"CTS_HOT_HANA_CONTENT_CDATA",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"CTS_HOT_HANA_CONTENT_CDATA",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2015-01-14",
+    "CHECK_DATE":"2015-01-14",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

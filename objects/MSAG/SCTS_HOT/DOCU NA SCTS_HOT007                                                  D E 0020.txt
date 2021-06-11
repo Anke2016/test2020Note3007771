@@ -1,0 +1,11 @@
+U1 &CAUSE&                                                                 
+AS Objekt &V1&.&V2& wurde im Repository des SAP HANA Transport for ABAP    
+   (HTA-Repository) nicht gefunden.                                        
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Stellen Sie sicher, dass Sie das Objekt korrekt angegeben haben.        
+   (Paketname, Objektname und Objektsuffix). Achten Sie auf Groß- und      
+   Kleinschreibung.                                                        
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

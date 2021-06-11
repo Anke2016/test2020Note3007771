@@ -1,0 +1,7 @@
+U1 &CAUSE&                                                                 
+AS Für die ausgegebenen Transportobjekte konnten keine Informationen im    
+   HTA-Repository (AS ABAP) gefunden werden. Dies kann z.B. auftreten, wenn
+   ein Transportauftrag mit einer Löschung eines                           
+   SAP-HANA-Repository-Paketes/-Objektes zum zweiten Mal importiert wurde. 
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der entsprechenden Transportobjekte                             

@@ -1,0 +1,30 @@
+U1 &PURPOSE&                                                               
+AS You can use this program to redeploy the following undeployed (error)   
+   objects after the objects used by these error objects were corrected:   
+B1 HDI objects                                                             
+B1 SAP HANA repository packages/objects                                    
+AS If the system detects deployment errors in the deployment of HDI objects
+   or SAP HANA repository packages/objects, and these errors existed       
+   already before the deployment of HDI objects or packages/objects in the 
+   HTA repository (although these objects were not part of the SAP HANA    
+   deployment), the system attempts to deploy them retroactively.          
+AS This means you must correct the error objects and transport them        
+   yourself. All dependent error SAP HANA objects (HDI objects/package     
+=  s/objects) are redeployed automatically after the import and are free of
+   errors if the deployment is successful.                                 
+U1 &INTEGRATION&                                                           
+AS This program is executed automatically using the job                    
+   REDEPLOY_FAILED_HANA_OBJECTS (which is scheduled by default) in cases   
+   where the situation above applies.                                      
+U1 &ACTIVITIES&                                                            
+AS To start the program manually, select which object type you want to     
+   deploy and choose <LS>Execute</>.                                       
+U1 &EXAMPLE&                                                               
+*  Object B uses object A. Object A is modified incompatibly and object B  
+   is transported in the old version. After the deployment, object B has   
+   errors in the target system. The change to object A is now undone and   
+   this change is transported. Only object A is transported, which means   
+   that object B is not deployed in the transport and the error remains.   
+   Any redeployment of error object would now deploy object B again and    
+   hence remove the error.                                                 
+AS                                                                         

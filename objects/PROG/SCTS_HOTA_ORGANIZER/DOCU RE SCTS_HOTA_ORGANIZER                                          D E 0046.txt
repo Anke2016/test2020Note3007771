@@ -1,0 +1,54 @@
+U2 &FEATURES&                                                              
+AS Mit dem <ZH>SAP HANA Transport for ABAP</> (HTA) können Sie Objekte und 
+   Pakete aus dem SAP HANA Repository in das Repository des SAP HANA       
+   Transport for ABAP (HTA Repository) im ABAP-System übertragen und einem 
+   Transportauftrag hinzufügen. Dieser Vorgang wird "Synchronisierung"     
+   genannt. Nach der Freigabe kann der Transportauftrag mit dem Transport  
+   Management System im Zielsystem importiert werden. Beim Import werden   
+   die Pakete und Objekte im SAP HANA Repository angelegt und aktiviert.   
+   Dieser Vorgang wird "Deployment" genannt. Auf diese Weise können Sie    
+   auch kleinere Änderungen an SAP-HANA-Objekten und -Paketen              
+   transportieren.                                                         
+AS SAP HANA Transport for ABAP verwenden Sie üblicherweise für             
+   ABAP-for-SAP-HANA-Applikationen. Das sind ABAP-Applikationen, die auf   
+   SAP HANA basieren und bei denen ABAP- und SAP-HANA-Objekte über das     
+   Change and Transport System im ABAP transportiert werden sollen.        
+U3 Für die Synchronisierung im ABAP-Entwicklungssystem gilt:               
+*  Die in den SAP-HANA-Objekten enthaltenen Texte werden standardmäßig in  
+   der Originalsprache des SAP-HANA-Paketes synchronisiert und können mit  
+   dem Standard-ABAP-Übersetzungswerkzeug (Transaktion SE63) übersetzt     
+   werden.                                                                 
+U3 Für das Deployment gilt:                                                
+*  Das Deployment von SAP-HANA-Paketen und -Objekten erfolgt in der Regel  
+   automatisch nach dem Import des Transportauftrags im Zielsystem. Ist    
+   dies nicht der Fall, haben Sie die Möglichkeit, die Aktivierung der     
+   SAP-HANA-Pakete und -Objekte im Zielsystem nachträglich durchzuführen.  
+   Dies kann z.B. vorkommen, weil die Einstellungen in SAP HANA vorgeben,  
+   dass ein Paket erst nach erfolgten Vorarbeiten deployt werden darf      
+   (Deploymodus P). Ebenso kann ein erneutes Deployment auch aufgrund von  
+   Fehlern in anderen Objekten oder aufgrund fehlender Einstellungen in SAP
+   HANA notwendig sein.                                                    
+U2 &WHAT_TO_DO&                                                            
+N1 Geben Sie als Selektionskriterium den Namen eines                       
+   SAP-HANA-Repository-Paketes an oder wählen Sie ein Paket über die       
+   Eingabehilfe (F4) aus.                                                  
+/  Achten Sie bei der Eingabe auf die korrekte Schreibweise. Das System    
+   unterscheidet  Groß- und Kleinschreibung. Geben Sie den Paketnamen so   
+   an, wie er im SAP HANA Repository geschrieben ist. Sie können '*' an    
+   beliebigen Stellen als Platzhalter verwenden.                           
+/  Wenn Sie die Unterpakete des eingegebenen Paketes in die Suche          
+   einschließen möchten, markieren Sie <LS>Unterpakete einbeziehen</>.     
+   Alternativ können Sie dazu auch '*' als Platzhalter hinter dem          
+   Paketnamen des übergeordneten Paketes verwenden.                        
+N1 Wählen Sie <LS>Ausführen</>.                                            
+U2 &RESULT&                                                                
+AS Der nächste Bildschirm zeigt alle im SAP HANA Repository und HTA        
+   Repository gefundenen Pakete mit ihren Objekten an. Auf diesem          
+   Bildschirm können Sie eine der folgenden Aktivitäten durchführen:       
+B1 Wenn Sie im Entwicklungssystem sind: Synchronisierung von SAP HANA nach 
+   ABAP                                                                    
+/  Weitere Informationen: <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU>Pakete/Objekte  
+   synchronisieren</>                                                      
+B1 Wenn Sie im Zielsystem sind: Deployment von SAP-HANA-Objekten           
+/  Weitere Informationen: <DS:TX.CTS_HOTA_DEPL_UI_ALV_DOCU>Pakete/Objekte  
+   deployen</>                                                             

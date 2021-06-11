@@ -1,0 +1,20 @@
+U2 &WHAT_TO_DO&                                                            
+N1 Geben Sie als Selektionskriterium den Namen eines                       
+   SAP-HANA-Repository-Paketes an oder wählen Sie ein Paket über die       
+   Eingabehilfe (F4) aus.                                                  
+/  Achten Sie bei der Eingabe auf die korrekte Schreibweise. Das System    
+   unterscheidet  Groß- und Kleinschreibung. Geben Sie den Paketnamen so   
+   an, wie er im SAP HANA Repository geschrieben ist. Sie können '*' an    
+   beliebigen Stellen als Platzhalter verwenden.                           
+/  Alternativ können Sie als Selektionskriterium den                       
+   ABAP-Transportobjektnamen eines SAP-HANA-Repository-Paketes angeben.    
+   Diesen finden Sie im Transport Organizer (Transaktion SE09) in der      
+   Objektliste des Transportauftrags, in dem das Paket enthalten ist.      
+N1 Wenn Sie die Unterpakete des eingegebenen Paketes in die Suche          
+   einschließen möchten, markieren Sie <LS>Unterpakete einbeziehen</>.     
+   Alternativ können Sie dazu auch '*' als Platzhalter hinter dem          
+   Paketnamen des übergeordneten Paketes verwenden.                        
+N1 Wählen Sie <LS>Ausführen</>.                                            
+U2 &RESULT&                                                                
+AS Der nächste Bildschirm zeigt alle im SAP HANA Repository und HTA        
+   Repository gefundenen Pakete mit ihren Objekten an.                     

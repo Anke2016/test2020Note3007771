@@ -1,0 +1,106 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"SAP-HANA-Repository-Objektdaten",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Repository Object Data",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Fehler bei der Sperrung des Objekts",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Error when locking the object",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"Objekt ist leer",
+    "LENGTH":94
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"Object is empty",
+    "LENGTH":94
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"D",
+    "ENTRY":"Binärer Inhalt ist nicht unterstützt",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"E",
+    "ENTRY":"Binary content is not supported",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"T01",
+    "LANG":"D",
+    "ENTRY":"Editor kann nicht gestartet werden",
+    "LENGTH":84
+   },
+   {
+    "ID":"I",
+    "KEY":"T01",
+    "LANG":"E",
+    "ENTRY":"Cannot start editor",
+    "LENGTH":84
+   },
+   {
+    "ID":"I",
+    "KEY":"T02",
+    "LANG":"D",
+    "ENTRY":"Editor kann nicht in schreibgeschützten Modus gesetzt werden",
+    "LENGTH":88
+   },
+   {
+    "ID":"I",
+    "KEY":"T02",
+    "LANG":"E",
+    "ENTRY":"Cannot set editor to read-only mode",
+    "LENGTH":88
+   },
+   {
+    "ID":"I",
+    "KEY":"T03",
+    "LANG":"D",
+    "ENTRY":"Text kann nicht in den Editor geladen werden",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"T03",
+    "LANG":"E",
+    "ENTRY":"Cannot load text into editor",
+    "LENGTH":70
+   }
+  ]
+ }
+]

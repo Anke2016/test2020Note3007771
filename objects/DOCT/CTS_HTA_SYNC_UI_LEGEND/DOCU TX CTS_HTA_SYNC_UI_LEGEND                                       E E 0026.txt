@@ -1,0 +1,61 @@
+U2 Legend: SAP HANA Transport for ABAP - Synchronization                   
+U3 General                                                                 
+AS The SAP HANA repository packages and objects are displayed in a         
+   hierarchy with two levels. The following level displays the packages.   
+   The row is highlighted in orange. The second level displays the objects 
+   of the packages. The row is highlighted in white. If multiple packages  
+   are displayed, each package and its objects are displayed in its own    
+   block. The blocks are shown in alphabetical order since the transport   
+   system does not have a package hierarchy.                               
+AS If an attribute is highlighted in blue, there are differences between   
+   its version in the SAP HANA repository and in the HTA repository.       
+/  <ZH>Note</>: The standard view in the table does not show all           
+   properties, but an icon can indicate a difference without any of the    
+   visible properties being highlighted. In this case, one of the hidden   
+   properties is different. You can display the detail view in order to    
+   view the different properties. Alternatively, you can modify your layout
+   to include the differences in the overview.                             
+U3 Icons for the Synchronization Status                                    
+AS @5B@ Package/object is in sync                                          
+AL The package/object is the same in HANA and ABAP.                        
+AS @5D@ Package/object is not in sync                                      
+AL The package/object is different in HANA and ABAP. The package/object    
+   needs to be synchronized.                                               
+AS @BZ@ The package/object cannot be synchronized.                         
+AL This can occur if the package/object was imported in this system but not
+   yet deployed to SAP HANA. In the detail view, the <ZK>status in ABAP</> 
+   is either <ZK>I -  Not yet deployed to SAP HANA Repository</> or <ZK>D -
+   Will be deleted during deployment</>                                    
+AL The package/object cannot be synchronized until after deployment.       
+   Caution: The deployment overwrites a previous change in SAP HANA r      
+=  epository. Make the change again after deployment and then synchronize. 
+AS @5C@ The package/object cannot be synchronized.                         
+AL The package/object already exists with the same name (but different     
+   case) in the HTA repository.                                            
+AL If the case of a package was changed, all objects in this packages are  
+   also displayed as not being synchronizable. The case of packages/objects
+   cannot be modified.                                                     
+U3 Icons for the Object Status in SAP HANA                                 
+AS @01@ The object is OK                                                   
+AL The object can be executed in the system.                               
+AS @AG@ The object has errors                                              
+AL The object cannot be executed in the system at present.                 
+AS @39@ The object must be generated again.                                
+AL The object cannot be executed in the system at present.                 
+*  <ZH>Note</>: Object status icons are only shown in SAP HANA if at least 
+   one object was found with an error or an object that needs to be genera 
+=  ted again.                                                              
+/  The object status in SAP HANA is for information only and does not      
+   affect the synchronization. It displays the current status of the object
+   at runtime. For synchronization on the other hand, the active version of
+   the object in the development system is used at design time. This means 
+   that an object can be synchronized and transported even if it cannot be 
+   executed in SAP HANA at runtime (due to an error). It may be the case,  
+   for example, that an object referenced by this object in the development
+   system was modified in such a way that it now has an error. In the      
+   target system, however, the referenced object may still have an older   
+   version on which the object in question can be executed without errors. 
+   For this reason, the objects are always synchronized independently of   
+   the object status in SAP HANA.                                          
+*  <ZH>See also</>: <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU> Synchronizing        
+   Packages/Objects</>                                                     

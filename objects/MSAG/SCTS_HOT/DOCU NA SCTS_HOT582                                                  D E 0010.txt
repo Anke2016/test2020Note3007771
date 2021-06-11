@@ -1,0 +1,15 @@
+U1 &CAUSE&                                                                 
+AS Das System hat erkannt, dass bestimmte Funktionen in diesem System nicht
+   aktiviert sind.                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der Objekte, die nicht deployt wurden, da die Funktionen des    
+   genannten Schalters im Switch Framework ausgeschaltet sind.             
+AS Zu jedem ausgeschalteten Schalter werden die zugehörigen ABAP-Pakete in 
+   Klammern ausgegeben.                                                    
+U1 &WHAT_TO_DO&                                                            
+AS Sie müssen nichts unternehmen. Sobald die Funktionen im Switch Framework
+   angeschaltet werden, werden die Objekte automatisch in das SAP HANA     
+   Repository deployt.                                                     
+AS <ZH>Hinweis</>: Das Anschalten von Funktionen im Switch Framework kann  
+   mit der Transaktion SFW5 oder durch den Import von Schaltereinträgen    
+   erfolgen.                                                               

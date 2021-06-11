@@ -1,0 +1,32 @@
+AS The original language was not specified when the package was created in 
+   the SAP HANA repository.                                                
+AS In ABAP, however, an original language must exist in the object         
+   directory entry (TADIR) for the package in question in the HTA repos    
+=  itory. When you confirm the dialog field, the system assigns your       
+   current logon language to the package as its original language in ABAP  
+   (in the object directory entry). Note that, in this case, the original  
+   language is set in ABAP only and not in the SAP HANA repository.        
+AS The following options are available to you:                             
+B1 If the package contains objects relevant for translation, you must first
+   cancel the action for consistency reasons and specify the original      
+   language for this package in the SAP HANA repository. To do this, go to 
+   SAP HANA Studio, for example, and switch to the perspective <LS>SAP HANA
+   Modeler</>. Choose <LS>Window -> Show View -> Properties</> to view and 
+   modify the properties of the package. If the original language cannot be
+   changed here, use the perspective <LS>SAP HANA Development</>. In <LS>  
+=  Project Explorer</>, choose <LS>Team -> Edit Package</> from the context
+   menu in the package node of the project in question.                    
+AL Then restart the synchronization.                                       
+B1 If the package does not contain any objects relevant for translation,   
+   you do not need to specify the original language in the SAP HANA        
+   repository. You can use the current ABAP logon language as the ABAP     
+   original language of the package and resume the synchronization by      
+   choosing <LS>Yes</>.                                                    
+/  Do not forget, however, that you may want to write texts in the SAP HANA
+   repository at a later point in time and the ABAP original language must 
+   then match this language.                                               
+/  Once the object directory has been created, the system deactivates the  
+   translation-relevance of the package in the HTA repository au           
+=  tomatically.                                                            
+AS Double-click the package in the table to display details about it, such 
+   as its translation-relevance and its objects.                           

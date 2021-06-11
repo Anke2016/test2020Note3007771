@@ -1,0 +1,19 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das Deployment von SAP-HANA-Repository-Objekten erfolgt in drei         
+   Schritten:                                                              
+N1 Alle Objekte der zusammen importierten Transportaufträge werden einzeln 
+   inaktiv ins SAP HANA Repository geschrieben. Gelöschte Objekte werden   
+   inaktiv im SAP HANA Repository gelöscht.                                
+N1 Alle Objekte der zusammen importierten Transportaufträge, die inaktiv   
+   geschrieben oder gelöscht werden konnten, werden dem SAP HANA Repository
+   in einem Aufruf zur Aktivierung übergeben.                              
+AL Wenn Aktivierungsfehler auftreten, erfolgt die Aktivierung in mehreren  
+   Versuchen. Weitere Informationen dazu finden Sie im                     
+    <DS:NA.SCTS_HOT539>Langtext der Meldung zu den einzelnen               
+   Aktivierungsversuchen</>.                                               
+N1 Für alle erfolgreich aktivierten Objekte der importierten               
+   Transportobjekte R3TR HOTA und LIMU HOTO werden die vorhandenen Texte in
+=   allen Sprachen deployt, zu denen im HTA Repository Texte existieren.   
+   Für die Transportobjekte 'LANG HOTO <Objektname> <Sprache>' und 'LANG   
+   HOTA <Paketname> <Sprache>' werden nur die Texte in der angegebenen     
+   Sprache deployt.                                                        

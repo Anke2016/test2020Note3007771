@@ -1,0 +1,15 @@
+U1 &CAUSE&                                                                 
+*  The system detected that SAP HANA objects (HDI objects and/or SAP HANA  
+   Repository packages/objects) with errors are in the system after the    
+   deployment and that these packages/objects had errors before the        
+   deployment.                                                             
+*  By default, SAP HANA objects with errors like these are redeployed using
+   the job REDEPLOY_FAILED_HANA_OBJECTS. Automatic scheduling of this job, 
+   however, is disabled in this system by configuration.                   
+U1 &WHAT_TO_DO&                                                            
+*  You can deploy the SAP HANA objects with errors manually. To do this,   
+   start the program SCTS_HTA_REDEPLOY_FAILED manually in transaction SA38.
+*  For general information on the <ZK>redeployment of SAP HANA objects</>  
+   and the configuration of the redeployment job, see the long text for the
+   message <DS:NA.SCTS_HOT621>Redeployment of SAP HANA objects with errors 
+   started</>.                                                             

@@ -1,0 +1,50 @@
+U2 Legende: SAP HANA Transport for ABAP - Deployment                       
+U3 Allgemeines                                                             
+AS Die Anzeige der SAP-HANA-Repository-Pakete und -Objekte erfolgt in einer
+   hierarchischen Liste mit zwei Ebenen. In der ersten Ebene werden die    
+   Pakete angezeigt. Die Zeile ist orange hinterlegt. In der zweiten Ebene 
+   werden die Objekte der Pakete angezeigt. Die Zeile ist weiß hinterlegt. 
+   Werden mehrere Pakete angezeigt, ist jedes Paket mit seinen Objekten in 
+   einem eigenen Block dargestellt. Da es für das Transportsystem keine    
+   Pakethierarchie gibt, sind die Blöcke alphabetisch geordnet.            
+AS Ist ein Attribut blau hinterlegt, unterscheidet es sich im SAP HANA     
+   Repository und im HTA Repository.                                       
+U3 Symbole für den Deployment-Status                                       
+AS @5B@ Paket/Objekt ist deployt                                           
+AL Paket/Objekt ist von ABAP nach SAP HANA deployt                         
+AS @5D@ Paket/Objekt ist nicht deployt                                     
+AL Paket/Objekt ist noch nicht von ABAP nach SAP HANA deployt. Dies sind   
+   Pakete/Objekte, die zwar importiert, aber noch nicht deployt wurden. In 
+   der Detailansicht ist der <ZK>Status in ABAP</> entweder <ZK>I - Noch   
+   nicht ins SAP HANA Repository deployt</> oder <ZK>D - Wird beim         
+   Deployment gelöscht</>                                                  
+AL Das Paket/Objekt sollte deployt werden.                                 
+AS @BZ@ Paket/Objekt kann nicht deployt werden                             
+AL Dieser Status wird in den folgenden Fällen gesetzt:                     
+B2 Wenn das Paket/Objekt in diesem System synchronisiert wurde (zum        
+   Beispiel im Entwicklungssystem oder in einem Reparatursystem).          
+B2 Wenn das Paket/Objekt im SAP HANA Repository angelegt wurde, jedoch im  
+   HTA Repository noch nicht existiert.                                    
+AS @5C@ Paket/Objekt kann nicht deployt werden                             
+AL Paket/Objekt existiert bereits unter dem gleichen Namen in anderer      
+   Groß-/Kleinschreibung im HTA Repository.                                
+AL Wenn sich die Groß-/Kleinschreibung eines Paketes geändert hat, werden  
+   auch alle Objekte dieses Paketes als nicht deploybar dargestellt. Das   
+   Ändern der Groß-/Kleinschreibung von Paketen/Objekten ist nicht         
+   unterstützt.                                                            
+U3 Symbole für den Objektstatus in SAP HANA                                
+AS @01@ Objekt ist OK                                                      
+AL Objekt kann im System ausgeführt werden.                                
+AS @AG@ Objekt ist defekt                                                  
+AL Objekt kann aktuell im System nicht ausgeführt werden.                  
+AS @39@ Objekt muss neu generiert werden                                   
+AL Objekt kann aktuell im System nicht ausgeführt werden.                  
+*  <ZH>Hinweis</>:                                                         
+/  Der Objektstatus in SAP HANA ist rein informativ und hat keinen Einfluss
+   auf das Deployment. Er stellt den aktuellen Status des Objektes zur     
+   Laufzeit dar.                                                           
+*  Wenn ein Objekt defekt ist oder nachgeneriert werden muss, kann in      
+   manchen Situationen ein (erneutes) Deployment helfen, das Objekt zu     
+   reparieren.                                                             
+*  <ZH>Siehe auch</>:                                                      
+=  <DS:TX.CTS_HOTA_DEPL_UI_ALV_DOCU>Pakete/Objekte deployen</>             

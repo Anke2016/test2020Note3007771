@@ -1,0 +1,13 @@
+U1 &PURPOSE&                                                               
+AS Beim Einbauen von Hinweiskorrekturen zu Objekten von                    
+   ABAP-for-SAP-HANA-Applikationen kann es vorkommen, dass                 
+   SAP-HANA-Repository-Objekte (LIMU HOTO) und -Pakete (LIMU HOTP) nicht   
+   aktiviert werden können.                                                
+*  Ist dies der Fall, können Sie das Programm verwenden, um die inaktive   
+   Version der Objekte im ABAP zu löschen.                                 
+*  Hinweis: Beachten Sie, dass Sie dieses Programm nur für die Behebung von
+   Fehlern verwenden sollten. Weitere Informationen finden Sie in          
+   SAP-Hinweis 2633397 (https://launchpad.support.sap.com/#/notes/2633397).
+U1 &ACTIVITIES&                                                            
+AS Geben Sie den Transportobjektnamen des zu löschenden Objekts ein oder   
+   wählen Sie es über die Eingabehilfe aus. Führen Sie das Programm aus.   

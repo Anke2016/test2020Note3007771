@@ -1,0 +1,17 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS SAP HANA repository objects are deployed in three steps:                
+N1 All objects in the transports imported together are written to the SAP  
+   HANA repository individually as inactive objects. Any deleted objects   
+   are deleted inactively in the SAP HANA repository.                      
+N1 All objects in the transports imported together that were written or    
+   deleted as inactive objects are passed to the SAP HANA repository for   
+   activation in a single call.                                            
+AL If any activation errors occur, the activation is performed in multiple 
+   attempts. For more information, <DS:NA.SCTS_HOT539>see the long text of 
+   the message for the individual activation attempts</>.                  
+N1 For all activated objects of the imported transport objects R3TR HOTA   
+   and LIMU HOTO, the existing texts are deployed in all languages for     
+   which texts exist in the HTA repository. For the transport objects 'LANG
+   HOTO <(><<)>object name> <(><<)>language>' and 'LANG HOTA <(><<)>package
+   name> <(><<)>language>', only the texts in the specified languages are  
+   deployed.                                                               

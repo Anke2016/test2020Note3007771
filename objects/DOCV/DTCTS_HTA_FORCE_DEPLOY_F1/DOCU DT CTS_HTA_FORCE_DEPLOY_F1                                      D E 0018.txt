@@ -1,0 +1,15 @@
+AS Sie haben Pakete/Objekte selektiert, die bereits früher erfolgreich     
+   deployt wurden. Dies sind Pakete/Objekte, die einen grünen              
+   Deploymentstatus haben (<LS>Paket/Objekt ist deployt</>).               
+AN Der Wert für <LS>Status in ABAP</> in der Detailansicht des             
+   Pakets/Objekts ist <LS>A - Ins SAP HANA Repository deployt</>.          
+U2 &PROCEDURE&                                                             
+B1 Wenn bereits deployte Pakete/Objekte erneut deployt werden sollen,      
+   wählen Sie <LS>Ja</>.                                                   
+B1 Wenn bereits deployte Pakete/Objekte nicht erneut deployt werden sollen,
+   wählen Sie <LS>Nein</>.                                                 
+AL Hinweis: Es wird dennoch ein Deployment für selektierte Pakete/Objekte  
+   gestartet, die einen gelben Deploymentstatus haben (                    
+=  <LS>Paket/Objekt ist nicht deployt</>).                                 
+B1 Wenn Sie kein Deployment durchführen wollen, wählen Sie <LS>Abbrechen   
+=  </>.                                                                    

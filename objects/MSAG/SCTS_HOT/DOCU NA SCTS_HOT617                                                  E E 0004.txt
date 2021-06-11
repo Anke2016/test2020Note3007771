@@ -1,0 +1,5 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Object activation has been cancelled with this attempt because the      
+   maximum number of objects for activation was reached.                   
+AS All objects that could not yet be successfully activated previously and 
+   whose requests are logged as <LS>erroneous</>.                          

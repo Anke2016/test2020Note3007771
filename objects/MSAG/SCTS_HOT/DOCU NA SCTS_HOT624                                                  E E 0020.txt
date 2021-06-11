@@ -1,0 +1,16 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system checks whether any HDI objects and/or SAP HANA Repository    
+   packages/objects with deployment errors (and that were not part of the  
+   deployment) existed in the HTA Repository before the deployment of SAP  
+   HANA objects. If, after the deployment, any HDI objects and/or SAP HANA 
+   Repository packages/objects with errors exist, the system checks whether
+   it can use the job REDPLOY_FAILED_HANA_OBJECTS to deploy these          
+   objects/packages retroactively. Whether this can happen depends on the  
+   configuration of the system.                                            
+AS The next line in the log is a message indicating whether a redeployment 
+   is scheduled and for which HANA object type (HDI and SAP HANA           
+   Repository).                                                            
+AS For general information on the <ZK>redeployment of SAP HANA objects</>  
+   and the configuration of the redeployment job, see the long text for the
+   message <DS:NA.SCTS_HOT621>Redeployment of SAP HANA objects with errors 
+   started</>.                                                             

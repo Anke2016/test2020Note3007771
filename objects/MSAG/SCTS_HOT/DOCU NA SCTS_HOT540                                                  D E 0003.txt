@@ -1,0 +1,5 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das genannte Objekte hätte erfolgreich aktiviert werden können, wenn es 
+   bei den anderen Objekten keinen Aktivierungsfehler gegeben hätte.       
+AS Für dieses Objekt wird deshalb eine weitere Aktivierung probiert und    
+   weiter unten protokolliert.                                             

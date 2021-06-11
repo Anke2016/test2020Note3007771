@@ -1,0 +1,14 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System hat festgestellt, dass die Transportwerkzeuge tp und R3trans 
+   in diesem System zu alt sind, um Objekte des SAP HANA Transport for ABAP
+   (HTA) fehlerfrei exportieren zu können.                                 
+U1 &WHAT_TO_DO&                                                            
+AS Wenn Sie in diesem System Transportaufträge exportieren möchten, die    
+   Objekte vom Typ R3TR HOTA, LIMU  HOTO, LIMU HOTP, LANG HOTA oder LANG   
+   HOTO enthalten, aktualisieren Sie vorher die Transportwerkzeuge, da     
+   ansonsten Fehler beim Import auftreten können.                          
+/  Sie können mit dem Synchronisieren von SAP-HANA-Paketen und -Objekten   
+   fortfahren. Stellen Sie jedoch sicher, dass vor der Freigabe des        
+   Transportauftrags (vor dem Export) die Transport Tools aktualisiert     
+   werden.                                                                 
+AS Weitere Informationen finden Sie in SAP-Hinweis 2111687.                

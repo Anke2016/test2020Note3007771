@@ -1,0 +1,11 @@
+U1 &CAUSE&                                                                 
+AS Sie haben den Deploymodus auf den Modus A (Standard) gesetzt und dadurch
+   das zugehörige SAP-HANA-Paketattribut im HTA Repository geändert.       
+   Folglich wird beim Import lediglich das Paketattribut im HTA Repository 
+   geändert, aber kein automatisches Objektdeployment angestartet. Wenn Sie
+   möchten, dass beim Import gleichzeitig die Objekte des Paketes deployt  
+   werden, müssen Sie sicherstellen, dass diese auch Teil des              
+   Transportauftrags oder zumindest der späteren Importqueue sind.         
+AS Wir empfehlen, die Objekte der selektierten Pakete zu synchronisieren,  
+   um sie in einen Transportauftrag aufzunehmen und dafür denselben        
+   Transportauftrag wie zuvor zu verwenden.                                

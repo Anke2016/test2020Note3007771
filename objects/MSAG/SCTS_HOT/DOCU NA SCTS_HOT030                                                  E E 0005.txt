@@ -1,0 +1,9 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The deployment log was saved in the file &V2&&V3&&V4&.                  
+U1 &WHAT_TO_DO&                                                            
+AS If the deployment ended with a warning or with errors, check the log to 
+   analyze the errors.                                                     
+AS You can display the log again later using the report RSPUTPRT.          
+AS To do this, start the report RSPUTPRT using transaction SA38 and enter  
+   the full file name in the field <LS>Full File Name (with Dir.)</>. (&V2&
+=  &V3&&V4&)                                                               

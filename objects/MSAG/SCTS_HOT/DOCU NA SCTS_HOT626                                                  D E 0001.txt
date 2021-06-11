@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ein oder mehrere Objekte wurden nicht deployt, da die letzte Aktion in  
+   diesem System für diese Objekte eine Synchronisierung vom SAP HANA      
+   Repository ins HTA Repository war. Durch diese Synchronisierung geht das
+   System davon aus, dass für diese Objekte die aktuellere Version im SAP  
+   HANA Repository existiert und dort nicht überschrieben werden soll.     

@@ -1,0 +1,9 @@
+U1 &CAUSE&                                                                 
+AS Die angegebenen Transportobjekte können nicht deployt werden, weil sie  
+   nicht importiert wurden. Die Ursache dafür finden Sie im Protokoll des  
+   Hauptimports.                                                           
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der entsprechenden Transportobjekte                             
+U1 &WHAT_TO_DO&                                                            
+AS Prüfen Sie das Protokoll des Hauptimports und beheben Sie die Ursache.  
+   Anschließend wiederholen Sie den Import.                                

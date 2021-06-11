@@ -1,0 +1,12 @@
+*  Wenn Sie das Dialogfeld mit <LS>Ja</> bestätigen, setzt das System die  
+   markierten Pakete und deren Objekte auf <LS>übersetzungsrelevant</>.    
+   Beachten Sie, dass Sie die Objekte der gewählten Pakete zunächst        
+   synchronisieren müssen, bevor die zugehörigen Texte für die Übersetzung 
+   im ABAP zur Verfügung stehen.                                           
+*  Wenn Sie <LS>Nein</> wählen, setzt das System die markierten Pakete und 
+   deren Objekte auf <LS>nicht übersetzungsrelevant</>.                    
+/  <ZH>Achtung</>: Wenn Sie bereits Texte dieser Objekte synchronisiert und
+   übersetzt haben, werden die Übersetzungen dadurch gelöscht.             
+*  Weitere Informationen finden Sie im Abschnitt                           
+   <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU>Pakete/Objekte synchronisieren</> unter
+   <LS>Weitere Funktionen</> .                                             

@@ -1,0 +1,48 @@
+U2 Legend: SAP HANA Transport for ABAP - Deployment                        
+U3 General                                                                 
+AS The SAP HANA repository packages and objects are displayed in a         
+   hierarchy with two levels. The following level displays the packages.   
+   The row is highlighted in orange. The second level displays the objects 
+   of the packages. The row is highlighted in white. If multiple packages  
+   are displayed, each package and its objects are displayed in its own    
+   block. The blocks are shown in alphabetical order since the transport   
+   system does not have a package hierarchy.                               
+AS If an attribute is highlighted in blue, there are differences between   
+   its version in the SAP HANA repository and in the HTA repository.       
+U3 Icons for the Deployment Status                                         
+AS @5B@ Package/object is deployed                                         
+AL Package/object is deployed from ABAP to SAP HANA                        
+AS @5D@ Package/object is not deployed                                     
+AL Package/object is not deployed from ABAP to SAP HANA These are          
+   packages/objects that have been imported but not yet deployed. In the   
+   detail view, the <ZK>status in ABAP</> is either <ZK>I -  Not yet       
+   deployed to SAP HANA Repository</> or <ZK>D - Will be deleted during    
+   deployment</>                                                           
+AL The package/object needs to be deployed.                                
+AS @BZ@ The package/object cannot be deployed.                             
+AL This status is set in the following cases:                              
+B2 If the package/object was synchronized in this system (for example in   
+   the development system or in a repair system).                          
+B2 If the package/object was created in the SAP HANA repository, but does  
+   not exist yet in the HTA repository.                                    
+AS @5C@ The package/object cannot be deployed.                             
+AL The package/object already exists with the same name (but different     
+   case) in the HTA repository.                                            
+AL If the case of a package was changed, all objects in this packages are  
+   also displayed as not being deployable. The case of packages/objects    
+   cannot be modified.                                                     
+U3 Icons for the Object Status in SAP HANA                                 
+AS @01@ The object is OK                                                   
+AL The object can be executed in the system.                               
+AS @AG@ The object has errors                                              
+AL The object cannot be executed in the system at present.                 
+AS @39@ The object must be generated again.                                
+AL The object cannot be executed in the system at present.                 
+*  <ZH>Note</>:                                                            
+/  The object status in SAP HANA is for information only and does not      
+   affect the deployment. It displays the current status of the object at  
+   runtime.                                                                
+*  If an object has errors or has to be regenerated, (re-)deployment can   
+   sometime help to repair the object.                                     
+*  <ZH>See</>:<DS:TX.CTS_HOTA_DEPL_UI_ALV_DOCU>Deploying Packages/Objects  
+=  </>                                                                     

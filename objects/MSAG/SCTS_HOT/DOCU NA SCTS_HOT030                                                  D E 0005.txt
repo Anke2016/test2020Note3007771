@@ -1,0 +1,10 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das Deployment Protokoll wurde in der Datei &V2&&V3&&V4& gespeichert.   
+U1 &WHAT_TO_DO&                                                            
+AS Wenn das Deployment mit einer Warnung oder Fehlern beendet wurde,       
+   überprüfen Sie das Protokoll, um die Fehler zu analysieren.             
+AS Sie können das Protokoll zu einem späteren Zeitpunkt mit dem Report     
+   RSPUTPRT erneut anzeigen.                                               
+AS Starten Sie dazu mit der Transaktion SA38 den Report RSPUTPRT, und geben
+   Sie für das Feld <LS>Vollst. Dateiname (mit Dir.)</> den Wert des       
+   vollständigen Dateinamens an. (&V2&&V3&&V4&)                            

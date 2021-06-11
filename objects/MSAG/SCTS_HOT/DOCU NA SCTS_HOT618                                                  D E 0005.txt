@@ -1,0 +1,8 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Die Objektaktivierung wird mit diesem Versuch abgebrochen, da die Menge 
+   der zu aktivierenden Objekte konstant bleibt.                           
+AS Alle Objekte, die bisher noch nicht erfolgreich aktiviert werden        
+   konnten, und deren Aufträge werden als <LS>fehlerhaft</> protokolliert. 
+AS Allgemeine Informationen zum Ablauf der Objektaktivierung finden Sie im 
+   <DS:NA.SCTS_HOT539>Langtext der Meldung zu den einzelnen                
+   Aktivierungsversuchen</>.                                               

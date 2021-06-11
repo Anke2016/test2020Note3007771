@@ -1,0 +1,32 @@
+AS Beim Anlegen des Pakets im SAP HANA Repository wurde die Originalsprache
+   nicht angegeben.                                                        
+AS In ABAP muss jedoch für das entsprechende Paket im HTA Repository eine  
+   Originalsprache im Objektkatalogeintrag (TADIR) existieren. Wenn Sie das
+   Dialogfeld bestätigen, weist das System dem Paket in ABAP (im           
+   Objektkatalogeintrag) die Sprache als Originalsprache zu, in der Sie    
+   aktuell angemeldet sind. Beachten Sie, dass in diesem Fall die          
+   Originalsprache nur in ABAP und nicht im SAP HANA Repository gesetzt    
+   wird.                                                                   
+AS Sie haben die folgenden Optionen:                                       
+B1 Wenn das Paket übersetzungsrelevante Objekte enthält, müssen Sie        
+   zunächst die Verarbeitung abbrechen und die Originalsprache für dieses  
+   Paket im SAP HANA Repository angeben. Öffnen Sie dazu z.B. das SAP HANA 
+   Studio und wechseln Sie in die Perspektive <LS>SAP HANA Modeler</>. Über
+   <LS>Window -> Show View -> Properties</> können Sie die Eigenschaften   
+   des Paketes sehen und ändern. Wenn die Originalsprache dort nicht       
+   änderbar ist, verwenden Sie die Perspektive <LS>SAP HANA Development</>.
+   Im <LS>Project Explorer</> wählen Sie aus dem Kontextmenü im Paketknoten
+   des entsprechenden Projektes <LS> Team -> Edit Package</>.              
+AL Starten Sie anschließend die Synchronisierung erneut.                   
+B1 Solange das Paket keine übersetzungsrelevanten Objekte enthält, ist die 
+   Angabe der Originalsprache im SAP HANA Repository nicht notwendig. Sie  
+   können die aktuelle ABAP-Anmeldesprache als ABAP-Originalsprache des    
+   Pakets verwenden und die Synchronisierung mit <LS>Ja</> fortsetzen.     
+/  Bedenken Sie dabei jedoch, dass Sie möglicherweise zu einem späteren    
+   Zeitpunkt Texte im SAP HANA Repository schreiben möchten und die        
+   ABAP-Originalsprache dann mit dieser Sprache übereinstimmen sollte.     
+/  Nach dem Anlegen des Objektkatalogeintrags schaltet das System die      
+   Übersetzungsrelevanz des Paketes im HTA Repository automatisch aus.     
+AS Mit einem Doppelklick auf das Paket in der Tabelle können Sie Details   
+   zum Paket anzeigen, wie z.B. die Übersetzungsrelevanz des Paketes und   
+   der zugehörigen Objekte.                                                

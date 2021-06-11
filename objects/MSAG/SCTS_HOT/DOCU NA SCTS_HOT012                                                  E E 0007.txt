@@ -1,0 +1,10 @@
+U1 &CAUSE&                                                                 
+AS Package &V1& was not found in the SAP HANA Transport for ABAP repository
+   (HTA repository).                                                       
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Make sure you specified the package correctly. The names are case       
+   sensitive.                                                              
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

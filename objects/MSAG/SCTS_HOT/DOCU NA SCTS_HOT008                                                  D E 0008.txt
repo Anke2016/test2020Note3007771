@@ -1,0 +1,16 @@
+U1 &CAUSE&                                                                 
+AS Das Objekt &V1& kann im aktuellen Status (&V2&) nicht nach SAP HANA     
+   deployt werden.                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+B1 Wenn der Status des Objektes 'A' ist, dann ist dieses Objekt bereits    
+   aktiv. Sollten Sie dennoch erneut deployen wollen, dann importieren Sie 
+   den zugehörigen Transportauftrag noch einmal.                           
+B1 Wenn der Status des Objektes 'N' ist, dann wurde das Objekt in diesem   
+   System geändert und darf durch ein Deployment nicht überschrieben       
+   werden. Falls Sie die lokale Änderung verwerfen möchten, dann           
+   importieren Sie einen Transportauftrag mit der gewünschten              
+   Objektversion.                                                          
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

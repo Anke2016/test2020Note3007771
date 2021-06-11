@@ -1,0 +1,7 @@
+/: INCLUDE CTS_HTA_SYNC_UI_DEPLOY_MODE OBJECT DOKU ID DT                   
+*  The default mode is generally sufficient for customers.                 
+*  If prework is required before the initial deployment, read the          
+   documentation about using deploy mode P. The documentation can be found 
+   at the following link: http://help.sap.com/saphelp_nw74/helpdata/en/4a/8
+=  33585fcb34f2cbdf08afc12d259fd/frameset.htm. You can also search for     
+   'deploy mode in SAP HANA Transport for ABAP' in SAP Help Portal.        

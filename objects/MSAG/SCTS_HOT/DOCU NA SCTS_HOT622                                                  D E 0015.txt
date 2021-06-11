@@ -1,0 +1,14 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der von HTA verwendeten Parameter im <ZK>Redeployment           
+   fehlerhafter SAP-HANA-Repository-Objekte</> im Schritt                  
+   <LS>Objektaktivierung</>.                                               
+B1 HTA_ACTIVATION_MODE_REDEPLOY_FAILED gibt an, wie HTA die Aktivierung    
+   durchführt:                                                             
+AL 0 (Standard) - Die Aktivierung wird durchgeführt wie im                 
+   <DS:NA.SCTS_HOT539>Langtext der Meldung zu den einzelnen                
+   Aktivierungsversuchen</> beschrieben.                                   
+B1 MAX_NO_ACTIVATION_ATTEMPTS_REDEPL_FAILED gibt an, wie viele             
+   Aktivierungsversuche maximal durchgeführt werden sollen.                
+B1 HANA_LOG_WITH_HINTS gibt an, ob das SAP HANA Repository mehr ('X') oder 
+   weniger (' ', leer) Informationen zur Objektaktivierung zurückgeben     
+   soll.                                                                   

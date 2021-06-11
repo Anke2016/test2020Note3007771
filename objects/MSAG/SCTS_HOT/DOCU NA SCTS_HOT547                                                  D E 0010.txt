@@ -1,0 +1,23 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das genannte Objekt war nicht Teil der Objektmenge der in diesem Versuch
+   zu aktivierenden Objekte, wurde aber dennoch als Ergebnis der           
+   Aktivierung vom SAP HANA Repository zurück gemeldet.                    
+AS Dies kann in folgenden Fällen auftreten:                                
+B1 Das SAP HANA Repository hat das genannte Objekte implizit mit in die    
+   Liste der zu aktivierenden Objekte aufgenommen. Das ist dann der Fall,  
+   wenn das genannte Objekt sowohl von einem zu aktivierenden Objekt       
+   abhängig ist als auch selbst von einem zu aktivierenden Objekt verwendet
+   wird.                                                                   
+/  Beispiel: A hat eine Abhängigkeit zu B und B hat eine Abhängigkeit zu C.
+   Wenn A und C aktiviert werden sollen, wird B implizit zur Aktivierung   
+   hinzugefügt.                                                            
+B1 Das genannte Objekt ist ein Aktivierungs-Plug-In des SAP HANA           
+   Repository, und es trat ein Fehler bei der Aktivierung von Objekten auf,
+   die durch dieses Plug-In aktiviert werden sollten.                      
+U1 &WHAT_TO_DO&                                                            
+AS Wenn der Import erfolgreich beendet wurde, müssen Sie nichts weiter     
+   unternehmen.                                                            
+AS Wenn der Import nicht erfolgreich war, analysieren Sie die vorherigen   
+   Fehler in diesem Protokoll, und beheben Sie diese.                      
+AS Hinweis: Wenn das oben genannte Objekt nicht in Ihrer Firma entwickelt  
+   wurde, kontaktieren Sie den Content-Ersteller.                          

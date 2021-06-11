@@ -1,0 +1,16 @@
+U1 &CAUSE&                                                                 
+AS                                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS Der Import von SAP-HANA-Repository-Objekten wurde übersprungen, da      
+   dieses System ein View-Layer-System ist und die                         
+   SAP-HANA-Repository-Objekte in solch einem System nicht unterstützt     
+   werden.                                                                 
+U1 &WHAT_TO_DO&                                                            
+AS Wenn Sie die Funktionen der übersprungenen SAP-HANA-Repository-Objekte  
+   benötigen, migrieren Sie die Objekte in ABAP CDS, AMDPs oder nach HDI.  
+AS HDI ist der Nachfolger von SAP HANA Repository. Die Migration von SAP   
+   HANA Repository nach HDI ist in help.sap.com beschrieben. Suchen Sie    
+   nach dem Topic mit der Überschrift <LS>Migrating SAP HANA               
+   Repository-based Developments Used in ABAP to HTA for HDI</>.           
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

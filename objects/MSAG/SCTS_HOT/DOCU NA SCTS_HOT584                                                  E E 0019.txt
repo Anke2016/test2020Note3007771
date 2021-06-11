@@ -1,0 +1,23 @@
+U1 &CAUSE&                                                                 
+AS The system detected that required prework in this system was not done.  
+   The packages in question were not deployed.                             
+U1 &SYSTEM_RESPONSE&                                                       
+AS Displays the packages that were not deployed, since the prework for     
+   these packages is missing.                                              
+U1 &WHAT_TO_DO&                                                            
+N1 If you want to use the functions in the non-deployed packages, perform  
+   the prework in question. Contact your software provider to find out     
+   which prework is required.                                              
+N1 After you have done the prework, repeat the import (if the packages in  
+   question were not already deployed in the prework). To find out whether 
+   the packages in question were deployed in the prework, call transaction 
+   SCTS_HTA and display the packages. These are the packages with the entry
+   'Prework missing' in the log.                                           
+B2 If the status of the packages is green (@5B@ - 'Package/object is in    
+   sync'), the packages were already deployed to the SAP HANA repository.  
+   You do not need to repeat the import.                                   
+B2 If the status is gray (@BZ@ - 'Package/object cannot be synchronized'), 
+   the packages were not yet deployed to the SAP HANA repository. In the   
+   detailed view of a package like this, 'Status in ABAP' contains the     
+   information 'I (inactive) - Not yet deployed to SAP HANA Repository'.   
+   Import the transport request with the non-deployed packages again.      

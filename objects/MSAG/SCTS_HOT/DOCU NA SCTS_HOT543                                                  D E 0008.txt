@@ -1,0 +1,25 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Nach der SAP-HANA-Repository-Aktivierung überprüft das SAP HANA         
+   Repository, welche Repository-Objekte von den gerade aktivierten        
+   Objekten abhängig sind und versucht, diese nachzugenerieren.            
+AS Hierbei wurde festgestellt, dass das oben genannte Objekt nicht         
+   nachgeneriert werden konnte. Dies kann z.B. der Fall sein, wenn das     
+   Objekt mit dem Generierungsfehler noch nicht an eine Änderung eines     
+   referenzierten Repository-Objektes angepasst wurde.                     
+AS Das oben genannte Objekt war zwar Bestandteil des <ZK>SAP-HANA-         
+=  Repository-Deployment</>-Schrittes, konnte aber entweder nicht ins SAP  
+   HANA Repository importiert oder dort aktiviert werden. Diese Information
+   können Sie den Import-/Aktivierungsfehlern im Protokoll entnehmen.      
+AS Hinweis: Die Nachgenerierung wurde mit der Objektversion durchgeführt,  
+   die vor dem <ZK>SAP-HANA-Repository-Deployment</>-Schritt im SAP HANA   
+   Repository aktiv war. Aus diesem Grund müssen Sie den Import- oder      
+   Aktivierungsfehler beheben und nicht den hier genannten                 
+   Generierungsfehler.                                                     
+AS Das CTS kann keine Aussage darüber treffen, welches Objekt den Fehler   
+   beim Nachgenerieren verursacht hat.                                     
+U1 &WHAT_TO_DO&                                                            
+AS Beheben Sie den Import- oder Aktivierungsfehler, den Sie im Protokoll   
+   unterhalb des oben genannten Objektes finden, im Entwicklungssystem.    
+   Transportieren Sie das Objekt anschließend erneut.                      
+AS Hinweis: Wenn das oben genannte Objekt nicht in Ihrer Firma entwickelt  
+   wurde, kontaktieren Sie den Content-Ersteller.                          

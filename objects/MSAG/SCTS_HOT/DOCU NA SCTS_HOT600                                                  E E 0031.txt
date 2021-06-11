@@ -1,0 +1,18 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS No texts were deployed for one or more objects, since the objects could 
+   not be imported or could not be activated.                              
+U1 &WHAT_TO_DO&                                                            
+AS Check the log for import/activation errors for the objects specified at 
+   message level 4.                                                        
+AS The log might not contain the reason for this import/activation error.  
+   This can be the case if this request contains only text elements        
+   (transport objects with the type LANG HOTA or LANG HOTO) for the objects
+   in question and one of the following cases also applies:                
+B1 The request was imported together with at least one other request that  
+   contains the object in question as a full object R3TR HOTA or a         
+   subobject LIMU HOTO.                                                    
+B1 There was an error in a previous import of a request that contains the  
+   object in question as a full object R3TR HOTA or as a subobject LIMU    
+   HOTO.                                                                   
+*  In these cases, check the log of the other request for import/activation
+   errors in the object in question.                                       

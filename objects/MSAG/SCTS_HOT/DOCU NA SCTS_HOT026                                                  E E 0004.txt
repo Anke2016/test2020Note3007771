@@ -1,0 +1,9 @@
+U1 &CAUSE&                                                                 
+AS The package &V1&&V2&&V3& cannot be synchronized in its current status ( 
+=  &V4&).                                                                  
+U1 &SYSTEM_RESPONSE&                                                       
+AS The package was previously only imported into the HTA repository but not
+   deployed there.                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Deploy the package before you synchronize it, for example by            
+   transporting or importing the package again.                            

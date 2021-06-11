@@ -1,0 +1,32 @@
+U1 &CAUSE&                                                                 
+AS Für ein oder mehrere Objekte wurden keine Texte deployt. Dies kann in   
+   den folgenden Fällen vorkommen:                                         
+B1 Für das Objekt existieren keine zu deployenden Texte im System. Gründe  
+   dafür können sein:                                                      
+B2 Das zugehörige Paket des Objektes ist auf 'nicht übersetzungsrelevant'  
+   eingestellt. Dies können Sie in der Transaktion SCTS_HTA für das        
+   entsprechende Paket sehen, indem Sie sich die Details des Paketes       
+   anzeigen.                                                               
+B2 Die Texte wurden bereits früher erfolgreich deployt.                    
+B2 Für die Transportobjekte 'R3TR HOTA' oder 'LIMU HOTO' wurden keine      
+   Textanteile importiert.                                                 
+B2 Für das Transportobjekt 'LANG HOTO <Objektname> <Sprache>' oder 'LANG   
+   HOTA <Paketname> <Sprache>' wurden keine Texte gefunden. Gründe dafür   
+   können sein:                                                            
+BL a) Das Transportobjekt vom Typ LANG wurde durch einen                   
+   Auslieferungsauftrag (z.B. Support Package) importiert und die          
+   zugehörige Sprache war im System nicht aktiv. Somit wurden die          
+   zugehörigen fremdsprachlichen Texte während des Hauptimports nicht in   
+   das HTA Repository importiert.                                          
+BL b) Beim Export gab es zu dem Sprachschlüssel keine Texte (siehe         
+   Exportprotokoll), da entweder ein falscher Sprachschlüssel angegeben    
+   wurde oder die Texte vorher bewusst gelöscht wurden.                    
+B1 Es ist kein Textdeployment mehr notwendig, da das Objekt zuvor während  
+   der Aktivierung gelöscht wurde.                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS Die Objekte ohne Textdeployment werden weiter unten im Protokoll auf    
+   Meldungsstufe 4 unter einer der folgenden Meldungen ausgegeben:         
+B1 SCTS_HOT 602: Für folgende Objekte wurden keine zu deployenden Texte    
+   gefunden:                                                               
+B1 SCTS_HOT 605: Kein Textdeployment für im HTA Repository nicht vorhandene
+   Objekte:                                                                

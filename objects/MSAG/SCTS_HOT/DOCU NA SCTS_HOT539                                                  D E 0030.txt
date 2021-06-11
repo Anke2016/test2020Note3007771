@@ -1,0 +1,41 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Beim ersten Versuch wurden alle Objekte der zusammen importierten       
+   Transportaufträge, die inaktiv geschrieben oder gelöscht werden konnten,
+    dem SAP HANA Repository in einem Aufruf zur Aktivierung übergeben.     
+AS Bei allen weiteren Versuchen wurden diejenigen Objekte übergeben, die   
+   bisher noch nicht erfolgreich aktiviert werden konnten und die noch     
+   nicht als Fehler in einem vorherigen Versuch protokolliert wurden.      
+U2 Allgemeine Informationen zum Ablauf der Aktivierung                     
+AS Eine Aktivierung im SAP HANA Repository ist nur dann erfolgreich, wenn  
+   alle übergebenen Objekte erfolgreich aktiviert werden konnten. Sobald   
+   mindestens ein Objekt fehlerhaft ist, wird keines der übergebenen       
+   Objekte aktiviert.                                                      
+AS Das Ziel beim HTA Deployment im Schritt <LS>Objektaktivierung</> ist es,
+   so viele Objekte wie möglich zu aktivieren. HTA versucht daher, die     
+   Objektemenge zu ermitteln, die in einem Aufruf erfolgreich aktivert     
+   werden kann. Aus diesem Grund wird die Aktivierung, wenn nötig, in      
+   mehreren Versuchen durchgeführt.                                        
+AS Im ersten Versuch versucht HTA, alle Objekte auf einmal zu aktivieren.  
+   Ist diese Aktivierung erfolgreich, wird das Deployment beendet und alle 
+   Objekte und Aufträge auf erfolgreich gesetzt. Ist diese Aktivierung     
+   nicht erfolgreich, wird ein zweiter Aktivierungsversuch mit allen       
+   Objekten gestartet, die im ersten Versuch erfolgreich gewesen wären.    
+AS Das System führt die Aktivierungsversuche so lange durch, bis keine     
+   Objekte mehr zum Aktivieren vorhanden sind und für jedes Objekt <ZK>    
+=  Erfolg</> oder <ZK>Fehler</> gemeldet wurde. Die Objekte und Aufträge   
+   werden entsprechend als <LS>erfolgreich</> oder <LS>fehlerhaft</>       
+   protokolliert. Die Aktivierung wird auch beendet, wenn eine maximale    
+   Anzahl an Versuchen erreicht wurde. In diesem Fall werden alle noch     
+   nicht aktivierten Objekte und deren Aufrtäge als <LS>fehlerhaft</>      
+   protokolliert.                                                          
+AS Das Protokoll enthält für jeden Versuch einen eigenen Abschnitt, in der 
+   die Objekte in der vom SAP HANA Repository berechneten                  
+   Abarbeitungsreihenfolge angegeben sind. Wenn Fehler auftreten, ist für  
+   die fehlerhaften Objekte eine Fehlermeldung und für die fehlerfreien    
+   Objekte der Verweis auf den nächsten Versuch angegeben. Wenn das        
+   Protokoll expandiert ist, enthält es auch Nachrichten und               
+   Protokollmeldungen (CheckResults), die aus dem SAP HANA Repository      
+   stammen.                                                                
+AS Siehe auch:                                                             
+=  <DS:NA.SCTS_HOT613>Langtext der Meldung zu den Aktivierungsversuchen von
+   erfolgreichen Objekten</>                                               

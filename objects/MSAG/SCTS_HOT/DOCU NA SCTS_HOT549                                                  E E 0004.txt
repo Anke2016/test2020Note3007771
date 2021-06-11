@@ -1,0 +1,4 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The object above could not be activated in this attempt.                
+AS A new attempt will be made later to activate this object and logged     
+   below.                                                                  

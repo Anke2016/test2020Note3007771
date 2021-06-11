@@ -1,0 +1,9 @@
+U1 &CAUSE&                                                                 
+AS Fehler beim Lesen von Paket &V1&&V2&. (Error &V3&: &V4&)                
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Stellen Sie sicher, dass Sie das Paket korrekt angegeben haben. Achten  
+   Sie auf Groß- und Kleinschreibung.                                      
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

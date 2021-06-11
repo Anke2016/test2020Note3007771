@@ -1,0 +1,19 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Für ein oder mehrere Objekte wurden keine Texte deployt, da entweder der
+   Import oder die Aktivierung der Objekte nicht erfolgreich war.          
+U1 &WHAT_TO_DO&                                                            
+AS Prüfen Sie das Protokoll auf Import-/Aktivierungsfehler für die weiter  
+   unten auf Meldungsstufe 4 genannten Objekte.                            
+AS Es kann sein, dass der Grund des Import-/Aktivierungsfehlers nicht in   
+   diesem Protokoll zu finden ist. Dies kann vorkommen, wenn dieser Auftrag
+   nur Textelemente (Transportobjekte vom Typ LANG HOTA oder LANG HOTO) für
+   die genannten Objekte enthält und zusätzlich einer der folgenden Fälle  
+   zutrifft:                                                               
+B1 Der Auftrag wurde gemeinsam mit mindestens einem anderen Auftrag        
+   importiert, in welchem das genannte Objekt als Gesamtobjekt R3TR HOTA   
+   oder als Teilobjekt LIMU HOTO enthalten ist.                            
+B1 Ein vorheriger Import eines Auftrages, in welchem das genannte Objekt   
+   als Gesamtobjekt R3TR HOTA oder Teilobjekt LIMU HOTO enthalten ist, war 
+   fehlerhaft.                                                             
+*  Prüfen Sie in diesen Fällen das Protokoll des anderen Auftrages auf     
+   Import-/Aktivierungsfehler des genannten Objekts.                       

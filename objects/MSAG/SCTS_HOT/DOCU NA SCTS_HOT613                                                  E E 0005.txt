@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS In this attempt, only objects from the SAP HANA repository that were    
+   successful in the previous attempt are passed for activation.           
+AS For information about the process of  activation, see the               
+   <DS:NA.SCTS_HOT539>long text of the message for the individual          
+   activation attempts</>.                                                 

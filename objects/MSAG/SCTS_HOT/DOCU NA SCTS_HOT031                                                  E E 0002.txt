@@ -1,0 +1,19 @@
+U1 &CAUSE&                                                                 
+AS You user needs certain authorizations to deploy SAP HANA repository     
+   packages or objects.                                                    
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system displays an error message.                                   
+U1 &WHAT_TO_DO&                                                            
+AS Contact your system administrator and request that your user is assigned
+   the following authorizations:                                           
+B1 Deployment authorization                                                
+/  Authorization object S_DEVELOP with field <LS>ACTVT (activity)</> and   
+   value <LS>07 (activate, generate)</>, plus field <LS>OBJTYPE (object    
+   type)</> and value HOTA. This authorization is in the role              
+   SAP_BC_DWB_ABAPDEVELOPER.                                               
+B1 Authorization to change and read the deployment log                     
+/  Authorization object S_DATASET with field <LS>ACTVT (activity)</> and   
+   the values <LS>33 (Read)</> and <LS>34 (Write)</>. If required, you can 
+   restrict the file name to the directory in the transport directory      
+   containing the log (for example, /usr/sap/trans/log/*) in the field <LS>
+=  FILENAME (Physical File Name)</>.                                       

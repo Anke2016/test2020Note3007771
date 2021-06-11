@@ -1,0 +1,15 @@
+U1 &CAUSE&                                                                 
+AS Das Paket &V1& kann im aktuellen Status (&V2&) nicht nach SAP HANA      
+   deployt werden.                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+B1 Wenn der Status des Paketes 'A' ist, dann ist dieses Paket bereits      
+   aktiv. Sollten Sie dennoch erneut deployen wollen, dann importieren Sie 
+   den zugehörigen Transportauftrag noch einmal.                           
+B1 Wenn der Status des Paketes 'N' ist, dann wurde das Paket in diesem     
+   System geändert und darf durch ein Deployment nicht überschrieben       
+   werden. Falls Sie die lokale Änderung verwerfen möchten, dann           
+   importieren Sie einen Transportauftrag mit der gewünschten Paketversion.
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

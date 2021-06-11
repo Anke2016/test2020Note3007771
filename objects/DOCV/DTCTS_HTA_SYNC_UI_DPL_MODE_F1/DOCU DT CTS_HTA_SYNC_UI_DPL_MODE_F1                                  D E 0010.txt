@@ -1,0 +1,9 @@
+/: INCLUDE CTS_HTA_SYNC_UI_DEPLOY_MODE OBJECT DOKU ID DT                   
+*  Für Kunden ist der Standardmodus in der Regel ausreichend.              
+*  Falls vor dem erstmaligen Deployment Vorarbeiten erforderlich sind,     
+   informieren Sie sich in der Dokumentation über die Verwendung des       
+   Deploymodus P. Sie finden die Dokumentation unter folgendem Link:       
+   http://help.sap.com/saphelp_nw74/helpdata/en/4a/                        
+=  833585fcb34f2cbdf08afc12d259fd/frameset.htm. Alternativ können Sie im   
+   SAP Help Portal nach 'Deploymodus im SAP HANA Transport for ABAP'       
+   suchen.                                                                 

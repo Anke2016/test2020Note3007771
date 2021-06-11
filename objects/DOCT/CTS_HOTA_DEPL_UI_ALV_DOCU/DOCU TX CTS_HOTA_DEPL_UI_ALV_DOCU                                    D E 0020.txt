@@ -1,0 +1,93 @@
+U2 Pakete/Objekte deployen                                                 
+AS Die Tabelle zeigt alle zu den eingegebenen Suchkriterien gefundenen     
+   Pakete und die Objekte dieser Pakete an. In der Tabelle werden sowohl   
+   diejenigen Pakete und Objekte dargestellt, die aktuell im SAP HANA      
+   Repository vorhanden sind, als auch Pakete und Objekte, die im HTA      
+   Repository (ABAP) vorhanden sind. Ist ein Paket oder Objekt in einem der
+   beiden Repositories nicht vorhanden, werden die entsprechenden          
+   Eigenschaften als <unbekannt> dargestellt.                              
+U2 &WHAT_TO_DO&                                                            
+N1 Wenn nötig, überprüfen Sie die Daten in der Tabelle. Mit einem          
+   Doppelklick auf ein Paket oder Objekt können Sie die Details zu dem     
+   Paket/Objekt anzeigen. Die Detailansicht zeigt alle Eigenschaften an, zu
+   denen Daten in einem der Repositories (SAP HANA oder ABAP) existieren.  
+   Es werden auch Informationen angezeigt, die in der Tabelle ausgeblendet 
+   sind.                                                                   
+/  Ein Symbol am Anfang jeder Zeile zeigt den Deploymentstatus an. Dieser  
+   gibt an, ob die ABAP-Version des Paketes/Objektes bereits in SAP HANA   
+   aktiv ist (bereits deployt wurde) oder ob es deployt werden kann.       
+   Unterschiedliche Eigenschaften in SAP HANA und ABAP sind blau           
+   hinterlegt.                                                             
+/  Eine Beschreibung der Symbole finden Sie unter                          
+=   <DS:TX.CTS_HTA_DEPL_UI_LEGEND>Legende: SAP HANA Transport for ABAP -   
+   Deployment</>.                                                          
+N1 Bei Bedarf können Sie die Tabelle nach einem oder mehreren              
+   Deploymentstatus filtern.                                               
+/  Standardmäßig ist der Filter deaktiviert. Ist der Filter aktiviert,     
+   weist die Überschriftenzeile darauf hin. Bei erneuter Paketauswahl wird 
+   der Filter wieder deaktiviert.                                          
+/  Hinweis: Objekte können nicht ohne das zugehörige Paket angezeigt       
+   werden. Daher kann es sein, dass ein Paket angezeigt wird, welches      
+   aufgrund seines Status und des gewählten Filters eigentlich nicht       
+   angezeigt werden sollte.                                                
+N1 Alle Pakete/Objekte, die unterschiedlich sind und noch nicht ins SAP    
+   HANA Repository deployt wurden, sind vom System vorselektiert.          
+/  Überprüfen Sie die Selektion der Pakete und Objekte, und passen Sie sie 
+   bei Bedarf an. Wählen Sie diejenigen Pakete und Objekte aus, die Sie    
+   deployen möchten. Sie können auch Pakete und Objekte deployen, die      
+   bereits deployt sind.                                                   
+/  Über die Drucktasten haben Sie folgende Optionen für die Selektion:     
+B2 Alle deploybaren Pakete/Objekte markieren/entmarkieren                  
+/  Deploybar sind diejenigen Pakete und Objekte, deren Status grün oder    
+   gelb ist.                                                               
+B2 Alles im aktuellen Block markieren/entmarkieren                         
+/  Es werden die Pakete und Objekte desjenigen Blocks markiert oder        
+   entmarkiert, in dem der Cursor steht.                                   
+B2 Zu deployende Pakete/Objekte markieren                                  
+/  Alle Pakete und Objekte, deren Status gelb ist, wurden noch nicht ins   
+   SAP HANA Repository deployt und können deployt werden.                  
+N1 Um das Deployment zu starten, wählen Sie <LS>Ausführen (F8)</>.         
+U2 &RESULT&                                                                
+AS Die im HTA Repository vorhandenen Versionen der markierten              
+   Pakete/Objekte werden in das SAP HANA Repository importiert und dort    
+   aktiviert. Das System gibt das Ergebnis des Deployment in einer Meldung 
+   aus und zeigt das Deployment-Protokoll an.                              
+U2 Beispiele:                                                              
+B1 Sie sind in einem Zielsystem angemeldet und möchten ein Objekt nach     
+   erledigter Vorarbeit deployen. Das Objekt wurde im SAP HANA Repository  
+   im Entwicklungssystem angelegt und synchronisiert. Für das Paket dieses 
+   Objektes wurde im Entwicklungssystem der Deploymodus P festgelegt. (    
+=  <LS>Objekt soll erst nach erfolgter Vorarbeit deployt werden</>). Sie   
+   haben den zugehörigen Auftrag im Zielsystem importiert. Nachdem Sie die 
+   Vorarbeit erledigt und dies dokumentiert haben, möchten Sie das Objekt  
+   nun deployen.                                                           
+/  Hinweis: Dass eine Vorarbeit erledigt wurde, dokumentieren Sie in der   
+   Tabelle CTS_HOT_PREWORK. Erfassen Sie einen neuen Eintrag, und tragen   
+   Sie den ABAP-Transportobjektnamen des Paketes, den Sie in der           
+   Detailansicht des Paketes finden, sowie PREWORK DONE = X ein.           
+B1 Der Import eines Auftrages mit SAP HANA Repository Objekten war nicht   
+   erfolgreich. Wenn der Importfehler nicht durch das Objekt selbst        
+   verursacht wurde, sondern durch ein anderes Objekt oder durch falsche   
+   oder fehlende Einstellungen in SAP HANA (zum Beispiel durch fehlendes   
+   Schema-Mapping oder fehlende Berechtigungen), können Sie das Deployment 
+   nun wiederholen, ohne das Objekt neu zu transportieren. Wenn der        
+   Importfehler nur durch Änderung des Objektes behebbar ist, müssen Sie   
+   das Objekt im Entwicklungssystem ändern, neu synchronisieren und        
+   transportieren.                                                         
+B1 Bei Objekten, deren <LS>Objektstatus in SAP HANA</> einen der Werte     
+    <LS>defekt</> oder <LS>muss nachgeneriert werden</> hat, kann ein      
+   (erneutes) Deployment in manchen Situationen helfen, defekte            
+   SAP-HANA-Laufzeitobjekte zu reparieren.                                 
+U2 Weitere Funktionen                                                      
+B1 Über den Menüpunkt <LS>Hilfsmittel -> Versionsverwaltung</> wird Ihnen  
+   für einzelne Pakete oder Objekte die HTA-Versionsverwaltung angezeigt.  
+   Zur Anzeige der Versionsverwaltung müssen Sie den Cursor vorher in eine 
+   Paket- oder Objektzeile setzen.                                         
+B1 Über den Menüpunkt <LS>Springen -> Synchronisierung</> gelangen Sie in  
+   die Transaktion SCTS_HTA (<LS>SAP HANA Transport for ABAP -             
+   Synchronisierung</>).                                                   
+*  <ZH>Siehe auch</>:                                                      
+/  <DS:RE.SCTS_HOTA_ORGANIZER>SAP HANA Transport for ABAP</>               
+/  <DS:TX.CTS_HTA_DEPL_UI_LEGEND> Legende: SAP HANA Transport for ABAP -   
+   Deployment</>                                                           
+*                                                                          

@@ -1,0 +1,59 @@
+U1 Changing the Default Values for SAP HANA Transport for ABAP             
+U3 Changing the Default Value for the Deploy Mode                          
+*  When a new SAP HANA repository package is synchronized, the deploy mode 
+   for the package and its objects is set to the value <LS>A - Package and 
+   associated objects are deployed directly when imported</> by default.   
+/                                                                          
+*  If you want to set the default value of the deploy mode for new packages
+   in your system to the value <LS>P - Package and associated objects      
+   deployed only after prework</>, proceed as follows:                     
+N1 Call transaction SE16, enter CTS_HOT_PARAMS as a table, and choose <LS> 
+=  Table -> Create Entries</>.                                             
+N1 Enter the value DEPLOY_MODE_DEFAULT in the field NAME and the value P in
+   the field VALUE.                                                        
+N1 Save the entry.                                                         
+*  You have changed the default value from A to P.                         
+*                                                                          
+*  If you want to change the default value of the deploy mode for new      
+   packages and their objects back to A, delete the entry created above.   
+*  To do this, proceed as follows:                                         
+/: RESET N1                                                                
+N1 Call transaction SE16, enter CTS_HOT_PARAMS as a table, and choose <LS> 
+=  Table -> Table Content</>.                                              
+N1 Enter the value DEPLOY_MODE_DEFAULT in the field NAME and choose <LS>   
+=  Execute</>.                                                             
+N1 Select the row, choose <LS>Table Entry -> Delete</> and confirm using   
+   <LS>Delete Entry</>.                                                    
+*  You have reset the value to A (the SAP default).                        
+U3 Changing the Default Value for Translation Relevance                    
+*  When a new SAP HANA repository package is synchronized, the translation 
+   relevance for the package and its objects is set to the value <LS>      
+=  Package and associated objects are relevant for translation</> by       
+   default.                                                                
+/                                                                          
+*  If you want to set the default value for translation relevance for new  
+   packages in your system to the value <LS>Packages and associated objects
+   are not relevant for translation</>, proceed as follows:                
+/: RESET N1                                                                
+N1 Call transaction SE16, enter CTS_HOT_PARAMS as a table, and choose <LS> 
+=  Table -> Create Entries</>.                                             
+N1 Enter the value TRANSLATION_RELEVANCE_DEFAULT in the field NAME and the 
+   value N in the field VALUE.                                             
+N1 Save the entry.                                                         
+*  You have changed the value to <LS>Not translation-relevant</>.          
+*                                                                          
+*  If you want to change the default value of translation relevance for new
+   packages and their objects back to the SAP default (<LS>Package and     
+   associated objects are relevant for translation</>), delete the entry   
+   created above.                                                          
+*  To do this, proceed as follows:                                         
+/: RESET N1                                                                
+N1 Call transaction SE16, enter CTS_HOT_PARAMS as a table, and choose <LS> 
+=  Table -> Table Content</>.                                              
+N1 Enter the value TRANSLATION_RELEVANCE_DEFAULT in the field NAME and     
+   choose <LS>Execute</>.                                                  
+N1 Select the row, choose <LS>Table Entry -> Delete</> and confirm using   
+   <LS>Delete Entry</>.                                                    
+*  You have reset the value to the SAP default (<LS>translation-relevant</>
+=  ).                                                                      
+*                                                                          

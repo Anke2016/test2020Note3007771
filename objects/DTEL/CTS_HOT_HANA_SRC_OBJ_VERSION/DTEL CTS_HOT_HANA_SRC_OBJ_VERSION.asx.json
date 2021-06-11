@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_SRC_OBJ_VERSION",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"",
+    "HEADLEN":35,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":35,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"SAP",
+    "AS4DATE":"2015-02-13",
+    "AS4TIME":"17:58:48",
+    "DTELMASTER":"D",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"INT4",
+    "LENG":10,
+    "DECIMALS":0,
+    "OUTPUTLEN":11,
+    "LOWERCASE":"",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_HANA_SRC_OBJ_VERSION",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"HANA Objekt Version im Quell System",
+    "REPTEXT":"HANA Objekt Version im Quell System",
+    "SCRTEXT_S":"Quell Vers",
+    "SCRTEXT_M":"Quell Objekt Version",
+    "SCRTEXT_L":"HANA Objekt Version im Quell System"
+   },
+   {
+    "ROLLNAME":"CTS_HOT_HANA_SRC_OBJ_VERSION",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"HANA Object Version in Source System",
+    "REPTEXT":"HANA Object Version in Source",
+    "SCRTEXT_S":"Source",
+    "SCRTEXT_M":"Source Version",
+    "SCRTEXT_L":"HANA Object Version in Source"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"CTS_HOT_HANA_SRC_OBJ_VERSION",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"CTS_HOT_HANA_SRC_OBJ_VERSION",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"SAP_BASIS",
+    "CRELEASE":"740",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2014-07-10",
+    "CHECK_DATE":"2014-07-10",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

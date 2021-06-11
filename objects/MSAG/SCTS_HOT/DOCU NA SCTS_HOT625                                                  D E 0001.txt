@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ein oder mehrere Pakete wurden nicht deployt, da die letzte Aktion in   
+   diesem System für diese Pakete eine Synchronisierung vom SAP HANA       
+   Repository ins HTA Repository war. Durch diese Synchronisierung geht das
+   System davon aus, dass für diese Pakete die aktuellere Version im SAP   
+   HANA Repository existiert und dort nicht überschrieben werden soll.     

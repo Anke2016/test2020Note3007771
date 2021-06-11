@@ -1,0 +1,71 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS When starting to deploy SAP HANA objects, the system identified that HDI
+   objects and/or SAP HANA Repository packages/objects with deployment     
+   errors already existed in the HTA Repository before the deployment, but 
+   these packages/objects were not part of the deployment.                 
+AS SAP HANA objects are deployed in the following cases:                   
+B1 When transporting HDI objects/SAP HANA Repository packages/objects in   
+   the import step <ZK>SAP HANA Deployment</>                              
+B1 When using Note Assistant (transaction SNOTE) to import corrections to  
+   HDI objects/SAP HANA Repository packages/objects                        
+B1 In manual deployments of HDI objects in the transaction SCTS_HDI_DEPLOY 
+AS These HDI objects/SAP HANA packages/objects with errors may have        
+   possibly been deployable after the deployment, which is why the system  
+   attempted to deploy them. As a result, the system scheduled a job named 
+   REDEPLOY_FAILED_HANA_OBJECTS.                                           
+AS The job attempts the following:                                         
+B1 It tries to deploy all HDI objects that have status <LS>E - Deployment  
+   to container failed</> or <LS>Z - Deletion in container failed</> in the
+   HTA Repository in the system to the HDI containers.                     
+B1 It tries to deploy all SAP HANA packages/objects that have the status   
+   <LS>E - Deployment to SAP HANA Repository failed</> or <LS>Deletion in  
+   SAP HANA Repository failed</> in the system HTA Repository to the SAP   
+   HANA Repository.                                                        
+AS This means it is possible to only correct and transport the HDI         
+   objects/SAP HANA packages/objects that actually contain errors, because 
+   all dependent HDI objects/SAP HANA packages/objects containing errors   
+   are automatically deployed again after the import and are error-free if 
+   the deployment is successful.                                           
+AS The current status of HDI objects can be viewed in the transaction      
+   SCTS_HDI_DEPLOY.                                                        
+/  The current status of SAP HANA packages/objects in the HTA Repository   
+   can be viewed in transaction SCTS_HTA_DEPLOY in the package/object      
+   details.                                                                
+U1 &SYS_ADMIN&                                                             
+AS The job is scheduled by default if packages/objects/HDI objects with    
+   deployment errors existed in the HTA Repository before the deployment   
+   but they were not part of the deployment.                               
+AS The automatic scheduling of the job can be controlled using HTA         
+   parameter RUN_JOB_REDEPLOY_FAILED_HANA_OBJECTS. If the entry does not   
+   exist in table CTS_HOT_PARAMS or has the value X, the job is            
+   automatically scheduled after the deployment. This job is also scheduled
+   automatically for the following values:                                 
+B1 For the value H (but only if HDI objects with errors exist)             
+B1 For the value R (but only if SAP HANA Repository objects with errors    
+   exist)                                                                  
+AS For all other values, the job is not automatically scheduled. The job is
+   only scheduled, however, for the object type (HDI and/or SAP HANA       
+   Repository) for which objects were also deployed.                       
+AS Alternatively you can schedule the job manually and only have the job   
+   run at specific times, for example. To do this, schedule a job for      
+   report SCTS_HTA_REDEPLOY_FAILED .                                       
+AS It is also possible to start report SCTS_HTA_REDEPLOY_FAILED manually in
+   transaction SA38.                                                       
+AS If the job was scheduled by the import step <ZK>SAP HANA deployment</>  
+   when transporting SAP HANA objects, the log of the redeployment job is  
+   found in the step <ZK>Redeployment of HANA objects with errors</> (this 
+   step is not specific to a transport request).                           
+AS In all cases, it can also be found in the subdirectory <LS>log</> of the
+   transport directory. Its name is <LS>5<(><<)>yymmdd>.<(><<)>SID></>.    
+AS Example: If the redeployment was started on January 22, 2016, the log is
+   found under <LS>/usr/sap/trans/log/5160122.QAS</>.                      
+AS To display the log, start report RSPUTPRT in transaction SA38. For the  
+   field <LS>Full File Name (with Dir.)</>, enter the value of the complete
+   file name, for example: <LS>/usr/sap/trans/log/5160122.QAS</>.          
+AS The number of activation attempts for SAP HANA Repository objects when  
+   redeploying SAP HANA objects with errors can be changed using the HTA   
+   parameter MAX_NO_ACTIVATION_ATTEMPTS_REDEPL_FAILED in the table         
+   CTS_HOT_PARAMS.                                                         
+AS For information about the process of activating SAP HANA Repository     
+   objects, see the <DS:NA.SCTS_HOT539>long text of the message for the    
+   individual activation attempts</>.                                      

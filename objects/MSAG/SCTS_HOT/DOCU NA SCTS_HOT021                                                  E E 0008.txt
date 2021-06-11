@@ -1,0 +1,13 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system detected that the transport tools tp and R3trans are         
+   out-of-date in this system and cannot export objects in SAP HANA Tra    
+=  nsport for ABAP (HTA) without errors.                                   
+U1 &WHAT_TO_DO&                                                            
+AS If you want to export transport requests in this system that contain    
+   objects with the type R3TR HOTA, LIMU HOTO, LIMU HOTP, LANG HOTA, or    
+   LANG HOTO, first update the transport tools, Otherwise errors can occur 
+   in imports.                                                             
+/  You can resume the synchronization of SAP HANA packages and objects.    
+   Make sure, however, the transport tools are updated before the transport
+   request is released (before the export).                                
+AS For more information, see SAP Note 2111687.                             

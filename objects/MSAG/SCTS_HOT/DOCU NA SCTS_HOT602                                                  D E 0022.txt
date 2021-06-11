@@ -1,0 +1,24 @@
+U1 &CAUSE&                                                                 
+AS Für die genannten Objekte wurden keine zu deployenden Texte im HTA      
+   Repository gefunden. Dies kann in den folgenden Fällen vorkommen:       
+B1 Das zugehörige Paket des Objektes ist auf 'nicht übersetzungsrelevant'  
+   eingestellt. Dies können Sie in der Transaktion SCTS_HTA für das        
+   entsprechende Paket sehen, indem Sie sich die Details des Paketes       
+   anzeigen.                                                               
+B1 Die Texte wurden bereits früher erfolgreich deployt.                    
+B1 Für die Transportobjekte R3TR HOTA oder LIMU HOTO wurden keine          
+   Textanteile importiert.                                                 
+B1 Für das Transportobjekt 'LANG HOTO <Objektname> <Sprache>' oder 'LANG   
+   HOTA <Paketname> <Sprache>' wurden keine Texte gefunden. Gründe dafür   
+   können sein:                                                            
+B2 Das Transportobjekt vom Typ LANG wurde durch einen Auslieferungsauftrag 
+   (z.B. Support Package oder Upgrade Package) importiert und die          
+   zugehörige Sprache war im System nicht aktiv. Somit wurden die          
+   zugehörigen fremdsprachlichen Texte während des Hauptimports nicht in   
+   das HTA Repository importiert.                                          
+B2 Beim Export gab es zu dem Sprachschlüssel keine Texte (siehe            
+   Exportprotokoll), da entweder ein falscher Sprachschlüssel angegeben    
+   wurde oder die Texte vorher bewusst gelöscht wurden.                    
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der Objekte, für die keine zu deployenden Texte im HTA gefunden 
+   wurden.                                                                 

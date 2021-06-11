@@ -1,0 +1,36 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Fehler",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"Error",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Erfolg",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Success",
+    "LENGTH":20
+   }
+  ]
+ }
+]

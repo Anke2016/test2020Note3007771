@@ -1,0 +1,30 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Nach der SAP-HANA-Repository-Aktivierung überprüft das SAP HANA         
+   Repository, welche Repository-Objekte von den gerade aktivierten        
+   Objekten abhängig sind und versucht, diese nachzugenerieren.            
+AS Hierbei wurde festgestellt, dass das oben genannte Objekt nicht         
+   nachgeneriert werden konnte. Dies kann z.B. der Fall sein, wenn das     
+   Objekt mit dem Generierungsfehler noch nicht an eine Änderung eines     
+   referenzierten Repository-Objektes angepasst wurde.                     
+AS Das oben genannte Objekt war Bestandteil des                            
+   SAP-HANA-Repository-Deployment-Schrittes und wurde in einem vorherigen  
+   Versuch erfolgreich aktiviert. Das heißt, die Nachgenerierung wurde mit 
+   der Objektversion durchgeführt, die zuvor erfolgreich aktiviert wurde.  
+AS Das CTS kann keine Aussage darüber treffen, welches Objekt den Fehler   
+   beim Nachgenerieren verursacht hat.                                     
+U1 &WHAT_TO_DO&                                                            
+AS Prüfen Sie zunächst, ob das Objekt noch immer fehlerhaft ist. Dazu      
+   starten Sie die Transaktion SCTS_HTA und lassen sich alle Objekte des   
+   Paketes des oben genannten Objektes anzeigen. Anschließend lassen Sie   
+   sich die Details des oben genannten Objektes anzeigen:                  
+B1 Wenn der <LS>Objektstatus in HANA</> als <LS>Objekt ist OK</> angezeigt 
+   wird, wurde das Objekt bereits erfolgreich nachgeneriert oder aktviert, 
+   zum Beispiel durch Import eines neueren Transportauftrages.             
+B1 Wenn der <LS>Objektstatus in HANA</> nicht als <LS>Objekt ist OK</>     
+   angezeigt wird, beheben Sie den Fehler, den Sie im Protokoll unterhalb  
+   des oben genannten Objektes finden, im Entwicklungssystem.              
+   Transportieren Sie das Objekt anschließend erneut.                      
+AS Hinweis: Wenn das oben genannte Objekt nicht in Ihrer Firma entwickelt  
+   wurde, kontaktieren Sie den Content-Ersteller.                          
+AS                                                                         
+AS                                                                         

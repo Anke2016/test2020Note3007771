@@ -1,0 +1,12 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Output of the parameter used by HTA in the <LS>object activation</>     
+   step.                                                                   
+B1 HTA_ACTIVATION_MODE specifies how HTA performs the activation.          
+AL 0 (Standard) - Activation is performed as described in the              
+   <DS:NA.SCTS_HOT539>long text of the message for the individual          
+   activation attempts</>.                                                 
+B1 MAX_NO_ACTIVATION_ATTEMPTS specifies the maximum number of activation   
+   attempts that is to be performed.                                       
+B1 HANA_LOG_WITH_HINTS specifies whether the SAP HANA repository is to     
+   return more ('X') or less (' ', empty) information about the object     
+   activation.                                                             

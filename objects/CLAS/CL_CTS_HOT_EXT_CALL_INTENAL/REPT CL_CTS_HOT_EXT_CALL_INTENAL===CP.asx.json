@@ -1,0 +1,120 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Warnung",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"Warning",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Möchten Sie Ihre Anmeldesprache &1 als Originalsprache (in ABAP) verwenden?",
+    "LENGTH":120
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Do you want to use your logon language &1 as the original language (in ABAP)?",
+    "LENGTH":120
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"Ja, &1 verwenden",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"Yes, use &1",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"ABAP Originalsprache kann nicht automatisch ermittelt werden",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"Cannot determine ABAP original language automatically",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"D",
+    "ENTRY":"Ja",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"E",
+    "ENTRY":"Yes",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"D",
+    "ENTRY":"Abbrechen",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"E",
+    "ENTRY":"Cancel",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"007",
+    "LANG":"D",
+    "ENTRY":"Abbrechen und in SAP HANA ändern",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"007",
+    "LANG":"E",
+    "ENTRY":"Cancel and change in SAP HANA",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"008",
+    "LANG":"D",
+    "ENTRY":"SAP HANA Repository Deployment-Protokoll",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"008",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Repository Deployment Log",
+    "LENGTH":80
+   }
+  ]
+ }
+]

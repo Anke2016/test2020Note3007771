@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Rahmenprogramm für HANA deployment für HOTA, HOTO und HOTP Objekte",
+    "LENGTH":66
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Master Program for HANA Deployment for HOTA, HOTO, and HOTP Objects",
+    "LENGTH":70
+   }
+  ]
+ }
+]

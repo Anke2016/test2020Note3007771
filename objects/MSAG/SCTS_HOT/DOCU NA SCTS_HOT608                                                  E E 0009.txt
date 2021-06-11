@@ -1,0 +1,5 @@
+/: INCLUDE SCTS_HOT607 OBJECT DOKU ID NA                                   
+AS In addition, &V2& objects were deleted inactively that existed as active
+   objects in the SAP HAND repository. These objects are not deleted until 
+   the activation step. To find out whether the deletion was activated, see
+   'Object Activation Details'.                                            

@@ -1,0 +1,14 @@
+U1 &CAUSE&                                                                 
+AS The system detected that certain functions in this system are not       
+   activated.                                                              
+U1 &SYSTEM_RESPONSE&                                                       
+AS Displays the packages that were not deployed, since the functions of the
+   switch in question are deactivated in Switch Framework.                 
+AS For each deactivated switch, the associated ABAP packaged are displayed 
+   in parentheses.                                                         
+U1 &WHAT_TO_DO&                                                            
+AS No action is required. The packages are deployed to the SAP HANA        
+   repository automatically as soon as the functions are enabled in Switch 
+   Framework.                                                              
+AS <ZH>Note</>: Functions in Switch Framework can be enabled using         
+   transaction SFW5 or by importing switch entries.                        

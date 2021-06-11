@@ -1,0 +1,108 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"SVAL",
+    "OBJ_NAME":"HOTO",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2014-07-09",
+    "CHECK_DATE":"2014-07-09",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"VERSOBJ_ALIAS",
+  "data":
+  [
+   {
+    "OBJTYPE_APPL":"HOTO",
+    "OBJTYPE_BASIS":"TLOG",
+    "CONFIG_CLASS":"CL_CTS_HOT_CONFIG_HOTO",
+    "SVRS_FLAG":"X",
+    "CWB_FLAG":"X",
+    "SNOTE_FLAG":"X",
+    "PAKID":"",
+    "ALEID":0,
+    "ENAME":"",
+    "EDATE":"0000-00-00",
+    "ETIME":"00:00:00",
+    "UNAME":"",
+    "UDATE":"0000-00-00",
+    "UTIME":"00:00:00"
+   }
+  ]
+ },
+ {
+  "table":"WVOBJECTTYPES",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTO",
+    "AI_VERSION":"A",
+    "ENAME":"SAP",
+    "EDATE":"2014-07-09",
+    "ETIME":"16:17:36",
+    "UNAME":"SAP",
+    "UDATE":"2015-05-11",
+    "UTIME":"18:20:20",
+    "PST_ACCESS_CLASS":"",
+    "OBJTYPE_GROUP":""
+   }
+  ]
+ },
+ {
+  "table":"WVOBJECTTYPES_T",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTO",
+    "AI_VERSION":"A",
+    "LANGUAGE":"D",
+    "UINAME_SINGULAR":"SAP-HANA-Objekttransport - Objekt",
+    "UINAME_PLURAL":"SAP-HANA-Objekttransport - Objekte",
+    "UINAME_ACCUSATIV":"SAP-HANA-Objekttransport - Objekt",
+    "DESCRIPTION":"SAP-HANA-Objekttransport - Objekt"
+   },
+   {
+    "OBJECTTYPE":"HOTO",
+    "AI_VERSION":"A",
+    "LANGUAGE":"E",
+    "UINAME_SINGULAR":"SAP HANA Object Transport - Object",
+    "UINAME_PLURAL":"SAP HANA Object Transport - Objects",
+    "UINAME_ACCUSATIV":"SAP HANA Object Transport - Object",
+    "DESCRIPTION":"SAP HANA Object Transport - Object"
+   }
+  ]
+ },
+ {
+  "table":"WVOBJTYPES_SCOPE",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTO",
+    "AI_VERSION":"A",
+    "SCOPE_ID":"VERS",
+    "EDITOR_CLASS":""
+   }
+  ]
+ }
+]

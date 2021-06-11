@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Text deployment errors occurred in &V1& object(s). The system displays  
+   these objects in the log below. The error code and error message in SAP 
+   HANA repository are also displayed.                                     
+U1 &WHAT_TO_DO&                                                            
+AS Check the error message in the log below and remove any errors.         

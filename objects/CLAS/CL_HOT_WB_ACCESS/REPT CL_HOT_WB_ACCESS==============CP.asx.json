@@ -1,0 +1,78 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Fehler",
+    "LENGTH":16
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"Errors",
+    "LENGTH":16
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Warnungen",
+    "LENGTH":19
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Warnings",
+    "LENGTH":19
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"SAP HANA Repository Deployment (Ergebnisse)",
+    "LENGTH":86
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Repository Deployment (Results)",
+    "LENGTH":86
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"Deployment Log",
+    "LENGTH":24
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"Deployment Log",
+    "LENGTH":24
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"D",
+    "ENTRY":"Ergebnis der HTA-WB-Aktivierung",
+    "LENGTH":62
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"E",
+    "ENTRY":"Ergebnis of HTA WB Activation",
+    "LENGTH":62
+   }
+  ]
+ }
+]

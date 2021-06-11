@@ -1,0 +1,15 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System hat festgestellt, dass im SAP HANA Repository die            
+   Originalsprache für das Paket &V1&&V2&&V3&&V4& nicht angegeben wurde.   
+AS In ABAP muss jedoch für das entsprechende Paket im HTA Repository eine  
+   Originalsprache im Objektkatalogeintrag (TADIR) existieren.             
+U1 &WHAT_TO_DO&                                                            
+AS Geben Sie die Originalsprache für dieses Paket im SAP HANA Repository   
+   an. Öffnen Sie dazu z.B. das SAP HANA Studio, und wechseln Sie in die   
+   Perspektive <LS>SAP HANA Modeler</>. Über <LS>Window -> Show View ->    
+   Properties</> können Sie die Eigenschaften des Paketes sehen und ändern.
+   Wenn die Originalsprache dort nicht änderbar ist, verwenden Sie die     
+   Perspektive <LS>SAP HANA Development</>. Im <LS>Project Explorer</>     
+   wählen Sie aus dem Kontextmenü im Paketknoten des entsprechenden        
+   Projektes <LS> Team -> Edit Package</>. Starten Sie anschließend die    
+   Synchronisierung erneut.                                                

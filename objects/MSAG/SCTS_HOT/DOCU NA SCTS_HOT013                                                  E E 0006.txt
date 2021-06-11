@@ -1,0 +1,8 @@
+U1 &CAUSE&                                                                 
+AS An error occurred when creating the package &V1&. (Error &V3&: &V4&)    
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Import the transport request again.                                     
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

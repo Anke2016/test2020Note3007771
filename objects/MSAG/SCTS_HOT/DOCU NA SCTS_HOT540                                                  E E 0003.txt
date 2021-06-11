@@ -1,0 +1,4 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The specified object could have been activated if the other objects did 
+   not contain any activation errors.                                      
+AS A new attempt is made to activate this object and logged below.         

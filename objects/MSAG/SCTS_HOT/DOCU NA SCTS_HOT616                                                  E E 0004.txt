@@ -1,0 +1,15 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS After the SAP HANA repository activation, the SAP HANA repository checks
+   which repository objects have dependencies on the objects just activated
+   and attempts to generate these objects again.                           
+AS The object specified above could not be generated again. This can be the
+   case, for example, when the object with the generation error has not yet
+   been synchronized with a change made to a referenced repository object. 
+AS The object specified above was part of the SAP HANA Repository          
+   Deployment step, and was successfully deployed in a later attempt. Th   
+=  erefore, this regeneration error can be ignored.                        
+AS You can find the the successful deployment below in the log or in the   
+   log of the specified request.                                           
+U1 &WHAT_TO_DO&                                                            
+AS Since the object could be activated in a later attempt, there is nothing
+   to do.                                                                  

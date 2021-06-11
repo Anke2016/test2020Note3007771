@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Workbench-Aktivierung von inaktiven HTA-Objekten",
+    "LENGTH":48
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Workbench Activation of Inactive HTA Objects",
+    "LENGTH":70
+   }
+  ]
+ }
+]

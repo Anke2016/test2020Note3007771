@@ -1,0 +1,35 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS In the first attempt all objects in the transports imported together    
+   that were written or deleted as inactive objects are passed to the HANA 
+   repository for activation in a call.                                    
+AS With all further attempts those objects that could not yet be activated 
+   and which were not yet logged with an error in a previous attempt are   
+   passed.                                                                 
+U2 General information about the process of activation                     
+AS Activation in the SAP HANA repository is only successful if all passed  
+   objects could be activated. As long as even one object has an error,    
+   none of the passed objects can be activated.                            
+AS The aim of HTA deployment in the <LS>object activation</> step is to    
+   activate as many objects as possible. So HTA attempts to ascertain the  
+   set of objects that can be activated in one call. For this reason, and  
+   if necessary, the objects are activated in multiple retries.            
+AS First, HTA tries to activate all objects at the same time. If this      
+   activation is successful, deployment is complete and all objects and    
+   requests are set successfully. If this activation is not successful, a  
+   second attempt is started with all objects that would have been         
+   successful in the first attempt.                                        
+AS The system keeps trying to activate the objects until no more objects   
+   are available for activation, and either a <ZK>success</> or <ZK>error  
+=  </> message was issued for each object. Objects and requests are logged 
+   as <LS>successful</> or <LS>erroneous</>. Activation is stopped once the
+   maximum number of attempts is reached. In this case, all objects that   
+   are not yet activated together with their requests are logged as <LS>   
+=  erroneous</>.                                                           
+AS For each attempt, the log contains a separate section specifying the    
+   objects in the order processed as calculated by the SAP HANA repository.
+   If errors occur, an error message is specified for the objects in       
+   question. For objects without errors, a reference to the next attempt is
+   specified. If the log is expanded, it also contains any messages and log
+   messages (check results) that come from the SAP HANA repository.        
+AS See also: <DS:NA.SCTS_HOT613>long text of message for activation retries
+   of successful objects</>                                                

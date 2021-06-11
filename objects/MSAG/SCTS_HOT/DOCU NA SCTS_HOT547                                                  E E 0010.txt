@@ -1,0 +1,20 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The specified object was not part of the object set of the objects to be
+   activated in this attempt. Despite this, it was registered as the result
+   of the activation by the SAP HANA repository.                           
+AS This can occur in the following cases:                                  
+B1 The SAP HAND repository included the object in question in the list of  
+   objects to activate implicitly. This is the case when the object in     
+   question is both dependent on an object to be activated and is itself   
+   used by an object to be activated.                                      
+/  Example: A has a dependency on B and B has a dependency on C. If both A 
+   and C are activated, B is added to the activation implicitly.           
+B1 The object in question is an activation plug-in in the SAP HAND         
+   repository and an error occurred when objects were activated that were  
+   scheduled to be activated by this plug-in.                              
+U1 &WHAT_TO_DO&                                                            
+AS If the import ended successfully, no action is required.                
+AS If the import was not successful, analyze the previous errors in this   
+   log and correct them.                                                   
+AS Note: If the object above was not developed in your company, contact the
+   content vendor.                                                         

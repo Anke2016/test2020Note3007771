@@ -1,0 +1,64 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Vor diesem Transport waren keine fehlerhaften HDI-Objekte im System",
+    "LENGTH":122
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"No HDI objects with errors were in the system before this transport",
+    "LENGTH":122
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Konfiguration für Nachaktivierung fehlt in Tabelle CTS_HOT_PARAMS",
+    "LENGTH":130
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Configuration for afterburner activation missing in table CTS_HOT_PARAMS",
+    "LENGTH":130
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"Keine fehlerhaften HDI-Objekte im System vor und nach dem Deployment neuer Objekte",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"No HDI objects with errors in the system before and after the deployment of new objects",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"Planen Sie die Nachaktivierung nicht während eines Upgrades ein",
+    "LENGTH":120
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"Do not schedule an afterburner activation during an upgrade",
+    "LENGTH":120
+   }
+  ]
+ }
+]

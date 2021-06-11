@@ -1,0 +1,18 @@
+U1 &CAUSE&                                                                 
+AS                                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system detected that &V1& occurred in the workbench activation of   
+   SAP HANA Transport for ABAP (HTA) objects.                              
+*  The activation log was saved to the transport log directory &V2& in the 
+   file with the name &V3&.                                                
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+*  Confirm this dialog box to display the activation log.                  
+*  You can display the log again later using the report RSPUTPRT.          
+*  To do this, start the report RSPUTPRT using transaction SA38 and enter  
+   the full file name in the field "Full File Name (with Dir.)". This name 
+   is created from the name of the transport log directory &V2& and the    
+   file name &V3&.                                                         
+*                                                                          
+*  To start the workbench activation of the non-activated HTA objects      
+   again, use the report SCTS_HTA_WB_ACTIVATION.                           

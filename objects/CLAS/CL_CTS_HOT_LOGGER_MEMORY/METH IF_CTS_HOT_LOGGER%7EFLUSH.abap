@@ -1,0 +1,3 @@
+  METHOD if_cts_hot_logger~flush.
+    "memory logger does nothing at flush...
+  ENDMETHOD.

@@ -1,0 +1,1744 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"Geben Sie ein SAP-HANA-Repository-Paket an",
+    "LENGTH":50
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"Specify an SAP HANA repository package",
+    "LENGTH":50
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"SAP HANA Transport for ABAP - Synchronisierung",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Transport for ABAP - Synchronization",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"100",
+    "LANG":"D",
+    "ENTRY":"Paketauswahl für Synchronisierung",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"100",
+    "LANG":"E",
+    "ENTRY":"Package Selection for Synchronization",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"101",
+    "LANG":"D",
+    "ENTRY":"&1 in HANA",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"101",
+    "LANG":"E",
+    "ENTRY":"&1 in HANA",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"102",
+    "LANG":"D",
+    "ENTRY":"&1 in ABAP",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"102",
+    "LANG":"E",
+    "ENTRY":"&1 in ABAP",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"103",
+    "LANG":"D",
+    "ENTRY":"ABAP-Paket",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"103",
+    "LANG":"E",
+    "ENTRY":"ABAP",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"104",
+    "LANG":"D",
+    "ENTRY":"ABAP-Paket",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"104",
+    "LANG":"E",
+    "ENTRY":"ABAP Package",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"105",
+    "LANG":"D",
+    "ENTRY":"ABAP-Paket",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"105",
+    "LANG":"E",
+    "ENTRY":"ABAP Package",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"107",
+    "LANG":"D",
+    "ENTRY":"Status",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"107",
+    "LANG":"E",
+    "ENTRY":"Status",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"108",
+    "LANG":"D",
+    "ENTRY":"Sync.status Paket",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"108",
+    "LANG":"E",
+    "ENTRY":"Package Sync Status",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"109",
+    "LANG":"D",
+    "ENTRY":"Synchronisierungsstatus Paket",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"109",
+    "LANG":"E",
+    "ENTRY":"Package Synchronization Status",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"110",
+    "LANG":"D",
+    "ENTRY":"Struk.pak.",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"110",
+    "LANG":"E",
+    "ENTRY":"Structure",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"111",
+    "LANG":"D",
+    "ENTRY":"Strukturpaket",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"111",
+    "LANG":"E",
+    "ENTRY":"Structure Package",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"112",
+    "LANG":"D",
+    "ENTRY":"Strukturpaket",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"112",
+    "LANG":"E",
+    "ENTRY":"Structure Package",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"113",
+    "LANG":"D",
+    "ENTRY":"Sync.zeit",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"113",
+    "LANG":"E",
+    "ENTRY":"Synced",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"114",
+    "LANG":"D",
+    "ENTRY":"Synchronis.zeit",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"114",
+    "LANG":"E",
+    "ENTRY":"Synchronized At",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"115",
+    "LANG":"D",
+    "ENTRY":"Synchronisierungszeit",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"115",
+    "LANG":"E",
+    "ENTRY":"Synchronized At",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"116",
+    "LANG":"D",
+    "ENTRY":"Deployzeit",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"116",
+    "LANG":"E",
+    "ENTRY":"Deployed",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"117",
+    "LANG":"D",
+    "ENTRY":"Deployzeit",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"117",
+    "LANG":"E",
+    "ENTRY":"Deployed At",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"118",
+    "LANG":"D",
+    "ENTRY":"Deployzeit",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"118",
+    "LANG":"E",
+    "ENTRY":"Deployed At",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"119",
+    "LANG":"D",
+    "ENTRY":"Status in ABAP",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"119",
+    "LANG":"E",
+    "ENTRY":"Status in ABAP",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"120",
+    "LANG":"D",
+    "ENTRY":"Status in ABAP",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"120",
+    "LANG":"E",
+    "ENTRY":"Status in ABAP",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"121",
+    "LANG":"D",
+    "ENTRY":"Sync.status Objekt",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"121",
+    "LANG":"E",
+    "ENTRY":"Object Sync Status",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"122",
+    "LANG":"D",
+    "ENTRY":"Synchronisierungsstatus Objekt",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"122",
+    "LANG":"E",
+    "ENTRY":"Object Synchronization Status",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"123",
+    "LANG":"D",
+    "ENTRY":"Obj.status",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"123",
+    "LANG":"E",
+    "ENTRY":"Status",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"124",
+    "LANG":"D",
+    "ENTRY":"Objektstatus in HANA",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"124",
+    "LANG":"E",
+    "ENTRY":"HANA Object Status",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"125",
+    "LANG":"D",
+    "ENTRY":"Objektstatus in HANA",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"125",
+    "LANG":"E",
+    "ENTRY":"Object Status in HANA",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"126",
+    "LANG":"D",
+    "ENTRY":"Aktiv.zeit",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"126",
+    "LANG":"E",
+    "ENTRY":"Activated",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"127",
+    "LANG":"D",
+    "ENTRY":"Aktivierungszeit",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"127",
+    "LANG":"E",
+    "ENTRY":"Activated At",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"128",
+    "LANG":"D",
+    "ENTRY":"Aktivierungszeit",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"128",
+    "LANG":"E",
+    "ENTRY":"Activated At",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"129",
+    "LANG":"D",
+    "ENTRY":"<unbekannt>",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"129",
+    "LANG":"E",
+    "ENTRY":"<unknown>",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"130",
+    "LANG":"D",
+    "ENTRY":"Obj.vers.",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"130",
+    "LANG":"E",
+    "ENTRY":"Version",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"131",
+    "LANG":"D",
+    "ENTRY":"Objektversion",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"131",
+    "LANG":"E",
+    "ENTRY":"Object Version",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"132",
+    "LANG":"D",
+    "ENTRY":"Objektversion",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"132",
+    "LANG":"E",
+    "ENTRY":"Object Version",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"133",
+    "LANG":"D",
+    "ENTRY":"Anzeige für '&1' mit Unterpaketen: &2 Pakete/&3 Objekte",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"133",
+    "LANG":"E",
+    "ENTRY":"Display for'&1' with subpackages &2 packages/&3 objects",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"135",
+    "LANG":"D",
+    "ENTRY":"Deployment nicht möglich; markieren Sie Einträge mit gelbem oder grünem Status",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"135",
+    "LANG":"E",
+    "ENTRY":"Deployment not possible. Select entries with status yellow or green.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"137",
+    "LANG":"D",
+    "ENTRY":"&1 &2 &3 zum Transportauftrag &4 hinzugefügt",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"137",
+    "LANG":"E",
+    "ENTRY":"&1 &2 &3 added to transport request &4",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"140",
+    "LANG":"D",
+    "ENTRY":"Fehler (&1) bei der Umwandlung des Zeitstempels &2",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"140",
+    "LANG":"E",
+    "ENTRY":"Error (&1) when transforming time stamp &2",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"141",
+    "LANG":"D",
+    "ENTRY":"Setzen Sie den Cursor in eine Paket- oder Objektzeile der zu markierenden Daten",
+    "LENGTH":90
+   },
+   {
+    "ID":"I",
+    "KEY":"141",
+    "LANG":"E",
+    "ENTRY":"Place the cursor in a package or object line of the data you want to select",
+    "LENGTH":90
+   },
+   {
+    "ID":"I",
+    "KEY":"142",
+    "LANG":"D",
+    "ENTRY":"Setzen Sie den Cursor in eine Paket- oder Objektzeile der entzumarkierenden Daten",
+    "LENGTH":90
+   },
+   {
+    "ID":"I",
+    "KEY":"142",
+    "LANG":"E",
+    "ENTRY":"Place the cursor in a package or object line of the data you want to deselect",
+    "LENGTH":90
+   },
+   {
+    "ID":"I",
+    "KEY":"143",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt ist in sync",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"143",
+    "LANG":"E",
+    "ENTRY":"Package/object is in sync",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"144",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt ist nicht in sync",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"144",
+    "LANG":"E",
+    "ENTRY":"Package/object is not in sync",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"145",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt kann nicht synchron. werden",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"145",
+    "LANG":"E",
+    "ENTRY":"Cannot synchronize package/object",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"146",
+    "LANG":"D",
+    "ENTRY":"Objekt ist defekt",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"146",
+    "LANG":"E",
+    "ENTRY":"Object is broken",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"147",
+    "LANG":"D",
+    "ENTRY":"Objekt ist OK",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"147",
+    "LANG":"E",
+    "ENTRY":"Objekt is OK",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"148",
+    "LANG":"D",
+    "ENTRY":"Objekt muss neu generiert werden",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"148",
+    "LANG":"E",
+    "ENTRY":"Object must be generated again",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"149",
+    "LANG":"D",
+    "ENTRY":"Ja",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"149",
+    "LANG":"E",
+    "ENTRY":"Yes",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"150",
+    "LANG":"D",
+    "ENTRY":"Nein",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"150",
+    "LANG":"E",
+    "ENTRY":"No",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"152",
+    "LANG":"D",
+    "ENTRY":"Anzeige für '&1': &2 Pakete/&3 Objekte",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"152",
+    "LANG":"E",
+    "ENTRY":"Display for '&1': &2 packages/&3 objects",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"159",
+    "LANG":"D",
+    "ENTRY":"Aktion durch Benutzer abgebrochen",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"159",
+    "LANG":"E",
+    "ENTRY":"Action canceled by user",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"160",
+    "LANG":"D",
+    "ENTRY":"N - Status gesetzt von Synchronisierung. Kann nicht deployt werden",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"160",
+    "LANG":"E",
+    "ENTRY":"N - Status set by synchronization. Cannot be deployed.",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"161",
+    "LANG":"D",
+    "ENTRY":"D - Wird beim Deployment gelöscht",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"161",
+    "LANG":"E",
+    "ENTRY":"D - Deleted in deployment",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"162",
+    "LANG":"D",
+    "ENTRY":"I - Noch nicht ins SAP HANA Repository deployt",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"162",
+    "LANG":"E",
+    "ENTRY":"I - Not yet deployed to SAP HANA repository",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"163",
+    "LANG":"D",
+    "ENTRY":"A - Ins SAP HANA Repository deployt",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"163",
+    "LANG":"E",
+    "ENTRY":"A - Deployed to SAP HANA repository",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"164",
+    "LANG":"D",
+    "ENTRY":"Zur Anzeige der Versionsverwaltung müssen Sie den Cursor in eine Paket- oder Objektzeile setzen",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"164",
+    "LANG":"E",
+    "ENTRY":"To display version management, place the cursor on a package or object line",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"165",
+    "LANG":"D",
+    "ENTRY":"Keine Berechtigung für Transport Organizer (SE09)",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"165",
+    "LANG":"E",
+    "ENTRY":"No authorization for Transport Organizer (SE09)",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"166",
+    "LANG":"D",
+    "ENTRY":"Deploymod.",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"166",
+    "LANG":"E",
+    "ENTRY":"Depl. Mode",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"167",
+    "LANG":"D",
+    "ENTRY":"Deploymodus",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"167",
+    "LANG":"E",
+    "ENTRY":"Deploy Mode",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"168",
+    "LANG":"D",
+    "ENTRY":"Deploymodus",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"168",
+    "LANG":"E",
+    "ENTRY":"Deploy Mode",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"169",
+    "LANG":"D",
+    "ENTRY":"A - Paket und zugehörige Objekte werden beim Import direkt deployt",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"169",
+    "LANG":"E",
+    "ENTRY":"A - Package and associated objects deployed directly in import",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"170",
+    "LANG":"D",
+    "ENTRY":"P - Paket und zugehörige Objekte werden nur nach erfolgter Vorarbeit deployt",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"170",
+    "LANG":"E",
+    "ENTRY":"P - Package and associated objects only deployed after prework done",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"171",
+    "LANG":"D",
+    "ENTRY":"Deploymodus kann für markierte Pakete nicht festgelegt werden; markieren Sie Pakete mit gelbem oder grünem Status",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"171",
+    "LANG":"E",
+    "ENTRY":"Deploy mode cannot be set for packages selected. Select packages with status yellow or green.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"172",
+    "LANG":"D",
+    "ENTRY":"Welcher Deploymodus soll für die markierten Pakete festgelegt werden?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"172",
+    "LANG":"E",
+    "ENTRY":"Which deploy mode do you want to set for the selected packages?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"173",
+    "LANG":"D",
+    "ENTRY":"Deploymodus festlegen",
+    "LENGTH":30
+   },
+   {
+    "ID":"I",
+    "KEY":"173",
+    "LANG":"E",
+    "ENTRY":"Set Deploy Mode",
+    "LENGTH":30
+   },
+   {
+    "ID":"I",
+    "KEY":"174",
+    "LANG":"D",
+    "ENTRY":"Modus A",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"174",
+    "LANG":"E",
+    "ENTRY":"Mode A",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"175",
+    "LANG":"D",
+    "ENTRY":"Modus P",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"175",
+    "LANG":"E",
+    "ENTRY":"Mode P",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"176",
+    "LANG":"D",
+    "ENTRY":"Modus A (Standard)",
+    "LENGTH":36
+   },
+   {
+    "ID":"I",
+    "KEY":"176",
+    "LANG":"E",
+    "ENTRY":"Mode A (standard)",
+    "LENGTH":36
+   },
+   {
+    "ID":"I",
+    "KEY":"177",
+    "LANG":"D",
+    "ENTRY":"Modus P (mit Vorarbeit)",
+    "LENGTH":36
+   },
+   {
+    "ID":"I",
+    "KEY":"177",
+    "LANG":"E",
+    "ENTRY":"Mode P (with prework)",
+    "LENGTH":36
+   },
+   {
+    "ID":"I",
+    "KEY":"178",
+    "LANG":"D",
+    "ENTRY":"Deploymodus kann erst nach erstmaliger Synchronisierung festgelegt werden; führen Sie zunächst die Synchronisierung durch",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"178",
+    "LANG":"E",
+    "ENTRY":"Deploy mode only possible after initial synchronization. Perform synchronization first.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"179",
+    "LANG":"D",
+    "ENTRY":"Deploymodus festgelegt auf &1 für Paket &2",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"179",
+    "LANG":"E",
+    "ENTRY":"Deploy mode set to &1 for package &2",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"180",
+    "LANG":"D",
+    "ENTRY":"&1 Pakete/&2 Objekte zum Transportauftrag &3 hinzugefügt und synchronisiert",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"180",
+    "LANG":"E",
+    "ENTRY":"&1 packages/&2 objects added to transport request &3 and synchronized",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"181",
+    "LANG":"D",
+    "ENTRY":"&1 Pakete/&2 Objekte zu &3 Transportaufträgen hinzugefügt und synchronisiert",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"181",
+    "LANG":"E",
+    "ENTRY":"&1 packages/&2 objects added to &3 transport requests and synchronized",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"182",
+    "LANG":"D",
+    "ENTRY":"Paket kann nur als Gesamtpaket gelöscht werden; selektieren Sie auch die Objekte von Paket &1",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"182",
+    "LANG":"E",
+    "ENTRY":"Packages can only be deleted as a full package; also select the objects from package &1",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"183",
+    "LANG":"D",
+    "ENTRY":"Deploymodus festgelegt auf &1 für &2 Pakete",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"183",
+    "LANG":"E",
+    "ENTRY":"Deploy mode set to &1 for &2 packages",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"184",
+    "LANG":"D",
+    "ENTRY":"&1 Pakete/&2 Objekte synchronisiert",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"184",
+    "LANG":"E",
+    "ENTRY":"&1 packages/&2 objects synchronized",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"186",
+    "LANG":"D",
+    "ENTRY":"Objektversion aus Quellsystem",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"186",
+    "LANG":"E",
+    "ENTRY":"Object Version from Source System",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"190",
+    "LANG":"D",
+    "ENTRY":"Sind die markierten Pakete und die zugehörigen Objekte übersetzungsrelevant?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"190",
+    "LANG":"E",
+    "ENTRY":"Are the selected packages and the associated objects translation-relevant?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"191",
+    "LANG":"D",
+    "ENTRY":"Übersetzungsrelevanz festlegen",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"191",
+    "LANG":"E",
+    "ENTRY":"Define Translation-Relevance",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"192",
+    "LANG":"D",
+    "ENTRY":"Ja",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"192",
+    "LANG":"E",
+    "ENTRY":"Yes",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"193",
+    "LANG":"D",
+    "ENTRY":"Nein",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"193",
+    "LANG":"E",
+    "ENTRY":"No",
+    "LENGTH":12
+   },
+   {
+    "ID":"I",
+    "KEY":"194",
+    "LANG":"D",
+    "ENTRY":"Pakete und zugehörige Objekte übersetzen",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"194",
+    "LANG":"E",
+    "ENTRY":"Translate packages and objects",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"195",
+    "LANG":"D",
+    "ENTRY":"Pakete und zugeh. Objekte n. übersetzen",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"195",
+    "LANG":"E",
+    "ENTRY":"Do not translate packages and objects",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"196",
+    "LANG":"D",
+    "ENTRY":"Übersetzungssrelevanz kann erst nach erstmaliger Synchronisierung festgelegt werden; führen Sie zunächst die Synchronisierung durch",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"196",
+    "LANG":"E",
+    "ENTRY":"Translation-relevance can only be set after the first synchronization; perform the synchronization first",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"197",
+    "LANG":"D",
+    "ENTRY":"Paket und zugehörige Objekte sind relevant für Übersetzung",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"197",
+    "LANG":"E",
+    "ENTRY":"Package and associated objects are relevant for translation",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"198",
+    "LANG":"D",
+    "ENTRY":"Paket und zugehörige Objekte sind nicht relevant für Übersetzung",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"198",
+    "LANG":"E",
+    "ENTRY":"Package and associated objects are not relevant for translation",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"199",
+    "LANG":"D",
+    "ENTRY":"Paket &1 wurde festgelegt auf übersetzungsrelevant",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"199",
+    "LANG":"E",
+    "ENTRY":"Package &1 set to translation-relevant",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"200",
+    "LANG":"D",
+    "ENTRY":"Paket &1 wurde festgelegt auf nicht übersetzungsrelevant",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"200",
+    "LANG":"E",
+    "ENTRY":"Package &1 set to not translation-relevant",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"201",
+    "LANG":"D",
+    "ENTRY":"Übersetzungsrelevanz",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"201",
+    "LANG":"E",
+    "ENTRY":"Translation Relevance",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"202",
+    "LANG":"D",
+    "ENTRY":"Die Texte der Objekte der gewählten Pakete stehen erst nach der nächsten Synchronisierung der Objekte im ABAP zur Verfügung",
+    "LENGTH":123
+   },
+   {
+    "ID":"I",
+    "KEY":"202",
+    "LANG":"E",
+    "ENTRY":"The texts of the objects in the chosen packages are not available until the first synchronization of the objects in ABAP.",
+    "LENGTH":123
+   },
+   {
+    "ID":"I",
+    "KEY":"203",
+    "LANG":"D",
+    "ENTRY":"Warnung",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"203",
+    "LANG":"E",
+    "ENTRY":"Warning",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"204",
+    "LANG":"D",
+    "ENTRY":"&1 Pakete wurden festgelegt auf übersetzungsrelevant",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"204",
+    "LANG":"E",
+    "ENTRY":"&1 packages set to translation-relevant",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"205",
+    "LANG":"D",
+    "ENTRY":"&1 Pakete wurden festgelegt auf nicht übersetzungsrelevant",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"205",
+    "LANG":"E",
+    "ENTRY":"&1 packages set to not translation-relevant",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"206",
+    "LANG":"D",
+    "ENTRY":"Sie haben ein oder mehrere Pakete/Objekte selektiert, die bereits deployt wurden. Sollen diese erneut deployt werden?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"206",
+    "LANG":"E",
+    "ENTRY":"You have selected one or more packages/objects that are already deployed. Do you want to deploy them again?",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"207",
+    "LANG":"D",
+    "ENTRY":"Pakete/Objekte erneut deployen",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"207",
+    "LANG":"E",
+    "ENTRY":"Redeploy Packages/Objects",
+    "LENGTH":60
+   },
+   {
+    "ID":"I",
+    "KEY":"208",
+    "LANG":"D",
+    "ENTRY":"Erfolg",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"208",
+    "LANG":"E",
+    "ENTRY":"Success",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"209",
+    "LANG":"D",
+    "ENTRY":"Fehler",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"209",
+    "LANG":"E",
+    "ENTRY":"Error",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"210",
+    "LANG":"D",
+    "ENTRY":"Fataler Fehler",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"210",
+    "LANG":"E",
+    "ENTRY":"Fatal error",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"211",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt ist nicht deployt",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"211",
+    "LANG":"E",
+    "ENTRY":"Package/object not deployed",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"212",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt kann nicht deployt werden",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"212",
+    "LANG":"E",
+    "ENTRY":"Package/object cannot be deployed",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"218",
+    "LANG":"D",
+    "ENTRY":"Depl.status Paket",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"218",
+    "LANG":"E",
+    "ENTRY":"Depl. Status Package",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"219",
+    "LANG":"D",
+    "ENTRY":"Deploymentstatus Paket",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"219",
+    "LANG":"E",
+    "ENTRY":"Deployment Status Package",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"220",
+    "LANG":"D",
+    "ENTRY":"Depl.status Objekt",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"220",
+    "LANG":"E",
+    "ENTRY":"Depl. Status Object",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"221",
+    "LANG":"D",
+    "ENTRY":"Deploymentstatus Objekt",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"221",
+    "LANG":"E",
+    "ENTRY":"Deployment Status Object",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"229",
+    "LANG":"D",
+    "ENTRY":"SAP HANA Transport for ABAP - Deployment",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"229",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Transport for ABAP - Deployment",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"230",
+    "LANG":"D",
+    "ENTRY":"Paket/Objekt ist deployt",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"230",
+    "LANG":"E",
+    "ENTRY":"Package/object is deployed",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"231",
+    "LANG":"D",
+    "ENTRY":"Paketauswahl für Deployment",
+    "LENGTH":27
+   },
+   {
+    "ID":"I",
+    "KEY":"231",
+    "LANG":"E",
+    "ENTRY":"Package Sel. for Deployment",
+    "LENGTH":27
+   },
+   {
+    "ID":"I",
+    "KEY":"232",
+    "LANG":"D",
+    "ENTRY":"Pakete /",
+    "LENGTH":18
+   },
+   {
+    "ID":"I",
+    "KEY":"232",
+    "LANG":"E",
+    "ENTRY":"Packages /",
+    "LENGTH":18
+   },
+   {
+    "ID":"I",
+    "KEY":"233",
+    "LANG":"D",
+    "ENTRY":"   Filter aktiv",
+    "LENGTH":25
+   },
+   {
+    "ID":"I",
+    "KEY":"233",
+    "LANG":"E",
+    "ENTRY":"   Filter Active",
+    "LENGTH":25
+   },
+   {
+    "ID":"I",
+    "KEY":"234",
+    "LANG":"D",
+    "ENTRY":"Objekte",
+    "LENGTH":17
+   },
+   {
+    "ID":"I",
+    "KEY":"234",
+    "LANG":"E",
+    "ENTRY":"Objects",
+    "LENGTH":17
+   },
+   {
+    "ID":"I",
+    "KEY":"235",
+    "LANG":"D",
+    "ENTRY":"Um SAP-HANA-Pakete und -Objekte zu deployen, verwenden Sie Transaktion SCTS_HTA_DEPLOY",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"235",
+    "LANG":"E",
+    "ENTRY":"To deploy SAP HANA packages and objects, use transaction SCTS_HTA_DEPLOY",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"236",
+    "LANG":"D",
+    "ENTRY":"Importzeit",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"236",
+    "LANG":"E",
+    "ENTRY":"Imp. Time",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"237",
+    "LANG":"D",
+    "ENTRY":"Importzeit",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"237",
+    "LANG":"E",
+    "ENTRY":"Import Time",
+    "LENGTH":20
+   },
+   {
+    "ID":"I",
+    "KEY":"238",
+    "LANG":"D",
+    "ENTRY":"Importzeit",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"238",
+    "LANG":"E",
+    "ENTRY":"Import Time",
+    "LENGTH":40
+   },
+   {
+    "ID":"I",
+    "KEY":"239",
+    "LANG":"D",
+    "ENTRY":"Bereits deployte Pakete/Objekte wurden nicht erneut deployt",
+    "LENGTH":118
+   },
+   {
+    "ID":"I",
+    "KEY":"239",
+    "LANG":"E",
+    "ENTRY":"Packagees/objects that were already deployed have not been deployed again",
+    "LENGTH":118
+   },
+   {
+    "ID":"I",
+    "KEY":"240",
+    "LANG":"D",
+    "ENTRY":"Synchronisierung nicht möglich; markieren Sie Einträge mit gelbem oder grünem Status",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"240",
+    "LANG":"E",
+    "ENTRY":"Synchronization not possible. Select entries with status yellow or green.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"241",
+    "LANG":"D",
+    "ENTRY":"Keine Einträge markiert; markieren Sie Einträge mit gelbem oder grünem Status",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"241",
+    "LANG":"E",
+    "ENTRY":"No entries selected. Select entries with status yellow or green.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"242",
+    "LANG":"D",
+    "ENTRY":"Übersetzungsrelevanz kann für markierte Pakete nicht festgelegt werden; markieren Sie Pakete mit gelbem oder grünem Status",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"242",
+    "LANG":"E",
+    "ENTRY":"Translation relevance cannot be set for the selected packages. Select entries with status yellow or green.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"243",
+    "LANG":"D",
+    "ENTRY":"E - Deployment ins SAP HANA Repository fehlgeschlagen",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"243",
+    "LANG":"E",
+    "ENTRY":"E - Deployment to SAP HANA repository failed",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"244",
+    "LANG":"D",
+    "ENTRY":"Z - Löschung im SAP HANA Repository fehlgeschlagen",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"244",
+    "LANG":"E",
+    "ENTRY":"Z - Deletion in SAP HANA repository failed",
+    "LENGTH":70
+   },
+   {
+    "ID":"I",
+    "KEY":"GRA",
+    "LANG":"D",
+    "ENTRY":"grau",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"GRE",
+    "LANG":"D",
+    "ENTRY":"grün",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"RED",
+    "LANG":"D",
+    "ENTRY":"rot",
+    "LENGTH":10
+   },
+   {
+    "ID":"I",
+    "KEY":"YEL",
+    "LANG":"D",
+    "ENTRY":"gelb",
+    "LENGTH":10
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"SAP HANA Transport for ABAP",
+    "LENGTH":27
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Transport for ABAP",
+    "LENGTH":70
+   },
+   {
+    "ID":"S",
+    "KEY":"PV_PACK",
+    "LANG":"D",
+    "ENTRY":"        SAP-HANA-Repository-Paket",
+    "LENGTH":33
+   },
+   {
+    "ID":"S",
+    "KEY":"PV_PACK",
+    "LANG":"E",
+    "ENTRY":"        SAP HANA Repository Package",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"PV_SUB",
+    "LANG":"D",
+    "ENTRY":"        Unterpakete einbeziehen",
+    "LENGTH":34
+   },
+   {
+    "ID":"S",
+    "KEY":"PV_SUB",
+    "LANG":"E",
+    "ENTRY":"        Subpackages too",
+    "LENGTH":38
+   }
+  ]
+ }
+]

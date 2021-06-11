@@ -1,0 +1,26 @@
+U1 &PURPOSE&                                                               
+AS Beim Einbauen von Hinweiskorrekturen zu Objekten von                    
+   ABAP-for-SAP-HANA-Applikationen kann es vorkommen, dass die folgenden   
+   Objekttypen nicht aktiviert werden können:                              
+B1 SAP-HANA-Repository-Objekte und -Pakete                                 
+B1 HDI-Objekte                                                             
+AS Ist dies der Fall, müssen diese Objekte nach der Behebung der           
+   Fehlerursachen erneut aktiviert werden.                                 
+AS Dazu können Sie dieses Programm verwenden.                              
+U1 &PREREQUISITES&                                                         
+AS Das Programm führt die Workbench-Aktivierung für nicht aktivierte       
+   Objekte des Benutzers durch, der am System angemeldet ist. Stellen Sie  
+   daher sicher, dass der Benutzer, der das Programm ausführt, derselbe    
+   ist, der den Hinweiseinbau gestartet hat.                               
+U2 &OUTPUT&                                                                
+AS Wenn inaktive Objekte aktiviert werden konnten, gibt das System eine    
+   Erfolgsmeldung aus.                                                     
+AS Wenn die Objekte nicht aktiviert werden konnten, gibt das System die    
+   Fehlermeldung <DS:NA.SCTS_HOT588>Bei der HTA-WB-Aktivierung sind Fehler 
+   aufgetreten -> siehe Protokoll</> aus. Zur Fehleranalyse schauen Sie    
+   sich das Protokoll an.                                                  
+AS Hinweis: Wenn sich inaktive SAP-HANA-Repository-Objekte und -Pakete     
+    nicht aktivieren lassen, ist es in manchen Situationen ratsam, die     
+   inaktive Objektversion in ABAP zu löschen. Weitere Informationen finden 
+   Sie in SAP-Hinweis 2633397                                              
+   (https://launchpad.support.sap.com/#/notes/2633397).                    

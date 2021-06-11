@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"SAP-HANA-Repository-Paketmetadaten",
+    "LENGTH":50
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"SAP HANA Repository Package Metadata",
+    "LENGTH":50
+   }
+  ]
+ }
+]

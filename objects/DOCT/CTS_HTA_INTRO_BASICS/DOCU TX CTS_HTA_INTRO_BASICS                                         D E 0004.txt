@@ -1,0 +1,16 @@
+U2 &FEATURES&                                                              
+AS Mit dem <ZH>SAP HANA Transport for ABAP</> (HTA) können Sie Objekte von 
+   ABAP-for-SAP-HANA-Applikationen transportieren. Das sind                
+   ABAP-Applikationen, die auf SAP HANA basieren und bei denen ABAP- und   
+   SAP-HANA-Objekte über das Change and Transport System im ABAP           
+   transportiert werden sollen.                                            
+/  Die Objekte und Pakete aus dem SAP HANA Repository müssen Sie zunächst  
+   in das Repository des SAP HANA Transport for ABAP (HTA Repository) im   
+   ABAP-System übertragen und einem Transportauftrag hinzufügen. Dieser    
+   Vorgang wird "Synchronisierung" genannt.                                
+/  Nach der Freigabe kann der Transportauftrag mit dem Transport Management
+   System im Zielsystem importiert werden. Beim Import werden die Pakete   
+   und Objekte im SAP HANA Repository angelegt und aktiviert. Dieser       
+   Vorgang wird "Deployment" genannt.                                      
+/  Auf diese Weise können Sie auch kleinere Änderungen an SAP-HANA-Objekten
+   und -Paketen transportieren.                                            

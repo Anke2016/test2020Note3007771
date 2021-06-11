@@ -1,0 +1,9 @@
+U1 &CAUSE&                                                                 
+AS Paket &V1&&V2&&V3& kann in aktuellem Status (&V4&) nicht synchronisiert 
+   werden.                                                                 
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das Paket wurde bisher nur ins HTA-Repository importiert aber noch nicht
+   ins SAP HANA Repository deployt.                                        
+U1 &WHAT_TO_DO&                                                            
+AS Deployen Sie das Paket bevor Sie es synchronisieren, zum Beispiel durch 
+   erneutes Transportieren/Importieren dieses Paketes.                     

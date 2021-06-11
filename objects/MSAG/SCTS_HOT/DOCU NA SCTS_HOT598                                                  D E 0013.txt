@@ -1,0 +1,4 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ausgabe der Sprachen, für die Texte deployt wurden, in der folgenden    
+   Syntax: <LS>ABAP Sprache/HANA Sprache</>.                               
+AS Beispiel: <LS>E/en</>                                                   

@@ -1,0 +1,63 @@
+U1 Ändern der Standardwerte für SAP HANA Transport for ABAP                
+U3 Ändern des Standardwertes für den Deploymodus                           
+*  Beim Synchronisieren eines neuen SAP-HANA-Repository-Paketes wird       
+   standardmäßig der Deploymodus für das Paket und die darin enthaltenen   
+   Objekte auf den Wert <LS>A - Paket und zugehörige Objekte werden beim   
+   Import direkt deployt</> (SAP Standard) gesetzt.                        
+/                                                                          
+*  Wenn Sie den Standardwert des Deploymodus für neue Pakete in Ihrem      
+   System auf den Wert <LS>P - Paket und zugehörige Objekte werden nur nach
+   erfolgter Vorarbeit deployt</> setzen möchten, gehen Sie folgendermaßen 
+   vor:                                                                    
+N1 Rufen Sie die Transaktion SE16 auf, geben Sie als Tabelle CTS_HOT_PARAMS
+   ein, und wählen Sie <LS>Tabelle -> Einträge erfassen</>.                
+N1 Geben Sie im Feld NAME den Wert DEPLOY_MODE_DEFAULT und im Feld VALUE   
+   den Wert P ein.                                                         
+N1 Sichern Sie den Eintrag.                                                
+*  Sie haben den Standardwert von A auf P geändert.                        
+*                                                                          
+*  Wenn Sie den Standardwert des Deploymodus für neue Pakete und deren     
+   Objekte wieder zurück auf den SAP Standard (A) setzen möchten, löschen  
+   Sie den oben angelegten Eintrag.                                        
+*  Gehen Sie dazu folgendermaßen vor:                                      
+/: RESET N1                                                                
+N1 Rufen Sie die Transaktion SE16 auf, geben Sie als Tabelle CTS_HOT_PARAMS
+   ein, und wählen Sie <LS>Tabelle -> Tabelleninhalt</>.                   
+N1 Geben Sie im Feld NAME den Wert DEPLOY_MODE_DEFAULT ein, und wählen Sie 
+   <LS>Ausführen</>.                                                       
+N1 Markieren Sie die Zeile, wählen Sie <LS>Tabelleneintrag -> Löschen</>,  
+   und bestätigen Sie mit <LS>Eintrag löschen</>.                          
+*  Sie haben den Wert auf SAP Standard (A) zurückgesetzt.                  
+U3 Ändern des Standardwertes für die Übersetzungsrelevanz                  
+*  Beim Synchronisieren eines neuen SAP-HANA-Repository-Paketes wird       
+   standardmäßig die Übersetzungsrelevanz für das Paket und die darin      
+   enthaltenen Objekte auf den Wert <LS>Paket und zugehörige Objekte sind  
+   relevant für Übersetzung</> (SAP Standard) gesetzt.                     
+/                                                                          
+*  Wenn Sie den Standardwert der Übersetzungsrelevanz für neue Pakete in   
+   Ihrem System auf den Wert <LS>Paket und zugehörige Objekte sind nicht   
+   relevant für Übersetzung</> setzen möchten, gehen Sie folgendermaßen    
+   vor:                                                                    
+/: RESET N1                                                                
+N1 Rufen Sie die Transaktion SE16 auf, geben Sie als Tabelle CTS_HOT_PARAMS
+   ein, und wählen Sie <LS>Tabelle -> Einträge erfassen</>.                
+N1 Geben Sie im Feld NAME den Wert TRANSLATION_RELEVANCE_DEFAULT und im    
+   Feld VALUE den Wert N ein.                                              
+N1 Sichern Sie den Eintrag.                                                
+*  Sie haben den Wert auf <LS>Nicht übersetzungsrelevant</> geändert.      
+*                                                                          
+*  Wenn Sie den Standardwert der Übersetzungsrelevanz für neue Pakete und  
+   deren Objekte wieder zurück auf den SAP Standard (<LS>Paket und         
+   zugehörige Objekte sind relevant für Übersetzung)</> setzen möchten,    
+   löschen Sie den oben angelegten Eintrag.                                
+*  Gehen Sie dazu folgendermaßen vor:                                      
+/: RESET N1                                                                
+N1 Rufen Sie die Transaktion SE16 auf, geben Sie als Tabelle CTS_HOT_PARAMS
+   ein, und wählen Sie <LS>Tabelle -> Tabelleninhalt</>.                   
+N1 Geben Sie im Feld NAME den Wert TRANSLATION_RELEVANCE_DEFAULT ein, und  
+   wählen Sie <LS>Ausführen</>.                                            
+N1 Markieren Sie die Zeile, wählen Sie <LS>Tabelleneintrag -> Löschen</>,  
+   und bestätigen Sie mit <LS>Eintrag löschen</>.                          
+*  Sie haben den Wert auf SAP Standard (<LS>übersetzungsrelevant</>)       
+   zurückgesetzt.                                                          
+*                                                                          

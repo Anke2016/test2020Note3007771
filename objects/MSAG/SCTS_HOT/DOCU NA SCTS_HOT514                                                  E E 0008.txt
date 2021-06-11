@@ -1,0 +1,7 @@
+U1 &CAUSE&                                                                 
+AS No information was found in the HTA repository (AS ABAP) for the        
+   transport objects shown. This can occur, for example, if a transport    
+   request is imported for a second time using a deletion of an SAP HANA   
+   repository package/object.                                              
+U1 &SYSTEM_RESPONSE&                                                       
+AS The transport objects in question are displayed.                        

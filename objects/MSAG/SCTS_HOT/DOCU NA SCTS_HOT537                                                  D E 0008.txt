@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Es wurden mehrere Aufträge gleichzeitig importiert, die dasselbe        
+   Objekt/Paket in unterschiedlichen Versionen enthalten (in               
+   unterschiedlichen Aufträgen). Daher ist hier der Auftrag angegeben, aus 
+   dem die Version des Objekts/Pakets zum Deployment genutzt wurde.        
+AS Weitere Details finden Sie im Protokoll des angegebenen Auftrages.      

@@ -1,0 +1,30 @@
+U1 &CAUSE&                                                                 
+AS No texts were deployed for one or more objects. This can occur in the   
+   following cases:                                                        
+B1 No texts to deploy exist for the object in the system. This can be due  
+   to the following reasons:                                               
+B2 The package of the object is set to 'non-translation-relevant'. In      
+   transaction SCTS_HTA, you can view this for the package in question by  
+   displaying the details of the package.                                  
+B2 The texts were deployed earlier.                                        
+B2 No text parts were imported for the transport objects 'R3TR HOTA' or    
+   'LIMU HOTO'.                                                            
+B2 No texts were found for the transport objects 'LANG HOTO <(><<)>object  
+   name> <(><<)>language>' or 'LANG HOTA <(><<)>package name> <(>          
+=  <<)>language>' . This can be due to the following reasons:              
+BL a) The transport object with type LANG was imported using a delivery    
+   request (such as a support package) and the associated language was not 
+   active in the system. This means that the associated texts in other     
+   languages were not imported into the HTA repository during the main     
+   import.                                                                 
+BL b) There were no texts for the language key in the export (see the      
+   export log), since either the wrong language key was specified or the   
+   texts were deleted deliberately at an earlier point in time.            
+B1 No text deployment is required, since the object was deleted during the 
+   activation.                                                             
+U1 &SYSTEM_RESPONSE&                                                       
+AS The objects without text deployment are displayed under one of the      
+   following messages at message level 4 in the log:                       
+B1 SCTS_HOT 602: No texts to deploy were found for the following objects:  
+B1 SCTS_HOT 605: No text deployment for objects that do not exist in the   
+   HTA repository:                                                         

@@ -1,0 +1,11 @@
+U1 &CAUSE&                                                                 
+AS You have set the deploy mode to A (default) and hence changed the       
+   associated SAP HANA package attribute in the HTA repository. This means 
+   that only the package attribute is changed in the HTA repository after  
+   the import and no automatic object deployment is started. If you want   
+   the objects in the package to be deployed when they are imported, you   
+   must make sure the objects are part of the transport request (or are at 
+   least in the import queue later).                                       
+AS We recommend that you synchronize the objects of the selected packages  
+   so that they are placed in the transport request and the same transport 
+   request as before is used.                                              

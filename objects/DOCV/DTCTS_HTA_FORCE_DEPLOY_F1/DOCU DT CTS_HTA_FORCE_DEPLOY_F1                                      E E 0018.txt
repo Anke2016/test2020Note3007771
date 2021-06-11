@@ -1,0 +1,14 @@
+AS You have selected packages/objects that were already deployed           
+   successfully. These are packages/objects that have deployment status g  
+=  reen (<LS>package/object has been deployed</>).                         
+AN The value for <LS>Status in ABAP</> in the detail view of the           
+   package/object is <LS>A - Deployed to SAP HANA repository</>.           
+U2 &PROCEDURE&                                                             
+B1 If you want to redeploy packages/objects that were already deployed,    
+   choose <LS>Yes</>.                                                      
+B1 If you do not want to redeploy packages/objects that were already       
+   deployed, choose <LS>No</>.                                             
+AL Note: A deployment has been started however for selected                
+   packages/objects that have deployment status yellow (<LS>package/object 
+   has not been deployed</>).                                              
+B1 If you do not want to perform a deployment, choose <LS>Cancel</>.       

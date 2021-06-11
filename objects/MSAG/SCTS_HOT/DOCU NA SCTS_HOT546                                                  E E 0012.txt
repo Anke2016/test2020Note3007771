@@ -1,0 +1,26 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The object above could not be activated. You find more information about
+   the import errors or activation errors in the next lines in the log.    
+AS If the object in question is an SAP object, its SAP application         
+   component is displayed in square brackets. You can use these to find    
+   existing SAP Notes or open a problem message.                           
+U1 &WHAT_TO_DO&                                                            
+AS If the information from the log is not sufficient to resolve the error, 
+   open the object above in the SAP HANA content development environment   
+   (for example, SAP HANA Studio or Web IDE). Check it for errors. Note    
+   that non-activated objects are created as inactive objects under the    
+   user SAP<(><<)>SID> .                                                   
+AS To display the object, you have the following options:                  
+B1 Log on to the SAP HANA content development environment with the database
+   user SAP<(><<)>SID>.                                                    
+B1 Log on to the SAP HANA content development environment with your user   
+   and transfer the inactive objects from the SAP<(><<)>SID> user to your  
+   user (for example using the <LS>Switch Ownership</> function in SAP HANA
+   Studio).                                                                
+AS The object itself may potentially have errors or prerequisites may not  
+   be met. If the object itself has errors, remove the error in the source 
+   system and transport the object again. Otherwise meet the missing       
+   prerequisites.                                                          
+AS You can also use SAP Note 2109690 to analyze activation errors.         
+AS Note: If the object above was not developed in your company, contact the
+   content vendor.                                                         

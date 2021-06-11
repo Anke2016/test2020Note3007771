@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Jump from SE01/09 to HTA(Report is subm. by FM TR_OBJECT_JUMP_TO_TOOL)",
+    "LENGTH":70
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Jump from SE01/09 to HTA(Report is subm. by FM TR_OBJECT_JUMP_TO_TOOL)",
+    "LENGTH":70
+   }
+  ]
+ }
+]

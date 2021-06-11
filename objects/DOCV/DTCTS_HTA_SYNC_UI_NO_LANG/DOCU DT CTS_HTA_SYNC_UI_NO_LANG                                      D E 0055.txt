@@ -1,0 +1,3 @@
+AS Für Paket '&PACKAGE_ID&' existiert keine Originalsprache im SAP HANA    
+   Repository.                                                             
+AS Weitere Informationen finden Sie unter "Info".                          

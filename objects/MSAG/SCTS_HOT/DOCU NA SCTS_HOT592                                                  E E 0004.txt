@@ -1,0 +1,14 @@
+U1 &CAUSE&                                                                 
+AS When copying changes, the system detected that at least on SAP HANA     
+   repository package/object (in the repository of HANA Transport for ABAP 
+   - HTA Repository) was deleted in ABAP but not in SAP HANA.              
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system cannot delete the associated SAP HANA repository             
+   package/object in the SAP HANA repository.                              
+AS This message is displayed.                                              
+U1 &WHAT_TO_DO&                                                            
+AS To delete the package/object in the SAP HANA repository, first finish   
+   copying the changes by confirming the message window. Then use          
+   transaction SA38 to run the report SCTS_HTA_WB_ACTIVATION.              
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

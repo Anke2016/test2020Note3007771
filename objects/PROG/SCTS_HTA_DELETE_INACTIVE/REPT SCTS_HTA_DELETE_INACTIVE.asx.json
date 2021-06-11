@@ -1,0 +1,120 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Sie sind nicht berechtigt, Objekte des Typs HOTA zu löschen.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"You are not authorized to delete objects of type HOTA",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Inaktiver Eintrag von LIMU &1 &2 erfolgreich gelöscht",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"Inactive entry of LIMU &1 &2 deleted successfully",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"Kein inaktives Objekt in HTA für &1 gefunden",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"No inactive object found in HTA for &1",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"Inaktive SAP-HANA-Repository-Pakete/-Objekte",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"Inactive HANA repository packages/objects",
+    "LENGTH":80
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"D",
+    "ENTRY":"Geben Sie einen Transportobjektnamen ein.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"E",
+    "ENTRY":"Enter a transport object name",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"D",
+    "ENTRY":"Lesen Sie SAP-Hinweis 2633397, bevor Sie dieses Programm verwenden",
+    "LENGTH":83
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"E",
+    "ENTRY":"Read SAP Note 2633397 before using this program",
+    "LENGTH":83
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Inaktive SAP-HANA-Repository-Objekte in ABAP löschen",
+    "LENGTH":70
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Delete inactive HANA repository objects in ABAP",
+    "LENGTH":47
+   },
+   {
+    "ID":"S",
+    "KEY":"P_OBJECT",
+    "LANG":"D",
+    "ENTRY":"        Transportobjektname",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"P_OBJECT",
+    "LANG":"E",
+    "ENTRY":"        Transport object name",
+    "LENGTH":29
+   }
+  ]
+ }
+]

@@ -1,0 +1,28 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS After the SAP HANA repository activation, the SAP HANA repository checks
+   which repository objects have dependencies on the objects just activated
+   and attempts to generate these objects again.                           
+AS The object specified above could not be generated again. This can be the
+   case, for example, when the object with the generation error has not yet
+   been synchronized with a change made to a referenced repository object. 
+AS The object specified above was part of the SAP HANA Repository          
+   Deployment step, and was successfully activated in a previous attempt.  
+   This means that the version of the object that was already activated was
+   regenerated.                                                            
+AS CTS cannot indicate which object caused the generation error.           
+U1 &WHAT_TO_DO&                                                            
+AS First of all, check if the object still has an error. To do this, start 
+   transaction SCTS_HTA and display all objects contained in the package of
+   the object specified above. Then display the details of the object      
+   specified above:                                                        
+B1 If the <LS>object status in HANA</> is displayed as <LS>Object is OK</>,
+   the object has already been successfully regenerated or activated, for  
+   example, when a new transport request was imported.                     
+B1 If the <LS>object status in HANA</> is not displayed as <LS>Object is OK
+=  </>, correct the error, which you find in the log beneath the object    
+   specified above, in the development system. Then transport the object   
+   again.                                                                  
+AS Note: If the object above was not developed in your company, contact the
+   content vendor.                                                         
+AS                                                                         
+AS                                                                         

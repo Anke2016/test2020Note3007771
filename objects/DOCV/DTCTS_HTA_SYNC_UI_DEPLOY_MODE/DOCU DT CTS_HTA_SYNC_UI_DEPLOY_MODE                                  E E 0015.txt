@@ -1,0 +1,6 @@
+*  The deploy mode defines whether SAP HANA repository packages/objects are
+   deployed directly to SAP HANA when imported:                            
+AS - Mode A (default): Packages/objects are deployed directly.             
+AS - Mode P: Packages/objects are deployed only after the prework is done. 
+*  The deploy mode is set at package level and applies to the deployment of
+   all objects in the package.                                             

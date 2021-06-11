@@ -1,0 +1,20 @@
+U1 &CAUSE&                                                                 
+AS                                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System hat festgestellt, dass bei der Workbench-Aktivierung von     
+   Objekten des SAP HANA Transport for ABAP (HTA) &V1& aufgetreten sind.   
+*  Das Aktivierungsprotokoll wurde im Transportprotokollverzeichnis &V2& in
+   der Datei mit Namen &V3& abgespeichert.                                 
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+*  Wenn Sie dieses Dialogfenster bestätigen, wird das Aktivierungsprotokoll
+   angezeigt.                                                              
+*  Sie können das Protokoll später noch einmal mit dem Report RSPUTPRT     
+   anzeigen.                                                               
+*  Starten Sie dazu mit der Transaktion SA38 den Report RSPUTPRT, und geben
+   Sie für das Feld 'Vollst. Dateiname (mit Dir.)' den Wert des            
+   vollständigen Dateinamens an. Dieser wird aus dem Namen des             
+   Transportprotokollverzeichnisses &V2& und dem Dateinamen &V3& gebildet. 
+*                                                                          
+*  Um die Workbench-Aktivierung der noch nicht aktivierten HTA-Objekte     
+   erneut zu starten, verwenden Sie den Report SCTS_HTA_WB_ACTIVATION.     

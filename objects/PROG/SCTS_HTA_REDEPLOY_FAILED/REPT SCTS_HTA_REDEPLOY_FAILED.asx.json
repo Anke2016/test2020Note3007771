@@ -1,0 +1,155 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"D",
+    "ENTRY":"Das Redeployment fehlerhafter SAP-HANA-Objekte ist beendet.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"001",
+    "LANG":"E",
+    "ENTRY":"The redeployment of SAP HANA repository objects with errors is finished.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"D",
+    "ENTRY":"Das Protokoll finden Sie im Unterverzeichnis \"log\" des Transportverzeichnisses unter dem dem Namen 5<yymmdd>.<SID>,",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"002",
+    "LANG":"E",
+    "ENTRY":"The log is located in the subdirectory \"log\" of the transport directory and has the name 5<yymmdd>.<SID>,",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"D",
+    "ENTRY":"z.B.: /usr/sap/trans/log/5160122.QAS, wenn das Redeployment am 22.01.2016 gestartet wurde.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"003",
+    "LANG":"E",
+    "ENTRY":"for example, /usr/sap/trans/log/5160122.QAS, if redeployment was started on 22nd January 2016.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"D",
+    "ENTRY":"Zur Anzeige des Protokolls starten Sie den Report RSPUTPRT in der Transaktion SA38.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"004",
+    "LANG":"E",
+    "ENTRY":"To display the log, start report RSPUTPRT in transaction SA38.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"D",
+    "ENTRY":"Geben Sie für das Feld 'Vollst. Dateiname (mit Dir.)' den Wert des vollständigen Dateinamens an,",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"005",
+    "LANG":"E",
+    "ENTRY":"For the field \"Full File Name (with Dir.), enter the value of the complete file name,",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"D",
+    "ENTRY":"z.B.: /usr/sap/trans/log/5160122.QAS.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"006",
+    "LANG":"E",
+    "ENTRY":"for example, /usr/sap/trans/log/5160122.QAS",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"007",
+    "LANG":"D",
+    "ENTRY":"Wenn der Report RSPUTPRT nicht genutzt werden kann, nutzen Sie Transaktion AL11.",
+    "LENGTH":132
+   },
+   {
+    "ID":"I",
+    "KEY":"010",
+    "LANG":"D",
+    "ENTRY":"Wählen Sie die zu redeployende Objektart aus",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"010",
+    "LANG":"E",
+    "ENTRY":"Select an object category to redeploy",
+    "LENGTH":100
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Starten eines Redeployments fehlerhafter HANA Objekte im HTA",
+    "LENGTH":60
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Start a redeployment of SAP HANA objects with errors in HTA",
+    "LENGTH":70
+   },
+   {
+    "ID":"S",
+    "KEY":"P_HDI",
+    "LANG":"D",
+    "ENTRY":"        HDI-Objekte",
+    "LENGTH":19
+   },
+   {
+    "ID":"S",
+    "KEY":"P_HDI",
+    "LANG":"E",
+    "ENTRY":"        HDI Objects",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"P_REPO",
+    "LANG":"D",
+    "ENTRY":"        HANA-Repository-Objekte",
+    "LENGTH":31
+   },
+   {
+    "ID":"S",
+    "KEY":"P_REPO",
+    "LANG":"E",
+    "ENTRY":"        HANA Repository Objects",
+    "LENGTH":38
+   }
+  ]
+ }
+]

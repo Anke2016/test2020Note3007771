@@ -1,0 +1,6 @@
+*  Der Deploymodus legt fest, ob SAP-HANA-Repository-Pakete/-Objekte beim  
+   Import direkt nach SAP HANA deployt werden:                             
+AS - Modus A (Standard): Pakete/Objekte werden direkt deployt              
+AS - Modus P: Pakete/Objekte werden erst nach erledigter Vorarbeit deployt 
+*  Der Deploymodus wird auf Paketebene gesetzt und gilt auch für das       
+   Deployment der zum Paket gehörenden Objekte.                            

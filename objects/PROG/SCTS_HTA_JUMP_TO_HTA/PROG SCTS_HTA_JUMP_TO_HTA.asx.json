@@ -1,0 +1,65 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"PROG",
+    "OBJ_NAME":"SCTS_HTA_JUMP_TO_HTA",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2016-06-28",
+    "CHECK_DATE":"2016-06-28",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"TRDIR",
+  "data":
+  [
+   {
+    "NAME":"SCTS_HTA_JUMP_TO_HTA",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "SUBC":"1",
+    "UNAM":"SAP",
+    "RMAND":"000",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   }
+  ]
+ },
+ {
+  "table":"TRDIRT",
+  "data":
+  [
+   {
+    "NAME":"SCTS_HTA_JUMP_TO_HTA",
+    "SPRSL":"D",
+    "TEXT":"Jump from SE01/09 to HTA(Report is subm. by FM TR_OBJECT_JUMP_TO_TOOL)"
+   },
+   {
+    "NAME":"SCTS_HTA_JUMP_TO_HTA",
+    "SPRSL":"E",
+    "TEXT":"Jump from SE01/09 to HTA(Report is subm. by FM TR_OBJECT_JUMP_TO_TOOL)"
+   }
+  ]
+ }
+]

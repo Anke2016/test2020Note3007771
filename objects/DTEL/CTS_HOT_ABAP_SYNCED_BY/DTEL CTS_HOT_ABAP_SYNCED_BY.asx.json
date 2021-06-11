@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_ABAP_SYNCED_BY",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"SYCHAR12",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"",
+    "HEADLEN":50,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":40,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"SAP",
+    "AS4DATE":"2015-02-20",
+    "AS4TIME":"15:35:09",
+    "DTELMASTER":"D",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"CHAR",
+    "LENG":12,
+    "DECIMALS":0,
+    "OUTPUTLEN":12,
+    "LOWERCASE":"",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"D",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"CTS_HOT_ABAP_SYNCED_BY",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Benutzer der die Synchronisation ausgeführt hat",
+    "REPTEXT":"Benutzer der Synchronisierung",
+    "SCRTEXT_S":"Benutzer",
+    "SCRTEXT_M":"Benutzer des Sync",
+    "SCRTEXT_L":"Benutzer der Synchronisierung"
+   },
+   {
+    "ROLLNAME":"CTS_HOT_ABAP_SYNCED_BY",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Synchronized by User",
+    "REPTEXT":"Synchronized By",
+    "SCRTEXT_S":"User",
+    "SCRTEXT_M":"Synchronized By",
+    "SCRTEXT_L":"Synchronized By"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"CTS_HOT_ABAP_SYNCED_BY",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"CTS_HOT_ABAP_SYNCED_BY",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2015-02-15",
+    "CHECK_DATE":"2015-02-15",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

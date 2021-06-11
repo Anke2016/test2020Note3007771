@@ -1,0 +1,12 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Ein oder mehrere Objekte wurden nicht deployt, da sie bereits deployt   
+   wurden. Dies kann in folgenden Fällen vorkommen:                        
+B1 Ein Objekt soll gelöscht werden, existiert aber nicht im SAP HANA       
+   Repository. Dies kann vorkommen, wenn ein Objekt, das noch nie          
+   importiert wurde, als erstes als Löschung importiert wird. Eine andere  
+   Möglichkeit ist, dass das Objekt in Auftrag 1 neu kommt, in Auftrag 2   
+   gelöscht wird, und beide Aufträge gemeinsam importiert werden.          
+B1 Das System ist mit REPEATONERROR=8 konfiguriert, so dass bei einem      
+   erneuten Import nur fehlerhafte Objekte importiert werden.              
+B1 Das zu deployende Objekt wird zwischen dem Hauptimport und dem          
+   SAP-HANA-Repository-Deployment manuell deployt.                         

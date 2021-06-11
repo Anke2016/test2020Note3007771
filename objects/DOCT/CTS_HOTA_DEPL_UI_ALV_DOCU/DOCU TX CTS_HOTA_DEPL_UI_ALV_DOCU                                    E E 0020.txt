@@ -1,0 +1,80 @@
+U2 Deploying Packages/Objects                                              
+AS This table displays all package found for the specified search criteria 
+   and the objects in these packages. The table displays the packages and  
+   objects that currently exist in the SAP HANA repository and the packages
+   and objects in the HTA repository. If a package or object does not exist
+   in one of the two repositories, the associated properties are displayed 
+   as <(><<)>unknown>.                                                     
+U2 &WHAT_TO_DO&                                                            
+N1 If necessary, check the data in the table. You can display the details  
+   for a package or object by double-clicking it. The detail view shows all
+   properties for which data exists in one of the repositories (SAP HANA or
+   ABAP). Information hidden in the table is also displayed.               
+/  A symbol at the start of each row indicates the deployment status. This 
+   indicates whether the ABAP version of the data package/object is already
+   active in SAP HANA (has already been deployed) or whether it can be     
+   deployed. Various properties in SAP HANA and ABAP are stored in blue.   
+/  A description of the symbols can be found under                         
+   <DS:TX.CTS_HTA_DEPL_UI_LEGEND>Legend: SAP HANA Transport for ABAP</>.   
+N1 If necessary, you can filter the table by one or more deployment        
+   statuses.                                                               
+/  By default, the filter is deactivated. If the filter is activated, this 
+   is indicated in the header row. Next time a package is selected, the    
+   filter is deactivated again.                                            
+/  Note: Objects cannot be displayed without the associated package. As a  
+   result, a package might be displayed which because of its status and the
+   chosen filter actually should not be displayed.                         
+N1 Any packages/objects that have differences and have not yet been        
+   deployed to the SAP HANA repository are preselected by the system.      
+/  Check the selection of packages and objects and modify it if needed.    
+   Select the packages and objects that you want to deploy. You can also   
+   deploy packages and objects that have already been deployed.            
+/  You have the following selection options (using the pushbuttons):       
+B2 Select/unselect all deployable packages/objects                         
+/  Any packages and objects whose status is green or yellow can be         
+   deployed.                                                               
+B2 Select/unselect all in current block                                    
+/  Selects or unselects the packages and objects in the currently selected 
+   block.                                                                  
+B2 Select packages/objects to deploy                                       
+/  All packages and objects whose status is yellow have not yet been       
+   deployed to the SAP HANA repository and can be deployed.                
+N1 To start the deployment, choose <LS>Execute (F8)</>.                    
+U2 &RESULT&                                                                
+AS The versions of the selected packages/objects in the HTA repository are 
+   imported to the SAP HANA repository and activated there. The system     
+   indicates the result of the deployment in a message and displays the    
+   deployment log.                                                         
+U2 Examples:                                                               
+B1 You are logged on in a target system and want to deploy an object once  
+   the prework has been done. The object was created and synchronized in   
+   the SAP HANA repository in the development system. Deployment status P  
+   has been set for this package in the development system. (<LS>Objects   
+   should be deployed only after the prework is done</>). You have imported
+   the associated task in the target system. Once you done the prework and 
+   have documented this, you now want to deploy the object.                
+/  Note: You document the prework in table CTS_HOT_PREWORK. Create a new   
+   entry and enter the ABAP transport object name of the package, which is 
+   displayed in the details view of package, and PREWORK DONE = X.         
+B1 Importing a request with SAP HANA repository objects was not successful.
+   If the import error was not caused by the object itself, rather by      
+   another object or by incorrect or missing settings in SAP HANA (missing 
+   schema mapping or authorizations for example), you can now repeat the   
+   deplyoment without transporting the object again. If the import error   
+   can only be removed by changing the object, you need to change,         
+   re-synchronize and transport the object in the development system.      
+B1 In the case of objects whose <LS>object status in SAP HANA</> is either 
+   <LS>error</> or <LS>must be regenerated</>, (re-)deployment can         
+   sometimes help to repair SAP HANA runtime objects.                      
+U2 Additional Functions                                                    
+B1 By choosing <LS>Utilities -> Version Management</>, you can display HTA 
+   version management for individual packages or objects. You must set the 
+   cursor on a package or object row before you can display version        
+   management.                                                             
+B1 By choosing <LS>Goto -> Synchronization</>, you can call transaction    
+   SCTS_HTA (<LS>SAP HANA Transport for ABAP - Synchronization</>).        
+*  <ZH>See also</>:                                                        
+/  <DS:RE.SCTS_HOTA_ORGANIZER>SAP HANA Transport for ABAP</>               
+/  <DS:TX.CTS_HTA_DEPL_UI_LEGEND>Legend: SAP HANA Transport for ABAP -     
+   Deployment</>                                                           
+*                                                                          

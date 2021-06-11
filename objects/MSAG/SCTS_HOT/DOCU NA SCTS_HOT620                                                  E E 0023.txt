@@ -1,0 +1,15 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS A deployment is already running for the SAP HANA package with the ABAP  
+   transport object name &V1& and/or at least one of its objects.          
+U1 &WHAT_TO_DO&                                                            
+AS Restart the deployment later.                                           
+AS Before you restart the deployment later on, you should check if the     
+   package or the objects, which you want to deploy, have already been     
+   deployed in the meantime.                                               
+AS You can do this by using transaction SCTS_HTA_DEPLOY. If the            
+   package/object with the green status is displayed as <ZK>Package/object 
+   is deployed</>, you do not need to deploy it again. If the              
+   package/object with the yellow status is displayed as <ZK>package/object
+   is not deployed</>, this means that the version in the HTA Repository   
+   has not been deployed to the SAP HANA Repository and you can start a    
+   deployment.                                                             

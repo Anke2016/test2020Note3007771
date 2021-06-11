@@ -1,0 +1,16 @@
+U1 &CAUSE&                                                                 
+AS Bei der Änderungsübernahme hat das System festgestellt, dass mindestens 
+   ein SAP-HANA-Repository-Paket/-Objekt in ABAP (im Repository des HANA   
+   Transport for ABAP- HTA-Repository) gelöscht wurde, jedoch nicht in SAP 
+   HANA.                                                                   
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System kann das zugehörige SAP-HANA-Repository-Paket/-Objekt im SAP 
+   HANA Repository nicht automatisch löschen.                              
+AS Ausgabe dieser Meldung.                                                 
+U1 &WHAT_TO_DO&                                                            
+AS Um die Löschung auch im SAP HANA Repository durchzuführen, schließen Sie
+   zunächst die Änderungsübernahme ab, indem Sie das Meldungsfenster       
+   bestätigen. Führen Sie anschließend mit der Transaktion SA38 den Report 
+   SCTS_HTA_WB_ACTIVATION aus.                                             
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

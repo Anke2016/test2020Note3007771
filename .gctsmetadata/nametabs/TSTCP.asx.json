@@ -1,0 +1,32 @@
+[
+ {
+  "table":"TSTCP",
+  "nametab":
+  [
+   {
+    "NAME":"TCODE",
+    "KEY":"X",
+    "TYPE":"C",
+    "LENGTH":20,
+    "DECIMALS":-1
+   },
+   {
+    "NAME":"PARAM",
+    "KEY":"",
+    "TYPE":"C",
+    "LENGTH":254,
+    "DECIMALS":-1
+   }
+  ],
+  "properties":
+  [
+   {
+    "CLIENTDEPENDENCY":"NO",
+    "DELIVERYCLASS":"E",
+    "TABART":"SSEXC",
+    "TABFORM":"T",
+    "REFNAME":"-"
+   }
+  ]
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"PROG",
+    "OBJ_NAME":"RDDHANAD",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"SAP_BASIS",
+    "CRELEASE":"740",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2014-07-17",
+    "CHECK_DATE":"2014-07-17",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"TRDIR",
+  "data":
+  [
+   {
+    "NAME":"RDDHANAD",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "SUBC":"1",
+    "UNAM":"SAP",
+    "RMAND":"000",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   }
+  ]
+ },
+ {
+  "table":"TRDIRT",
+  "data":
+  [
+   {
+    "NAME":"RDDHANAD",
+    "SPRSL":"D",
+    "TEXT":"Rahmenprogramm für HANA deployment für HOTA, HOTO und HOTP Objekte"
+   },
+   {
+    "NAME":"RDDHANAD",
+    "SPRSL":"E",
+    "TEXT":"Master Program for HANA Deployment for HOTA, HOTO, and HOTP Objects"
+   }
+  ]
+ }
+]

@@ -1,0 +1,5 @@
+/: INCLUDE SCTS_HOT607 OBJECT DOKU ID NA                                   
+AS Zusätzlich wurden &V2& Objekte inaktiv gelöscht, die aktiv im SAP HANA  
+   Repository existieren. Diese Objekte werden erst während der Aktivierung
+   gelöscht. Ob die Aktivierung der Löschung erfolgreich war, können Sie   
+   den 'Details zur Objektaktivierung' entnehmen.                          

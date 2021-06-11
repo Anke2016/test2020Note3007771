@@ -1,0 +1,12 @@
+U1 &SYSTEM_RESPONSE&                                                       
+*  This log does not include details about the specified activation        
+   attempt.                                                                
+*  Details are not included in the cases specified below:                  
+B1 All objects in this request are again part of the subsequent activation 
+   attempt.                                                                
+B1 All objects in this request already contained errors in previous        
+   attemptd, which means they are no longer part of the specified acti     
+=  vation attempt.                                                         
+B1 All objects in this request already contained errors in previous        
+   attempts, which means they are no longer part of the specified acti     
+=  vation attempt.                                                         

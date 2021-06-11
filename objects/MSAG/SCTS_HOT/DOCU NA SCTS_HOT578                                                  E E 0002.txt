@@ -1,0 +1,8 @@
+U1 &CAUSE&                                                                 
+AS The specified transport objects cannot be deployed since they were not  
+   imported yet. You can find the reason for this in the main import log.  
+U1 &SYSTEM_RESPONSE&                                                       
+AS The transport objects in question are displayed.                        
+U1 &WHAT_TO_DO&                                                            
+AS Check the main import log and remove the cause of the error. Then repeat
+   the import.                                                             

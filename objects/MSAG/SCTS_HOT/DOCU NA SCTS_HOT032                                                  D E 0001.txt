@@ -1,0 +1,19 @@
+U1 &CAUSE&                                                                 
+AS Um HDI-Container zu deployen, benötigt Ihr Benutzer bestimmte           
+   Berechtigungen.                                                         
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System zeigt eine Fehlermeldung an.                                 
+U1 &WHAT_TO_DO&                                                            
+AS Wenden Sie sich an Ihre Systemadministration, und bitten Sie diese,     
+   Ihrem Benutzer die folgenden Berechtigungen zuzuweisen:                 
+B1 Berechtigung zum Deployment                                             
+/  Berechtigungsobjekt S_DEVELOP mit Feld <LS>ACTVT (Aktivität)</> und Wert
+=  <LS>07 (Aktivieren, Generieren)</> sowie Feld <LS>OBJTYPE (Objekttyp)</>
+   und Wert AMHC. Diese Berechtigung ist in der Rolle                      
+   SAP_BC_DWB_ABAPDEVELOPER enthalten.                                     
+B1 Berechtigung zum Ändern und Lesen des Deploymentprotokolls              
+/  Berechtigungsobjekt S_DATASET mit Feld <LS>ACTVT (Aktivität)</> und den 
+   Werten <LS>33 (Lesen)</> und <LS>34 (Schreiben)</>. Bei Bedarf können   
+   Sie darüber hinaus im Feld <LS>FILENAME (Physischer Dateiname)</> den   
+   Dateinamen auf das Verzeichnis im Transportverzeichnis einschränken, in 
+   dem das Protokoll liegt (z.B. /usr/sap/trans/log/*).                    

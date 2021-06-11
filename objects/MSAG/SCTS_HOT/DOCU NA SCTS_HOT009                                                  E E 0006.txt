@@ -1,0 +1,15 @@
+U1 &CAUSE&                                                                 
+AS The package &V1& cannot be deployed to SAP HANA in its current status ( 
+=  &V2&).                                                                  
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+B1 If the status of the package is 'A', this package is already active. If 
+   you still want to deploy the object again, import the associated        
+   transport request again.                                                
+B1 If the status of the package is 'N', the package was modified in this   
+   system and must not be overwritten by a deployment. If you want to      
+   discard the local change, import a transport request with the required  
+   package version.                                                        
+U1 &SYS_ADMIN&                                                             
+AS                                                                         

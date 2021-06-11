@@ -1,0 +1,4 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das genannte Objekte konnte in diesem Versuch nicht aktiviert werden.   
+AS Für dieses Objekt wird später ein weiterer Aktivierungsversuch          
+   durchgeführt und weiter unten protokolliert.                            

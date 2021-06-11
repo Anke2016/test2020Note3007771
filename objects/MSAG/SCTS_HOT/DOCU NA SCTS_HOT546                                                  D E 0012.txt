@@ -1,0 +1,29 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das oben genannte Objekt konnte nicht aktiviert werden. Weitere         
+   Informationen zu den Import- oder Aktivierungsfehlern finden Sie in den 
+   nachfolgenden Zeilen im Protokoll.                                      
+AS Wenn das genannte Objekt ein SAP-Objekt ist, wird dessen                
+   SAP-Anwendungskomponente in eckigen Klammern ausgegeben. Diese können   
+   Sie verwenden, um nach bereits vorhandenen SAP-Hinweisen zu suchen oder 
+   um eine Problemmeldung zu öffnen.                                       
+U1 &WHAT_TO_DO&                                                            
+AS Falls die Informationen aus dem Protokoll zur Fehlerbehebung nicht      
+   ausreichen, öffnen Sie das oben genannte Objekt in der                  
+   SAP-HANA-Content-Entwicklungsumgebung (z.B. SAP HANA Studio oder Web    
+   IDE). Überprüfen Sie es auf Fehler. Beachten Sie dabei, dass nicht      
+   aktivierte Objekte inaktiv unter dem Benutzer SAP<SID> angelegt werden. 
+AS Um das Objekt anzuzeigen, haben Sie folgende Optionen:                  
+B1 Melden Sie sich als Datenbankbenutzer SAP<SID> an der                   
+   SAP-HANA-Content-Entwicklungsumgebung an.                               
+B1 Melden Sie sich mit Ihrem Benutzer an der                               
+   SAP-HANA-Content-Entwicklungsumgebung an, und übertragen Sie die        
+   inaktiven Objekte des SAP<SID>-Benutzers auf Ihren Benutzer (z.B. im SAP
+   HANA Studio mit der Funktion <LS>Switch Ownership</>).                  
+AS Es ist möglich, dass das Objekt selbst fehlerhaft ist oder dass         
+   Voraussetzungen fehlen. Wenn das Objekt selbst fehlerhaft ist, beheben  
+   Sie den Fehler im Quellsystem und transportieren Sie das Objekt erneut. 
+   Anderenfalls beheben Sie die fehlenden Voraussetzungen.                 
+AS Zusätzlich können Sie SAP-Hinweis 2109690 zur Analyse von               
+   Aktivierungsfehlern verwenden.                                          
+AS Hinweis: Wenn das oben genannte Objekt nicht in Ihrer Firma entwickelt  
+   wurde, kontaktieren Sie den Content-Ersteller.                          

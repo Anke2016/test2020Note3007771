@@ -1,0 +1,10 @@
+*  If you confirm this dialog field by choosing <LS>Yes</>, the system sets
+   the selected packages and their objects to <LS>translation-relevant</>. 
+   Note that you must synchronize the objects of the selected packages     
+   before their texts are available for translation in ABAP.               
+*  If you choose <LS>No</>, the system sets the selected packages and their
+   objects to <LS>non-translation-relevant</>.                             
+/  <ZH>Caution</>: If you have already synchronized and translated the     
+   texts of these objects, this action deletes the translations.           
+*  For more information, see <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU>Synchronizing
+   Packages/Objects</> under <LS>Further Functions</>.                     

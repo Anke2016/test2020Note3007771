@@ -1,0 +1,6 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Multiple requests containing the same object/package in different       
+   versions (in different requests) were imported at the same time. The    
+   request is specified from which the version of the object/package used  
+   for deployment was taken.                                               
+AS More details can be found in the log of the specified request.          

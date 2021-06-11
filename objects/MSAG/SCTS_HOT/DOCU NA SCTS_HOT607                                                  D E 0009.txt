@@ -1,0 +1,5 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS Das System hat &V1& Objekte gelöscht, die bisher nur inaktiv im SAP HANA
+   Repository existierten. Deshalb werden sie später nicht zur Aktivierung 
+   übergeben. In den folgenden Protokollzeilen werden diese Objekte        
+   ausgegeben.                                                             

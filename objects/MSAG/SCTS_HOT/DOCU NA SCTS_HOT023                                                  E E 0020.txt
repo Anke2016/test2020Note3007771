@@ -1,0 +1,22 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS The system cannot convert the original language &V4& specified in the   
+   SAP HANA repository for the SAP HANA package &V1&&V2&&V3& into a        
+   language that is active in the ABAP system.                             
+U1 &WHAT_TO_DO&                                                            
+AS The texts of the SAP HANA repository objects can only be translated     
+   using the standard ABAP translation tools in the ABAP system if the     
+   original language in the SAP HANA repository can be converted to a      
+   language activated in ABAP.                                             
+AS The following options are available to you:                             
+B1 If the language exists in the ABAP system but is inactive, activate the 
+   language. For more information about activating languages in ABAP       
+   systems, see SAP Note 42305.                                            
+B1 If the language is not supported at all in the ABAP system, change the  
+   original language of the package in the SAP HANA repository: To do this,
+   go to SAP HANA Studio, for example, and switch to the perspective <LS>  
+=  SAP HANA Modeler</>. Choose <LS>Window -> Show View -> Properties</> to 
+   view and modify the properties of the package. If the original language 
+   cannot be changed here, use the perspective <LS>SAP HANA Development</>.
+   In <LS>Project Explorer</>, choose <LS>Team -> Edit Package</> from the 
+   context menu in the package node of the project in question. Then       
+   restart the synchronization.                                            

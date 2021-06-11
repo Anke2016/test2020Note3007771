@@ -1,0 +1,18 @@
+U1 &CAUSE&                                                                 
+*  Das System hat festgestellt, dass nach dem Deployment fehlerhafte       
+   SAP-HANA-Objekte (HDI-Objekte und/oder                                  
+   SAP-HANA-Repository-Pakete/-Objekte) im System sind, die bereits vor dem
+   Deployment fehlerhaft waren.                                            
+*  Solche fehlerhaften SAP-HANA-Objekte werden standardmäßig mit dem Job   
+   REDEPLOY_FAILED_HANA_OBJECTS erneut deployt. Die automatische Einplanung
+   dieses Jobs ist jedoch im aktuellen System durch Konfiguration          
+   ausgeschaltet.                                                          
+U1 &WHAT_TO_DO&                                                            
+*  Sie können die fehlerhaften SAP-HANA-Objekte manuell deployen. Starten  
+   Sie dazu das Programm SCTS_HTA_REDEPLOY_FAILED manuell in der           
+   Transaktion SA38.                                                       
+*  Allgemeine Informationen zum <ZK>Redeployment fehlerhafter              
+   SAP-HANA-Objekte</> und der Konfiguration des Redeployment-Jobs finden  
+   Sie im Langtext der Meldung                                             
+=    <DS:NA.SCTS_HOT621>Redeployment fehlerhafter SAP-HANA-Objekte         
+   gestartet</>.                                                           

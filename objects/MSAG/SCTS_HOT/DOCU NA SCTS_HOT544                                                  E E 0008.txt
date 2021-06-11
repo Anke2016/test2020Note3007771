@@ -1,0 +1,21 @@
+U1 &SYSTEM_RESPONSE&                                                       
+AS After the SAP HANA repository activation, the SAP HANA repository checks
+   which repository objects have dependencies on the objects just activated
+   and attempts to generate these objects again.                           
+AS The object specified above could not be generated again. This can be the
+   case, for example, when the object with the generation error has not yet
+   been synchronized with a change made to a referenced repository object. 
+   For more information about the generation error, see the next lines for 
+   this object in the log.                                                 
+AS Note: The object specified above was not part of the import set in the  
+   <ZK>SAP HANA Repository Deployment </> step.                            
+AS CTS cannot indicate which object caused the generation error.           
+U1 &WHAT_TO_DO&                                                            
+AS If the information from the log is not sufficient to resolve the error, 
+   open the object above in the SAP HANA content development environment   
+   (for example, SAP HANA Studio or Web IDE). Check the object for errors  
+   in any references to activated objects. Level 4 of the log shows you all
+   objects activated successfully.                                         
+AS To remove the error, modify the object above or the referenced object.  
+AS Note: If the object above was not developed in your company, contact the
+   content vendor.                                                         

@@ -1,0 +1,65 @@
+U2 Legende: SAP HANA Transport for ABAP - Synchronisierung                 
+U3 Allgmeines                                                              
+AS Die Anzeige der SAP-HANA-Repository-Pakete und -Objekte erfolgt in einer
+   hierarchischen Liste mit zwei Ebenen. In der ersten Ebene werden die    
+   Pakete angezeigt. Die Zeile ist orange hinterlegt. In der zweiten Ebene 
+   werden die Objekte der Pakete angezeigt. Die Zeile ist weiß hinterlegt. 
+   Werden mehrere Pakete angezeigt, ist jedes Paket mit seinen Objekten in 
+   einem eigenen Block dargestellt. Da es für das Transportsystem keine    
+   Pakethierarchie gibt, sind die Blöcke alphabetisch geordnet.            
+AS Ist ein Attribut blau hinterlegt, unterscheidet es sich im SAP HANA     
+   Repository und im HTA Repository.                                       
+/  <ZH>Hinweis</>: Da die Standardansicht der Tabelle nicht alle           
+   Eigenschaften anzeigt, kann es vorkommen, dass das Symbol einen         
+   Unterschied anzeigt, aber keine der sichtbaren Eigenschaften            
+   hervorgehoben ist. In diesem Fall ist eine der ausgeblendeten           
+   Eigenschaften unterschiedlich. Sie können die Detailansicht anzeigen, um
+   die unterschiedlichen Eigenschaften anzusehen. Alternativ können Sie Ihr
+   Layout anpassen, um die Unterschiede in die Übersicht aufzunehmen.      
+U3 Symbole für den Synchronisierungsstatus                                 
+AS @5B@ Paket/Objekt ist in sync                                           
+AL Paket/Objekt ist gleich in HANA und ABAP.                               
+AS @5D@ Paket/Objekt ist nicht in sync                                     
+AL Paket/Objekt ist unterschiedlich in HANA und ABAP. Das Paket/Objekt     
+   sollte synchronisiert werden.                                           
+AS @BZ@ Paket/Objekt kann nicht synchronisiert werden                      
+AL Dies ist der Fall, wenn das Paket/Objekt in diesem System zwar          
+   importiert, aber noch nicht nach SAP HANA deployt wurde. In der         
+   Detailansicht ist der <ZK>Status in ABAP</> entweder <ZK>I - Noch nicht 
+   ins SAP HANA Repository deployt</> oder <ZK>D - Wird beim Deployment    
+   gelöscht</>                                                             
+AL Paket/Objekt kann erst nach einem Deployment synchronisiert werden.     
+   Achtung: Das Deployment überschreibt eine bereits durchgeführte Änderung
+   im SAP HANA Repository. Führen Sie die Änderung nach dem Deployment     
+   erneut durch und synchronisieren Sie anschließend.                      
+AS @5C@ Paket/Objekt kann nicht synchronisiert werden                      
+AL Paket/Objekt existiert bereits unter dem gleichen Namen in anderer      
+   Groß-/Kleinschreibung im HTA Repository.                                
+AL Wenn sich die Groß-/Kleinschreibung eines Paketes geändert hat, werden  
+   auch alle Objekte dieses Paketes als nicht synchronisierbar dargestellt.
+   Das Ändern der Groß-/Kleinschreibung von Paketen/Objekten ist nicht     
+   unterstützt.                                                            
+U3 Symbole für den Objektstatus in SAP HANA                                
+AS @01@ Objekt ist OK                                                      
+AL Objekt kann im System ausgeführt werden.                                
+AS @AG@ Objekt ist defekt                                                  
+AL Objekt kann aktuell im System nicht ausgeführt werden.                  
+AS @39@ Objekt muss neu generiert werden                                   
+AL Objekt kann aktuell im System nicht ausgeführt werden.                  
+*  <ZH>Hinweis</>: Symbole für den Objektstatus in SAP HANA werden nur     
+   angezeigt, wenn mindestens ein Objekt gefunden wurde, welches defekt ist
+   oder nachgeneriert werden muss.                                         
+/  Der Objektstatus in SAP HANA ist rein informativ und hat keinen Einfluss
+   auf die Synchronisierung. Er stellt den aktuellen Status des Objektes   
+   zur Laufzeit dar. Für die Synchronisierung wird dagegen die aktive      
+   Version des Objektes im Entwicklungssystem zur Design-Zeit verwendet.   
+   Daher kann ein Objekt synchronisiert und transportiert werden, selbst   
+   wenn dieses zur Laufzeit in SAP HANA nicht ausführbar (defekt) ist. Es  
+   kann z.B. sein, dass ein von diesem Objekt referenziertes Objekt im     
+   Entwicklungssystem so geändert wurde, dass es nun defekt ist. Im        
+   Zielsystem kann das referenzierte Objekt aber noch auf dem alten Stand  
+   sein, wodurch dieses Objekt dort fehlerfrei ausführbar wäre. Daher      
+   erfolgt die Synchronisation immer unabhängig vom Objektstatus in SAP    
+   HANA.                                                                   
+*  <ZH>Siehe auch</>: <DS:TX.CTS_HOTA_SYNC_UI_ALV_DOCU> Pakete/Objekte     
+   synchronisieren</>                                                      

@@ -1,0 +1,108 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"SVAL",
+    "OBJ_NAME":"HOTP",
+    "KORRNUM":"",
+    "SRCSYSTEM":"SAP",
+    "AUTHOR":"SAP",
+    "SRCDEP":"",
+    "DEVCLASS":"SCTS_HANA_OBJECT_TRANSPORT",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"D",
+    "VERSID":"0.0",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2014-07-09",
+    "CHECK_DATE":"2014-07-09",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"VERSOBJ_ALIAS",
+  "data":
+  [
+   {
+    "OBJTYPE_APPL":"HOTP",
+    "OBJTYPE_BASIS":"TLOG",
+    "CONFIG_CLASS":"CL_CTS_HOT_CONFIG_HOTP",
+    "SVRS_FLAG":"X",
+    "CWB_FLAG":"X",
+    "SNOTE_FLAG":"X",
+    "PAKID":"",
+    "ALEID":0,
+    "ENAME":"",
+    "EDATE":"0000-00-00",
+    "ETIME":"00:00:00",
+    "UNAME":"",
+    "UDATE":"0000-00-00",
+    "UTIME":"00:00:00"
+   }
+  ]
+ },
+ {
+  "table":"WVOBJECTTYPES",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTP",
+    "AI_VERSION":"A",
+    "ENAME":"SAP",
+    "EDATE":"2014-07-09",
+    "ETIME":"16:20:56",
+    "UNAME":"SAP",
+    "UDATE":"2015-05-11",
+    "UTIME":"18:20:58",
+    "PST_ACCESS_CLASS":"",
+    "OBJTYPE_GROUP":""
+   }
+  ]
+ },
+ {
+  "table":"WVOBJECTTYPES_T",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTP",
+    "AI_VERSION":"A",
+    "LANGUAGE":"D",
+    "UINAME_SINGULAR":"SAP-HANA-Objekttransport - Paket",
+    "UINAME_PLURAL":"SAP-HANA-Objekttransport - Pakete",
+    "UINAME_ACCUSATIV":"SAP-HANA-Objekttransport - Paket",
+    "DESCRIPTION":"SAP-HANA-Objekttransport - Paket"
+   },
+   {
+    "OBJECTTYPE":"HOTP",
+    "AI_VERSION":"A",
+    "LANGUAGE":"E",
+    "UINAME_SINGULAR":"SAP HANA Object Transport - Package",
+    "UINAME_PLURAL":"SAP HANA Object Transport - Packages",
+    "UINAME_ACCUSATIV":"SAP HANA Object Transport - Package",
+    "DESCRIPTION":"SAP HANA Object Transport - Package"
+   }
+  ]
+ },
+ {
+  "table":"WVOBJTYPES_SCOPE",
+  "data":
+  [
+   {
+    "OBJECTTYPE":"HOTP",
+    "AI_VERSION":"A",
+    "SCOPE_ID":"VERS",
+    "EDITOR_CLASS":""
+   }
+  ]
+ }
+]

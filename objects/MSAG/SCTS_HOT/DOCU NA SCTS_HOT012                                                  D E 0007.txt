@@ -1,0 +1,10 @@
+U1 &CAUSE&                                                                 
+AS Paket &V1& nicht gefunden im Repository des SAP HANA Transport for ABAP 
+   (HTA-Repository).                                                       
+U1 &SYSTEM_RESPONSE&                                                       
+AS                                                                         
+U1 &WHAT_TO_DO&                                                            
+AS Stellen Sie sicher, dass Sie das Paket korrekt angegeben haben. Achten  
+   Sie auf Groß- und Kleinschreibung.                                      
+U1 &SYS_ADMIN&                                                             
+AS                                                                         
